@@ -1,3 +1,6 @@
+
+To view the content of the files without downloading them go to https://nbviewer.org/ copy the URL path of the gitfile and click go.
+
 The following four jupyter files,ran in google colab,show examples of federated learning on a classification problem and a prediction problem applied on a dataset that is a record of appliance energy consumption in one year from 50 households. The consumption is recorded every 15 minutes. Each household has the following 10 appliance
 records: air conditioner (AC), dish washer, washing machine, dryer, water heater, TV,
 microwave, kettle, lighting, and refrigerator.  
