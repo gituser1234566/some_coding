@@ -2,4 +2,10 @@ The following four jupyter files,show examples of federated learning on a classi
 records: air conditioner (AC), dish washer, washing machine, dryer, water heater, TV,
 microwave, kettle, lighting, and refrigerator.
 
-We use an RNN and a LSTM as our two models of choice and compare how they do compared to each other bought on the training and test data.   
+We use an RNN and a LSTM as our two models of choice and compare how they do compared to each other bought on the training and test data.
+
+Our goal:
+(i) train a model that can predict the energy consumption of appliances in a household, and
+(ii) train another model that can classify the type of electricity appliances according to their energy consumption recordings.
+
+The models are built using keras and aggregated with the tensorflow_federated package.
