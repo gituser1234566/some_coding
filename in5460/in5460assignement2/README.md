@@ -1,4 +1,4 @@
-The following four jupyter files,show examples of federated learning on a classification problem and a prediction problem applied on a dataset that is a record of appliance energy consumption in one year from 50 households. The consumption is recorded every 15 minutes. Each household has the following 10 appliance
+The following four jupyter files,ran in google colab,show examples of federated learning on a classification problem and a prediction problem applied on a dataset that is a record of appliance energy consumption in one year from 50 households. The consumption is recorded every 15 minutes. Each household has the following 10 appliance
 records: air conditioner (AC), dish washer, washing machine, dryer, water heater, TV,
 microwave, kettle, lighting, and refrigerator.  
 
