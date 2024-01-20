@@ -15,6 +15,8 @@ in these scenarios, comparing them to ordinary techniques. The emphasis lies
 on understanding the unique patterns and complexities FFNNs can capture
 within construction data, rather than merely benchmarking them against other
 methods.
+
+In the simulation study we frequently use the 
 By studying FFNNs behavior through practical simulations, this study
 provides  insights into their suitability for prediction
 and classification tasks. 
