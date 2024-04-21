@@ -1,0 +1,6 @@
+Average percentage of non-positive values:
+maxpool1: 20.25075982541455
+conv3.conv: 61.326126202434104
+inception3a.branch1: 35.43831712372448
+inception4c.branch4.1.bn: 58.29340720663266
+inception5b.branch4.1.conv: 50.55070153061223
