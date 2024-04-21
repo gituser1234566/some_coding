@@ -1,0 +1,311 @@
+bash-4.4$ python3 evaluate_model_script.py --language "en,it,de,sw,af,sw" --model "bert-base-multilingual-cased_(de-en)_f1_0.5314/itf-fi-ml/home/eirikeg/IN5550-mandatory-2/bert-base-multilingual-case^C(en-it-de-en)_f1_0.8450.pth.pth" 
+
+bash-4.4$ ^C
+bash-4.4$ python3 evaluate_model_script.py --language "en,it,de,sw,af,sw" --model "/itf-fi-ml/home/eirikeg/IN5550-mandatory-2/bert-base-multilingual-cased_(en-it-de-en)_f1_0.8450.pth"
+Testing model /itf-fi-ml/home/eirikeg/IN5550-mandatory-2/bert-base-multilingual-cased_(en-it-de-en)_f1_0.8450.pth on language en
+Classification Report on en test set:
+
+________________________________________
+ LOC:
+  * precision: 0.8503
+  * recall: 0.8767
+  * f1-score: 0.8633
+  * support: 4834.0000
+pred: B-ORG
+lab: B-ORG
+ ORG:
+  * precision: 0.7810
+  * recall: 0.7575
+  * f1-score: 0.7691
+  * support: 4676.0000
+pred: B-ORG
+lab: B-ORG
+ PER:
+  * precision: 0.8852
+  * recall: 0.9148
+  * f1-score: 0.8997
+  * support: 4635.0000
+pred: B-ORG
+lab: B-ORG
+ micro avg:
+  * precision: 0.8400
+  * recall: 0.8498
+  * f1-score: 0.8449
+  * support: 14145.0000
+pred: B-ORG
+lab: B-ORG
+ macro avg:
+  * precision: 0.8388
+  * recall: 0.8497
+  * f1-score: 0.8440
+  * support: 14145.0000
+pred: B-ORG
+lab: B-ORG
+ weighted avg:
+  * precision: 0.8388
+  * recall: 0.8498
+  * f1-score: 0.8441
+  * support: 14145.0000
+pred: B-ORG
+lab: B-ORG
+ accuracy:
+  * 0.9287
+________________________________________
+
+
+Testing model /itf-fi-ml/home/eirikeg/IN5550-mandatory-2/bert-base-multilingual-cased_(en-it-de-en)_f1_0.8450.pth on language it
+Classification Report on it test set:
+
+________________________________________
+ LOC:
+  * precision: 0.8600
+  * recall: 0.8828
+  * f1-score: 0.8712
+  * support: 4599.0000
+pred: B-ORG
+lab: B-LOC
+ ORG:
+  * precision: 0.8423
+  * recall: 0.8438
+  * f1-score: 0.8431
+  * support: 4116.0000
+pred: B-ORG
+lab: B-LOC
+ PER:
+  * precision: 0.9501
+  * recall: 0.9617
+  * f1-score: 0.9559
+  * support: 4911.0000
+pred: B-ORG
+lab: B-LOC
+ micro avg:
+  * precision: 0.8872
+  * recall: 0.8995
+  * f1-score: 0.8933
+  * support: 13626.0000
+pred: B-ORG
+lab: B-LOC
+ macro avg:
+  * precision: 0.8841
+  * recall: 0.8961
+  * f1-score: 0.8901
+  * support: 13626.0000
+pred: B-ORG
+lab: B-LOC
+ weighted avg:
+  * precision: 0.8871
+  * recall: 0.8995
+  * f1-score: 0.8932
+  * support: 13626.0000
+pred: B-ORG
+lab: B-LOC
+ accuracy:
+  * 0.9538
+________________________________________
+
+
+Testing model /itf-fi-ml/home/eirikeg/IN5550-mandatory-2/bert-base-multilingual-cased_(en-it-de-en)_f1_0.8450.pth on language de
+Classification Report on de test set:
+
+________________________________________
+ LOC:
+  * precision: 0.8599
+  * recall: 0.9098
+  * f1-score: 0.8842
+  * support: 4967.0000
+pred: B-PER
+lab: B-PER
+ ORG:
+  * precision: 0.8100
+  * recall: 0.8206
+  * f1-score: 0.8153
+  * support: 4281.0000
+pred: B-PER
+lab: B-PER
+ PER:
+  * precision: 0.9320
+  * recall: 0.9300
+  * f1-score: 0.9310
+  * support: 4569.0000
+pred: B-PER
+lab: B-PER
+ micro avg:
+  * precision: 0.8679
+  * recall: 0.8888
+  * f1-score: 0.8782
+  * support: 13817.0000
+pred: B-PER
+lab: B-PER
+ macro avg:
+  * precision: 0.8673
+  * recall: 0.8868
+  * f1-score: 0.8768
+  * support: 13817.0000
+pred: B-PER
+lab: B-PER
+ weighted avg:
+  * precision: 0.8683
+  * recall: 0.8888
+  * f1-score: 0.8783
+  * support: 13817.0000
+pred: B-PER
+lab: B-PER
+ accuracy:
+  * 0.9559
+________________________________________
+
+
+Testing model /itf-fi-ml/home/eirikeg/IN5550-mandatory-2/bert-base-multilingual-cased_(en-it-de-en)_f1_0.8450.pth on language sw
+Classification Report on sw test set:
+
+________________________________________
+ LOC:
+  * precision: 0.6015
+  * recall: 0.7279
+  * f1-score: 0.6587
+  * support: 452.0000
+pred: B-LOC
+lab: B-LOC
+ ORG:
+  * precision: 0.5614
+  * recall: 0.4533
+  * f1-score: 0.5016
+  * support: 353.0000
+pred: B-LOC
+lab: B-LOC
+ PER:
+  * precision: 0.8398
+  * recall: 0.8065
+  * f1-score: 0.8228
+  * support: 403.0000
+pred: B-LOC
+lab: B-LOC
+ micro avg:
+  * precision: 0.6678
+  * recall: 0.6738
+  * f1-score: 0.6708
+  * support: 1208.0000
+pred: B-LOC
+lab: B-LOC
+ macro avg:
+  * precision: 0.6676
+  * recall: 0.6625
+  * f1-score: 0.6610
+  * support: 1208.0000
+pred: B-LOC
+lab: B-LOC
+ weighted avg:
+  * precision: 0.6693
+  * recall: 0.6738
+  * f1-score: 0.6675
+  * support: 1208.0000
+pred: B-LOC
+lab: B-LOC
+ accuracy:
+  * 0.8093
+________________________________________
+
+
+Testing model /itf-fi-ml/home/eirikeg/IN5550-mandatory-2/bert-base-multilingual-cased_(en-it-de-en)_f1_0.8450.pth on language af
+Classification Report on af test set:
+
+________________________________________
+ LOC:
+  * precision: 0.7901
+  * recall: 0.8769
+  * f1-score: 0.8312
+  * support: 528.0000
+pred: O
+lab: O
+ ORG:
+  * precision: 0.7457
+  * recall: 0.8148
+  * f1-score: 0.7787
+  * support: 583.0000
+pred: O
+lab: O
+ PER:
+  * precision: 0.7925
+  * recall: 0.9081
+  * f1-score: 0.8463
+  * support: 370.0000
+pred: O
+lab: O
+ micro avg:
+  * precision: 0.7735
+  * recall: 0.8602
+  * f1-score: 0.8146
+  * support: 1481.0000
+pred: O
+lab: O
+ macro avg:
+  * precision: 0.7761
+  * recall: 0.8666
+  * f1-score: 0.8188
+  * support: 1481.0000
+pred: O
+lab: O
+ weighted avg:
+  * precision: 0.7732
+  * recall: 0.8602
+  * f1-score: 0.8143
+  * support: 1481.0000
+pred: O
+lab: O
+ accuracy:
+  * 0.9252
+________________________________________
+
+
+Testing model /itf-fi-ml/home/eirikeg/IN5550-mandatory-2/bert-base-multilingual-cased_(en-it-de-en)_f1_0.8450.pth on language sw
+Classification Report on sw test set:
+
+________________________________________
+ LOC:
+  * precision: 0.6015
+  * recall: 0.7279
+  * f1-score: 0.6587
+  * support: 452.0000
+pred: B-LOC
+lab: B-LOC
+ ORG:
+  * precision: 0.5614
+  * recall: 0.4533
+  * f1-score: 0.5016
+  * support: 353.0000
+pred: B-LOC
+lab: B-LOC
+ PER:
+  * precision: 0.8398
+  * recall: 0.8065
+  * f1-score: 0.8228
+  * support: 403.0000
+pred: B-LOC
+lab: B-LOC
+ micro avg:
+  * precision: 0.6678
+  * recall: 0.6738
+  * f1-score: 0.6708
+  * support: 1208.0000
+pred: B-LOC
+lab: B-LOC
+ macro avg:
+  * precision: 0.6676
+  * recall: 0.6625
+  * f1-score: 0.6610
+  * support: 1208.0000
+pred: B-LOC
+lab: B-LOC
+ weighted avg:
+  * precision: 0.6693
+  * recall: 0.6738
+  * f1-score: 0.6675
+  * support: 1208.0000
+pred: B-LOC
+lab: B-LOC
+ accuracy:
+  * 0.8093
+________________________________________
+
+
+bash-4.4$ 

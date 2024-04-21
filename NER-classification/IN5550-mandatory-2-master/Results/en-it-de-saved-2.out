@@ -1,0 +1,53 @@
+
+Data preprocessing...
+TESTING FOR MUTLIPLE PARAMETERS:
+
+
+
+
+====================================================================================================
+Training model: bert-base-multilingual-cased
+ * 10 epochs
+ * learning rate is 2e-05
+ * train language: en-it-de
+ * test language: en
+ * dropout: 0.3
+ * batch size is 16
+ * frozen weights: True
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+____________________________________________________________________________________________________
+
+Epoch 1/10, accuracy: 0.9091, loss: 0.2060
+ * Micro Average: f1: 0.7836, precision: 0.7614, recall: 0.8072
+ * Macro Average: f1: 0.7845, precision: 0.7619, recall: 0.8093
+
+Epoch 2/10, accuracy: 0.9110, loss: 0.1010
+ * Micro Average: f1: 0.7903, precision: 0.7684, recall: 0.8134
+ * Macro Average: f1: 0.7903, precision: 0.7678, recall: 0.8157
+
+Epoch 3/10, accuracy: 0.9174, loss: 0.0854
+ * Micro Average: f1: 0.8118, precision: 0.8048, recall: 0.8189
+ * Macro Average: f1: 0.8132, precision: 0.8061, recall: 0.8204
+
+Epoch 4/10, accuracy: 0.9139, loss: 0.0748
+ * Micro Average: f1: 0.8045, precision: 0.7892, recall: 0.8205
+ * Macro Average: f1: 0.8043, precision: 0.7880, recall: 0.8227
+
+Epoch 5/10, accuracy: 0.9214, loss: 0.0661
+ * Micro Average: f1: 0.8145, precision: 0.7999, recall: 0.8297
+ * Macro Average: f1: 0.8153, precision: 0.8007, recall: 0.8313
+
+Epoch 6/10, accuracy: 0.9210, loss: 0.0601
+ * Micro Average: f1: 0.8185, precision: 0.8073, recall: 0.8300
+ * Macro Average: f1: 0.8181, precision: 0.8070, recall: 0.8322
+
+Epoch 7/10, accuracy: 0.9232, loss: 0.0540
+ * Micro Average: f1: 0.8243, precision: 0.8121, recall: 0.8370
+ * Macro Average: f1: 0.8252, precision: 0.8126, recall: 0.8385
+
+Epoch 8/10, accuracy: 0.9263, loss: 0.0504
+ * Micro Average: f1: 0.8300, precision: 0.8206, recall: 0.8395
+ * Macro Average: f1: 0.8302, precision: 0.8204, recall: 0.8413
+

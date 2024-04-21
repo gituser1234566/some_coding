@@ -1,0 +1,76 @@
+Epoch 1/5, accuracy: 0.9030, loss: 0.3422
+ * Micro Average: f1: 0.7695, precision: 0.7473, recall: 0.7930
+ * Macro Average: f1: 0.4622, precision: 0.4483, recall: 0.4772
+
+Epoch 2/5, accuracy: 0.9107, loss: 0.1433
+ * Micro Average: f1: 0.7906, precision: 0.7711, recall: 0.8111
+ * Macro Average: f1: 0.7915, precision: 0.7723, recall: 0.8132
+
+Epoch 3/5, accuracy: 0.9126, loss: 0.1207
+ * Micro Average: f1: 0.7974, precision: 0.7821, recall: 0.8132
+ * Macro Average: f1: 0.7988, precision: 0.7836, recall: 0.8151
+
+Epoch 4/5, accuracy: 0.9166, loss: 0.1071
+ * Micro Average: f1: 0.8024, precision: 0.7843, recall: 0.8214
+ * Macro Average: f1: 0.8029, precision: 0.7838, recall: 0.8236
+
+Epoch 5/5, accuracy: 0.9190, loss: 0.0990
+ * Micro Average: f1: 0.8104, precision: 0.7944, recall: 0.8271
+ * Macro Average: f1: 0.8112, precision: 0.7944, recall: 0.8291
+
+Classification Report on test set:
+
+________________________________________
+ LOC:
+  * precision: 0.8205
+  * recall: 0.8723
+  * f1-score: 0.8456
+  * support: 4825.0000
+ ORG:
+  * precision: 0.7272
+  * recall: 0.7351
+  * f1-score: 0.7311
+  * support: 4666.0000
+ PER:
+  * precision: 0.8740
+  * recall: 0.9032
+  * f1-score: 0.8884
+  * support: 4630.0000
+ micro avg:
+  * precision: 0.8079
+  * recall: 0.8371
+  * f1-score: 0.8222
+  * support: 14121.0000
+ macro avg:
+  * precision: 0.8072
+  * recall: 0.8369
+  * f1-score: 0.8217
+  * support: 14121.0000
+ weighted avg:
+  * precision: 0.8072
+  * recall: 0.8371
+  * f1-score: 0.8218
+  * support: 14121.0000
+ accuracy:
+  * 0.9223
+________________________________________
+
+
+
+
+====================================================================================================
+BEST MODEL (f1: 0.8222):
+Training model: bert-base-multilingual-cased
+ * 5 epochs
+ * learning rate is 2e-05
+ * train language: en
+ * test language: en
+ * dropout: 0.3
+ * batch size is 16
+ * frozen weights: False
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+
+Saving model to .
+Model saved!

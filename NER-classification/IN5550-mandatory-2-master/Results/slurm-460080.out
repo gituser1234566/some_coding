@@ -1,0 +1,297 @@
+Starting job 460080 on gpu-8 at Wed Mar 13 02:05:03 CET 2024
+
+submission directory: /fp/homes01/u01/ec-eirikeg/mandatory_2
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/fp/projects01/ec30/software/easybuild/software/nlpl-nlptools/01-foss-2022b-Python-3.10.8/lib/python3.10/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: [PAD] seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/fp/projects01/ec30/software/easybuild/software/nlpl-nlptools/01-foss-2022b-Python-3.10.8/lib/python3.10/site-packages/seqeval/metrics/v1.py:57: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/fp/projects01/ec30/software/easybuild/software/nlpl-nlptools/01-foss-2022b-Python-3.10.8/lib/python3.10/site-packages/seqeval/metrics/v1.py:57: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/fp/projects01/ec30/software/easybuild/software/nlpl-nlptools/01-foss-2022b-Python-3.10.8/lib/python3.10/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: [SEP] seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+
+Data preprocessing...
+TESTING FOR MUTLIPLE PARAMETERS:
+
+
+
+
+====================================================================================================
+Training model: bert-base-multilingual-cased
+ * 5 epochs
+ * learning rate is 0.0002
+ * train language: en
+ * test language: en
+ * dropout: 0.3
+ * batch size is 64
+ * frozen weights: False
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+____________________________________________________________________________________________________
+
+Epoch 1/5, accuracy: 0.8839, loss: 0.3000
+ * Micro Average: f1: 0.7281, precision: 0.7002, recall: 0.7584
+ * Macro Average: f1: 0.7254, precision: 0.6971, recall: 0.7616
+
+Epoch 2/5, accuracy: 0.9071, loss: 0.1016
+ * Micro Average: f1: 0.7873, precision: 0.7728, recall: 0.8025
+ * Macro Average: f1: 0.7877, precision: 0.7724, recall: 0.8045
+
+Epoch 3/5, accuracy: 0.9131, loss: 0.0789
+ * Micro Average: f1: 0.8042, precision: 0.7965, recall: 0.8120
+ * Macro Average: f1: 0.8051, precision: 0.7968, recall: 0.8137
+
+Epoch 4/5, accuracy: 0.9148, loss: 0.0616
+ * Micro Average: f1: 0.8030, precision: 0.7911, recall: 0.8153
+ * Macro Average: f1: 0.8035, precision: 0.7906, recall: 0.8173
+
+Epoch 5/5, accuracy: 0.9190, loss: 0.0516
+ * Micro Average: f1: 0.8129, precision: 0.8017, recall: 0.8245
+ * Macro Average: f1: 0.8131, precision: 0.8010, recall: 0.8265
+
+Classification Report on test set:
+
+________________________________________
+ LOC:
+  * precision: 0.8340
+  * recall: 0.8547
+  * f1-score: 0.8442
+  * support: 4825.0000
+ ORG:
+  * precision: 0.7429
+  * recall: 0.7327
+  * f1-score: 0.7378
+  * support: 4666.0000
+ PER:
+  * precision: 0.8604
+  * recall: 0.9095
+  * f1-score: 0.8843
+  * support: 4630.0000
+ micro avg:
+  * precision: 0.8139
+  * recall: 0.8324
+  * f1-score: 0.8231
+  * support: 14121.0000
+ macro avg:
+  * precision: 0.8125
+  * recall: 0.8323
+  * f1-score: 0.8221
+  * support: 14121.0000
+ weighted avg:
+  * precision: 0.8126
+  * recall: 0.8324
+  * f1-score: 0.8222
+  * support: 14121.0000
+ accuracy:
+  * 0.9203
+________________________________________
+
+
+
+
+====================================================================================================
+Training model: bert-base-multilingual-cased
+ * 5 epochs
+ * learning rate is 0.0002
+ * train language: en
+ * test language: en
+ * dropout: 0.3
+ * batch size is 64
+ * frozen weights: True
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+____________________________________________________________________________________________________
+
+Epoch 1/5, accuracy: 0.2649, loss: 1.4204
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 2/5, accuracy: 0.4254, loss: 0.9351
+ * Micro Average: f1: 0.0026, precision: 0.0022, recall: 0.0033
+ * Macro Average: f1: 0.0032, precision: 0.0091, recall: 0.0020
+
+Epoch 3/5, accuracy: 0.5033, loss: 0.8230
+ * Micro Average: f1: 0.0122, precision: 0.0093, recall: 0.0175
+ * Macro Average: f1: 0.0126, precision: 0.0169, recall: 0.0104
+
+Epoch 4/5, accuracy: 0.5492, loss: 0.7589
+ * Micro Average: f1: 0.0211, precision: 0.0159, recall: 0.0312
+ * Macro Average: f1: 0.0207, precision: 0.0239, recall: 0.0186
+
+Epoch 5/5, accuracy: 0.5646, loss: 0.7381
+ * Micro Average: f1: 0.0265, precision: 0.0200, recall: 0.0395
+ * Macro Average: f1: 0.0254, precision: 0.0283, recall: 0.0236
+
+Classification Report on test set:
+
+________________________________________
+ LOC:
+  * precision: 0.0437
+  * recall: 0.0267
+  * f1-score: 0.0332
+  * support: 4825.0000
+ ORG:
+  * precision: 0.0640
+  * recall: 0.0652
+  * f1-score: 0.0646
+  * support: 4666.0000
+ PAD]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ PER:
+  * precision: 0.0254
+  * recall: 0.0214
+  * f1-score: 0.0232
+  * support: 4630.0000
+ SEP]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ micro avg:
+  * precision: 0.0193
+  * recall: 0.0377
+  * f1-score: 0.0255
+  * support: 14121.0000
+ macro avg:
+  * precision: 0.0266
+  * recall: 0.0227
+  * f1-score: 0.0242
+  * support: 14121.0000
+ weighted avg:
+  * precision: 0.0444
+  * recall: 0.0377
+  * f1-score: 0.0403
+  * support: 14121.0000
+ accuracy:
+  * 0.5600
+________________________________________
+
+
+
+
+====================================================================================================
+BEST MODEL (f1: 0.8231):
+Training model: bert-base-multilingual-cased
+ * 5 epochs
+ * learning rate is 0.0002
+ * train language: en
+ * test language: en
+ * dropout: 0.3
+ * batch size is 64
+ * frozen weights: False
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+
+Saving model to /fp/projects01/ec30/eirikeg/models
+Model saved!
+
+----------------------------------------------------------------------------------------------------
+
+
+Task and CPU usage stats:
+JobID           JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+460080           in5550          1                                             00:05:01      0:0 
+460080.batch      batch          1        1   00:04:48          0   00:04:48   00:05:01      0:0 
+460080.exte+     extern          1        1   00:00:00          0   00:00:00   00:05:01      0:0 
+
+Memory usage stats:
+JobID            MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+460080                                                                           
+460080.batch   1726400K          0   1726400K        0              0          0 
+460080.exte+          0          0          0        0              0          0 
+
+Disk usage stats:
+JobID         MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+460080                                                                                                
+460080.batch     1455.91M               0       1455.91M      676.81M                0        676.81M 
+460080.exte+        0.01M               0          0.01M        0.00M                0          0.00M 
+
+GPU usage stats:
+Successfully retrieved statistics for job: 460080. 
++------------------------------------------------------------------------------+
+| GPU ID: 0                                                                    |
++====================================+=========================================+
+|-----  Execution Stats  ------------+-----------------------------------------|
+| Start Time                         | Wed Mar 13 02:05:03 2024                |
+| End Time                           | Wed Mar 13 02:10:05 2024                |
+| Total Execution Time (sec)         | 301.1                                   |
+| No. of Processes                   | 1                                       |
++-----  Performance Stats  ----------+-----------------------------------------+
+| Energy Consumed (Joules)           | 72476                                   |
+| Power Usage (Watts)                | Avg: 230.408, Max: 316.192, Min: 125... |
+| Max GPU Memory Used (bytes)        | 53060042752                             |
+| SM Clock (MHz)                     | Avg: 1380, Max: 1410, Min: 1335         |
+| Memory Clock (MHz)                 | Avg: 1512, Max: 1512, Min: 1512         |
+| SM Utilization (%)                 | Avg: 79, Max: 98, Min: 29               |
+| Memory Utilization (%)             | Avg: 12, Max: 18, Min: 0                |
+| PCIe Rx Bandwidth (megabytes)      | Avg: N/A, Max: N/A, Min: N/A            |
+| PCIe Tx Bandwidth (megabytes)      | Avg: N/A, Max: N/A, Min: N/A            |
++-----  Event Stats  ----------------+-----------------------------------------+
+| Single Bit ECC Errors              | 0                                       |
+| Double Bit ECC Errors              | 0                                       |
+| PCIe Replay Warnings               | 0                                       |
+| Critical XID Errors                | 0                                       |
++-----  Slowdown Stats  -------------+-----------------------------------------+
+| Due to - Power (%)                 | 0                                       |
+|        - Thermal (%)               | 0                                       |
+|        - Reliability (%)           | Not Supported                           |
+|        - Board Limit (%)           | Not Supported                           |
+|        - Low Utilization (%)       | Not Supported                           |
+|        - Sync Boost (%)            | 0                                       |
++--  Compute Process Utilization  ---+-----------------------------------------+
+| PID                                | 2063254                                 |
+|     Avg SM Utilization (%)         | 85                                      |
+|     Avg Memory Utilization (%)     | 11                                      |
++-----  Overall Health  -------------+-----------------------------------------+
+| Overall Health                     | Healthy                                 |
++------------------------------------+-----------------------------------------+
+
++------------------------------------------------------------------------------+
+| GPU ID: 1                                                                    |
++====================================+=========================================+
+|-----  Execution Stats  ------------+-----------------------------------------|
+| Start Time                         | Wed Mar 13 02:05:03 2024                |
+| End Time                           | Wed Mar 13 02:10:05 2024                |
+| Total Execution Time (sec)         | 301.1                                   |
+| No. of Processes                   | 0                                       |
++-----  Performance Stats  ----------+-----------------------------------------+
+| Energy Consumed (Joules)           | 11498                                   |
+| Power Usage (Watts)                | Avg: 41.471, Max: 43.767, Min: 40.616   |
+| Max GPU Memory Used (bytes)        | 0                                       |
+| SM Clock (MHz)                     | Avg: 210, Max: 210, Min: 210            |
+| Memory Clock (MHz)                 | Avg: 1512, Max: 1512, Min: 1512         |
+| SM Utilization (%)                 | Avg: 0, Max: 0, Min: 0                  |
+| Memory Utilization (%)             | Avg: 0, Max: 0, Min: 0                  |
+| PCIe Rx Bandwidth (megabytes)      | Avg: N/A, Max: N/A, Min: N/A            |
+| PCIe Tx Bandwidth (megabytes)      | Avg: N/A, Max: N/A, Min: N/A            |
++-----  Event Stats  ----------------+-----------------------------------------+
+| Single Bit ECC Errors              | 0                                       |
+| Double Bit ECC Errors              | 0                                       |
+| PCIe Replay Warnings               | 0                                       |
+| Critical XID Errors                | 0                                       |
++-----  Slowdown Stats  -------------+-----------------------------------------+
+| Due to - Power (%)                 | 0                                       |
+|        - Thermal (%)               | 0                                       |
+|        - Reliability (%)           | Not Supported                           |
+|        - Board Limit (%)           | Not Supported                           |
+|        - Low Utilization (%)       | Not Supported                           |
+|        - Sync Boost (%)            | 0                                       |
++-----  Overall Health  -------------+-----------------------------------------+
+| Overall Health                     | Healthy                                 |
++------------------------------------+-----------------------------------------+
+
+
+Job 460080 completed at Wed Mar 13 02:10:05 CET 2024

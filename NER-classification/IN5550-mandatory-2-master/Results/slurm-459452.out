@@ -1,0 +1,2485 @@
+Starting job 459452 on gpu-8 at Tue Mar 12 20:38:01 CET 2024
+
+submission directory: /fp/homes01/u01/ec-eirikeg/mandatory_2
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/fp/projects01/ec30/software/easybuild/software/nlpl-nlptools/01-foss-2022b-Python-3.10.8/lib/python3.10/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: PAD seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/fp/projects01/ec30/software/easybuild/software/nlpl-nlptools/01-foss-2022b-Python-3.10.8/lib/python3.10/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: SEP seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/fp/projects01/ec30/software/easybuild/software/nlpl-nlptools/01-foss-2022b-Python-3.10.8/lib/python3.10/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: CLS seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/fp/projects01/ec30/software/easybuild/software/nlpl-nlptools/01-foss-2022b-Python-3.10.8/lib/python3.10/site-packages/seqeval/metrics/v1.py:57: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+TESTING FOR MUTLIPLE PARAMETERS:
+
+
+
+
+====================================================================================================
+Training model: bert-base-multilingual-cased
+ * 7 epochs
+ * learning rate is 0.0001
+ * train language: en-it-de
+ * test language: sw
+ * dropout: 0.1
+ * batch size is 32
+ * frozen weights: False
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+____________________________________________________________________________________________________
+
+Epoch 1/7, accuracy: 0.1016, loss: 2.3415
+ * Micro Average: f1: 0.0236, precision: 0.0140, recall: 0.0751
+ * Macro Average: f1: 0.0108, precision: 0.0063, recall: 0.0419
+
+Epoch 2/7, accuracy: 0.1018, loss: 2.3699
+ * Micro Average: f1: 0.0236, precision: 0.0140, recall: 0.0751
+ * Macro Average: f1: 0.0108, precision: 0.0063, recall: 0.0419
+
+Epoch 3/7, accuracy: 0.1020, loss: 2.3657
+ * Micro Average: f1: 0.0236, precision: 0.0140, recall: 0.0751
+ * Macro Average: f1: 0.0108, precision: 0.0063, recall: 0.0419
+
+Epoch 4/7, accuracy: 0.1016, loss: 2.3778
+ * Micro Average: f1: 0.0236, precision: 0.0140, recall: 0.0751
+ * Macro Average: f1: 0.0108, precision: 0.0064, recall: 0.0419
+
+Epoch 5/7, accuracy: 0.1012, loss: 2.3546
+ * Micro Average: f1: 0.0234, precision: 0.0139, recall: 0.0742
+ * Macro Average: f1: 0.0107, precision: 0.0063, recall: 0.0415
+
+Epoch 6/7, accuracy: 0.1020, loss: 2.3228
+ * Micro Average: f1: 0.0234, precision: 0.0139, recall: 0.0742
+ * Macro Average: f1: 0.0108, precision: 0.0063, recall: 0.0415
+
+Epoch 7/7, accuracy: 0.1026, loss: 2.3624
+ * Micro Average: f1: 0.0235, precision: 0.0139, recall: 0.0742
+ * Macro Average: f1: 0.0108, precision: 0.0063, recall: 0.0415
+
+Classification Report on test set:
+________________________________________
+ AD:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ EP:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ LOC:
+  * precision: 0.0072
+  * recall: 0.0179
+  * f1-score: 0.0102
+  * support: 446.0000
+ LS:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ ORG:
+  * precision: 0.0309
+  * recall: 0.2308
+  * f1-score: 0.0545
+  * support: 351.0000
+ PER:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 402.0000
+ micro avg:
+  * precision: 0.0139
+  * recall: 0.0742
+  * f1-score: 0.0235
+  * support: 1199.0000
+ macro avg:
+  * precision: 0.0063
+  * recall: 0.0415
+  * f1-score: 0.0108
+  * support: 1199.0000
+ weighted avg:
+  * precision: 0.0117
+  * recall: 0.0742
+  * f1-score: 0.0198
+  * support: 1199.0000
+ accuracy:
+  * 0.1026
+________________________________________
+
+
+
+
+====================================================================================================
+Training model: bert-base-multilingual-cased
+ * 7 epochs
+ * learning rate is 0.0001
+ * train language: en-it-de
+ * test language: sw
+ * dropout: 0.1
+ * batch size is 32
+ * frozen weights: True
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+____________________________________________________________________________________________________
+
+Epoch 1/7, accuracy: 0.0511, loss: 2.3400
+ * Micro Average: f1: 0.0047, precision: 0.0027, recall: 0.0167
+ * Macro Average: f1: 0.0025, precision: 0.0015, recall: 0.0075
+
+Epoch 2/7, accuracy: 0.0511, loss: 2.3508
+ * Micro Average: f1: 0.0047, precision: 0.0027, recall: 0.0167
+ * Macro Average: f1: 0.0025, precision: 0.0015, recall: 0.0075
+
+Epoch 3/7, accuracy: 0.0511, loss: 2.3680
+ * Micro Average: f1: 0.0047, precision: 0.0027, recall: 0.0167
+ * Macro Average: f1: 0.0025, precision: 0.0015, recall: 0.0075
+
+Epoch 4/7, accuracy: 0.0511, loss: 2.3544
+ * Micro Average: f1: 0.0047, precision: 0.0027, recall: 0.0167
+ * Macro Average: f1: 0.0025, precision: 0.0015, recall: 0.0075
+
+Epoch 5/7, accuracy: 0.0511, loss: 2.3582
+ * Micro Average: f1: 0.0047, precision: 0.0027, recall: 0.0167
+ * Macro Average: f1: 0.0025, precision: 0.0015, recall: 0.0075
+
+Epoch 6/7, accuracy: 0.0511, loss: 2.3728
+ * Micro Average: f1: 0.0047, precision: 0.0027, recall: 0.0167
+ * Macro Average: f1: 0.0025, precision: 0.0015, recall: 0.0075
+
+Epoch 7/7, accuracy: 0.0511, loss: 2.3776
+ * Micro Average: f1: 0.0047, precision: 0.0027, recall: 0.0167
+ * Macro Average: f1: 0.0025, precision: 0.0015, recall: 0.0075
+
+Classification Report on test set:
+________________________________________
+ AD:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ EP:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ LOC:
+  * precision: 0.0091
+  * recall: 0.0448
+  * f1-score: 0.0151
+  * support: 446.0000
+ LS:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ ORG:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 351.0000
+ PER:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 402.0000
+ micro avg:
+  * precision: 0.0027
+  * recall: 0.0167
+  * f1-score: 0.0047
+  * support: 1199.0000
+ macro avg:
+  * precision: 0.0015
+  * recall: 0.0075
+  * f1-score: 0.0025
+  * support: 1199.0000
+ weighted avg:
+  * precision: 0.0034
+  * recall: 0.0167
+  * f1-score: 0.0056
+  * support: 1199.0000
+ accuracy:
+  * 0.0511
+________________________________________
+
+
+
+
+====================================================================================================
+Training model: bert-base-multilingual-cased
+ * 7 epochs
+ * learning rate is 5e-05
+ * train language: en-it-de
+ * test language: sw
+ * dropout: 0.1
+ * batch size is 32
+ * frozen weights: False
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+____________________________________________________________________________________________________
+
+Epoch 1/7, accuracy: 0.0541, loss: 2.4878
+ * Micro Average: f1: 0.0301, precision: 0.0173, recall: 0.1176
+ * Macro Average: f1: 0.0171, precision: 0.0100, recall: 0.0619
+
+Epoch 2/7, accuracy: 0.0541, loss: 2.5203
+ * Micro Average: f1: 0.0301, precision: 0.0173, recall: 0.1176
+ * Macro Average: f1: 0.0171, precision: 0.0100, recall: 0.0619
+
+Epoch 3/7, accuracy: 0.0541, loss: 2.4992
+ * Micro Average: f1: 0.0301, precision: 0.0173, recall: 0.1176
+ * Macro Average: f1: 0.0171, precision: 0.0100, recall: 0.0619
+
+Epoch 4/7, accuracy: 0.0541, loss: 2.5212
+ * Micro Average: f1: 0.0301, precision: 0.0173, recall: 0.1176
+ * Macro Average: f1: 0.0171, precision: 0.0100, recall: 0.0619
+
+Epoch 5/7, accuracy: 0.0541, loss: 2.4898
+ * Micro Average: f1: 0.0301, precision: 0.0173, recall: 0.1176
+ * Macro Average: f1: 0.0171, precision: 0.0100, recall: 0.0619
+
+Epoch 6/7, accuracy: 0.0541, loss: 2.5145
+ * Micro Average: f1: 0.0301, precision: 0.0173, recall: 0.1176
+ * Macro Average: f1: 0.0171, precision: 0.0100, recall: 0.0619
+
+Epoch 7/7, accuracy: 0.0541, loss: 2.4861
+ * Micro Average: f1: 0.0301, precision: 0.0173, recall: 0.1176
+ * Macro Average: f1: 0.0171, precision: 0.0100, recall: 0.0619
+
+Classification Report on test set:
+________________________________________
+ AD:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ EP:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ LOC:
+  * precision: 0.0126
+  * recall: 0.1121
+  * f1-score: 0.0226
+  * support: 446.0000
+ LS:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ ORG:
+  * precision: 0.0472
+  * recall: 0.2593
+  * f1-score: 0.0799
+  * support: 351.0000
+ PER:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 402.0000
+ micro avg:
+  * precision: 0.0173
+  * recall: 0.1176
+  * f1-score: 0.0301
+  * support: 1199.0000
+ macro avg:
+  * precision: 0.0100
+  * recall: 0.0619
+  * f1-score: 0.0171
+  * support: 1199.0000
+ weighted avg:
+  * precision: 0.0185
+  * recall: 0.1176
+  * f1-score: 0.0318
+  * support: 1199.0000
+ accuracy:
+  * 0.0541
+________________________________________
+
+
+
+
+====================================================================================================
+Training model: bert-base-multilingual-cased
+ * 7 epochs
+ * learning rate is 5e-05
+ * train language: en-it-de
+ * test language: sw
+ * dropout: 0.1
+ * batch size is 32
+ * frozen weights: True
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+____________________________________________________________________________________________________
+
+Epoch 1/7, accuracy: 0.1539, loss: 2.3523
+ * Micro Average: f1: 0.0120, precision: 0.0074, recall: 0.0317
+ * Macro Average: f1: 0.0070, precision: 0.0047, recall: 0.0145
+
+Epoch 2/7, accuracy: 0.1539, loss: 2.2988
+ * Micro Average: f1: 0.0120, precision: 0.0074, recall: 0.0317
+ * Macro Average: f1: 0.0070, precision: 0.0047, recall: 0.0145
+
+Epoch 3/7, accuracy: 0.1539, loss: 2.3092
+ * Micro Average: f1: 0.0120, precision: 0.0074, recall: 0.0317
+ * Macro Average: f1: 0.0070, precision: 0.0047, recall: 0.0145
+
+Epoch 4/7, accuracy: 0.1539, loss: 2.3331
+ * Micro Average: f1: 0.0120, precision: 0.0074, recall: 0.0317
+ * Macro Average: f1: 0.0070, precision: 0.0047, recall: 0.0145
+
+Epoch 5/7, accuracy: 0.1539, loss: 2.3300
+ * Micro Average: f1: 0.0120, precision: 0.0074, recall: 0.0317
+ * Macro Average: f1: 0.0070, precision: 0.0047, recall: 0.0145
+
+Epoch 6/7, accuracy: 0.1539, loss: 2.3908
+ * Micro Average: f1: 0.0120, precision: 0.0074, recall: 0.0317
+ * Macro Average: f1: 0.0070, precision: 0.0047, recall: 0.0145
+
+Epoch 7/7, accuracy: 0.1539, loss: 2.3169
+ * Micro Average: f1: 0.0120, precision: 0.0074, recall: 0.0317
+ * Macro Average: f1: 0.0070, precision: 0.0047, recall: 0.0145
+
+Classification Report on test set:
+________________________________________
+ AD:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ EP:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ LOC:
+  * precision: 0.0205
+  * recall: 0.0717
+  * f1-score: 0.0319
+  * support: 446.0000
+ LS:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ ORG:
+  * precision: 0.0007
+  * recall: 0.0028
+  * f1-score: 0.0011
+  * support: 351.0000
+ PER:
+  * precision: 0.0072
+  * recall: 0.0124
+  * f1-score: 0.0091
+  * support: 402.0000
+ micro avg:
+  * precision: 0.0074
+  * recall: 0.0317
+  * f1-score: 0.0120
+  * support: 1199.0000
+ macro avg:
+  * precision: 0.0047
+  * recall: 0.0145
+  * f1-score: 0.0070
+  * support: 1199.0000
+ weighted avg:
+  * precision: 0.0102
+  * recall: 0.0317
+  * f1-score: 0.0152
+  * support: 1199.0000
+ accuracy:
+  * 0.1539
+________________________________________
+
+
+
+
+====================================================================================================
+Training model: bert-base-multilingual-cased
+ * 7 epochs
+ * learning rate is 0.0001
+ * train language: en-it-de
+ * test language: sw
+ * dropout: 0.3
+ * batch size is 32
+ * frozen weights: False
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+____________________________________________________________________________________________________
+
+Epoch 1/7, accuracy: 0.1750, loss: 2.3268
+ * Micro Average: f1: 0.0104, precision: 0.0064, recall: 0.0275
+ * Macro Average: f1: 0.0048, precision: 0.0030, recall: 0.0126
+
+Epoch 2/7, accuracy: 0.1751, loss: 2.3641
+ * Micro Average: f1: 0.0104, precision: 0.0064, recall: 0.0275
+ * Macro Average: f1: 0.0048, precision: 0.0030, recall: 0.0126
+
+Epoch 3/7, accuracy: 0.1757, loss: 2.3851
+ * Micro Average: f1: 0.0104, precision: 0.0064, recall: 0.0275
+ * Macro Average: f1: 0.0048, precision: 0.0030, recall: 0.0126
+
+Epoch 4/7, accuracy: 0.1758, loss: 2.3389
+ * Micro Average: f1: 0.0104, precision: 0.0064, recall: 0.0275
+ * Macro Average: f1: 0.0048, precision: 0.0030, recall: 0.0126
+
+Epoch 5/7, accuracy: 0.1766, loss: 2.3520
+ * Micro Average: f1: 0.0098, precision: 0.0060, recall: 0.0259
+ * Macro Average: f1: 0.0046, precision: 0.0028, recall: 0.0118
+
+Epoch 6/7, accuracy: 0.1768, loss: 2.3562
+ * Micro Average: f1: 0.0098, precision: 0.0060, recall: 0.0259
+ * Macro Average: f1: 0.0046, precision: 0.0028, recall: 0.0118
+
+Epoch 7/7, accuracy: 0.1770, loss: 2.3567
+ * Micro Average: f1: 0.0098, precision: 0.0060, recall: 0.0259
+ * Macro Average: f1: 0.0046, precision: 0.0028, recall: 0.0118
+
+Classification Report on test set:
+________________________________________
+ AD:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ EP:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ LOC:
+  * precision: 0.0137
+  * recall: 0.0561
+  * f1-score: 0.0221
+  * support: 446.0000
+ LS:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ ORG:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 351.0000
+ PER:
+  * precision: 0.0033
+  * recall: 0.0149
+  * f1-score: 0.0055
+  * support: 402.0000
+ micro avg:
+  * precision: 0.0060
+  * recall: 0.0259
+  * f1-score: 0.0098
+  * support: 1199.0000
+ macro avg:
+  * precision: 0.0028
+  * recall: 0.0118
+  * f1-score: 0.0046
+  * support: 1199.0000
+ weighted avg:
+  * precision: 0.0062
+  * recall: 0.0259
+  * f1-score: 0.0100
+  * support: 1199.0000
+ accuracy:
+  * 0.1770
+________________________________________
+
+
+
+
+====================================================================================================
+Training model: bert-base-multilingual-cased
+ * 7 epochs
+ * learning rate is 0.0001
+ * train language: en-it-de
+ * test language: sw
+ * dropout: 0.3
+ * batch size is 32
+ * frozen weights: True
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+____________________________________________________________________________________________________
+
+Epoch 1/7, accuracy: 0.0748, loss: 2.4019
+ * Micro Average: f1: 0.0122, precision: 0.0071, recall: 0.0459
+ * Macro Average: f1: 0.0089, precision: 0.0055, recall: 0.0243
+
+Epoch 2/7, accuracy: 0.0748, loss: 2.3877
+ * Micro Average: f1: 0.0122, precision: 0.0071, recall: 0.0459
+ * Macro Average: f1: 0.0089, precision: 0.0055, recall: 0.0243
+
+Epoch 3/7, accuracy: 0.0748, loss: 2.4158
+ * Micro Average: f1: 0.0122, precision: 0.0071, recall: 0.0459
+ * Macro Average: f1: 0.0089, precision: 0.0055, recall: 0.0243
+
+Epoch 4/7, accuracy: 0.0748, loss: 2.4377
+ * Micro Average: f1: 0.0122, precision: 0.0071, recall: 0.0459
+ * Macro Average: f1: 0.0089, precision: 0.0055, recall: 0.0243
+
+Epoch 5/7, accuracy: 0.0748, loss: 2.4343
+ * Micro Average: f1: 0.0122, precision: 0.0071, recall: 0.0459
+ * Macro Average: f1: 0.0089, precision: 0.0055, recall: 0.0243
+
+Epoch 6/7, accuracy: 0.0748, loss: 2.4094
+ * Micro Average: f1: 0.0122, precision: 0.0071, recall: 0.0459
+ * Macro Average: f1: 0.0089, precision: 0.0055, recall: 0.0243
+
+Epoch 7/7, accuracy: 0.0748, loss: 2.4423
+ * Micro Average: f1: 0.0122, precision: 0.0071, recall: 0.0459
+ * Macro Average: f1: 0.0089, precision: 0.0055, recall: 0.0243
+
+Classification Report on test set:
+________________________________________
+ AD:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ EP:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ LOC:
+  * precision: 0.0126
+  * recall: 0.0404
+  * f1-score: 0.0192
+  * support: 446.0000
+ LS:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ ORG:
+  * precision: 0.0204
+  * recall: 0.1054
+  * f1-score: 0.0342
+  * support: 351.0000
+ PER:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 402.0000
+ micro avg:
+  * precision: 0.0071
+  * recall: 0.0459
+  * f1-score: 0.0122
+  * support: 1199.0000
+ macro avg:
+  * precision: 0.0055
+  * recall: 0.0243
+  * f1-score: 0.0089
+  * support: 1199.0000
+ weighted avg:
+  * precision: 0.0106
+  * recall: 0.0459
+  * f1-score: 0.0171
+  * support: 1199.0000
+ accuracy:
+  * 0.0748
+________________________________________
+
+
+
+
+====================================================================================================
+Training model: bert-base-multilingual-cased
+ * 7 epochs
+ * learning rate is 5e-05
+ * train language: en-it-de
+ * test language: sw
+ * dropout: 0.3
+ * batch size is 32
+ * frozen weights: False
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+____________________________________________________________________________________________________
+
+Epoch 1/7, accuracy: 0.0502, loss: 2.3772
+ * Micro Average: f1: 0.0045, precision: 0.0026, recall: 0.0150
+ * Macro Average: f1: 0.0026, precision: 0.0016, recall: 0.0069
+
+Epoch 2/7, accuracy: 0.0502, loss: 2.3726
+ * Micro Average: f1: 0.0045, precision: 0.0026, recall: 0.0150
+ * Macro Average: f1: 0.0026, precision: 0.0016, recall: 0.0069
+
+Epoch 3/7, accuracy: 0.0502, loss: 2.3994
+ * Micro Average: f1: 0.0045, precision: 0.0026, recall: 0.0150
+ * Macro Average: f1: 0.0026, precision: 0.0016, recall: 0.0069
+
+Epoch 4/7, accuracy: 0.0502, loss: 2.3724
+ * Micro Average: f1: 0.0045, precision: 0.0026, recall: 0.0150
+ * Macro Average: f1: 0.0026, precision: 0.0016, recall: 0.0069
+
+Epoch 5/7, accuracy: 0.0501, loss: 2.4125
+ * Micro Average: f1: 0.0045, precision: 0.0026, recall: 0.0150
+ * Macro Average: f1: 0.0026, precision: 0.0016, recall: 0.0069
+
+Epoch 6/7, accuracy: 0.0501, loss: 2.3533
+ * Micro Average: f1: 0.0045, precision: 0.0026, recall: 0.0150
+ * Macro Average: f1: 0.0026, precision: 0.0016, recall: 0.0069
+
+Epoch 7/7, accuracy: 0.0499, loss: 2.4070
+ * Micro Average: f1: 0.0042, precision: 0.0025, recall: 0.0142
+ * Macro Average: f1: 0.0025, precision: 0.0016, recall: 0.0065
+
+Classification Report on test set:
+________________________________________
+ AD:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ EP:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ LOC:
+  * precision: 0.0078
+  * recall: 0.0336
+  * f1-score: 0.0127
+  * support: 446.0000
+ LS:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ ORG:
+  * precision: 0.0006
+  * recall: 0.0028
+  * f1-score: 0.0011
+  * support: 351.0000
+ PER:
+  * precision: 0.0009
+  * recall: 0.0025
+  * f1-score: 0.0013
+  * support: 402.0000
+ micro avg:
+  * precision: 0.0025
+  * recall: 0.0142
+  * f1-score: 0.0042
+  * support: 1199.0000
+ macro avg:
+  * precision: 0.0016
+  * recall: 0.0065
+  * f1-score: 0.0025
+  * support: 1199.0000
+ weighted avg:
+  * precision: 0.0034
+  * recall: 0.0142
+  * f1-score: 0.0055
+  * support: 1199.0000
+ accuracy:
+  * 0.0499
+________________________________________
+
+
+
+
+====================================================================================================
+Training model: bert-base-multilingual-cased
+ * 7 epochs
+ * learning rate is 5e-05
+ * train language: en-it-de
+ * test language: sw
+ * dropout: 0.3
+ * batch size is 32
+ * frozen weights: True
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+____________________________________________________________________________________________________
+
+Epoch 1/7, accuracy: 0.0963, loss: 2.2742
+ * Micro Average: f1: 0.0019, precision: 0.0012, recall: 0.0050
+ * Macro Average: f1: 0.0012, precision: 0.0009, recall: 0.0023
+
+Epoch 2/7, accuracy: 0.0963, loss: 2.2812
+ * Micro Average: f1: 0.0019, precision: 0.0012, recall: 0.0050
+ * Macro Average: f1: 0.0012, precision: 0.0009, recall: 0.0023
+
+Epoch 3/7, accuracy: 0.0963, loss: 2.2918
+ * Micro Average: f1: 0.0019, precision: 0.0012, recall: 0.0050
+ * Macro Average: f1: 0.0012, precision: 0.0009, recall: 0.0023
+
+Epoch 4/7, accuracy: 0.0963, loss: 2.2920
+ * Micro Average: f1: 0.0019, precision: 0.0012, recall: 0.0050
+ * Macro Average: f1: 0.0012, precision: 0.0009, recall: 0.0023
+
+Epoch 5/7, accuracy: 0.0963, loss: 2.2964
+ * Micro Average: f1: 0.0019, precision: 0.0012, recall: 0.0050
+ * Macro Average: f1: 0.0012, precision: 0.0009, recall: 0.0023
+
+Epoch 6/7, accuracy: 0.0963, loss: 2.2505
+ * Micro Average: f1: 0.0019, precision: 0.0012, recall: 0.0050
+ * Macro Average: f1: 0.0012, precision: 0.0009, recall: 0.0023
+
+Epoch 7/7, accuracy: 0.0963, loss: 2.2725
+ * Micro Average: f1: 0.0019, precision: 0.0012, recall: 0.0050
+ * Macro Average: f1: 0.0012, precision: 0.0009, recall: 0.0023
+
+Classification Report on test set:
+________________________________________
+ AD:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ EP:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ LOC:
+  * precision: 0.0023
+  * recall: 0.0090
+  * f1-score: 0.0037
+  * support: 446.0000
+ LS:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ ORG:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 351.0000
+ PER:
+  * precision: 0.0031
+  * recall: 0.0050
+  * f1-score: 0.0038
+  * support: 402.0000
+ micro avg:
+  * precision: 0.0012
+  * recall: 0.0050
+  * f1-score: 0.0019
+  * support: 1199.0000
+ macro avg:
+  * precision: 0.0009
+  * recall: 0.0023
+  * f1-score: 0.0012
+  * support: 1199.0000
+ weighted avg:
+  * precision: 0.0019
+  * recall: 0.0050
+  * f1-score: 0.0026
+  * support: 1199.0000
+ accuracy:
+  * 0.0963
+________________________________________
+
+
+
+
+====================================================================================================
+Training model: bert-base-multilingual-cased
+ * 7 epochs
+ * learning rate is 0.0001
+ * train language: en-it-de
+ * test language: sw
+ * dropout: 0.1
+ * batch size is 64
+ * frozen weights: False
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+____________________________________________________________________________________________________
+
+Epoch 1/7, accuracy: 0.0488, loss: 2.2975
+ * Micro Average: f1: 0.0102, precision: 0.0058, recall: 0.0396
+ * Macro Average: f1: 0.0037, precision: 0.0022, recall: 0.0178
+
+Epoch 2/7, accuracy: 0.0488, loss: 2.2819
+ * Micro Average: f1: 0.0102, precision: 0.0058, recall: 0.0396
+ * Macro Average: f1: 0.0037, precision: 0.0022, recall: 0.0178
+
+Epoch 3/7, accuracy: 0.0488, loss: 2.3079
+ * Micro Average: f1: 0.0102, precision: 0.0058, recall: 0.0396
+ * Macro Average: f1: 0.0037, precision: 0.0022, recall: 0.0178
+
+Epoch 4/7, accuracy: 0.0490, loss: 2.2710
+ * Micro Average: f1: 0.0102, precision: 0.0058, recall: 0.0396
+ * Macro Average: f1: 0.0037, precision: 0.0022, recall: 0.0178
+
+Epoch 5/7, accuracy: 0.0489, loss: 2.3031
+ * Micro Average: f1: 0.0099, precision: 0.0057, recall: 0.0387
+ * Macro Average: f1: 0.0036, precision: 0.0021, recall: 0.0174
+
+Epoch 6/7, accuracy: 0.0491, loss: 2.2365
+ * Micro Average: f1: 0.0100, precision: 0.0057, recall: 0.0387
+ * Macro Average: f1: 0.0036, precision: 0.0021, recall: 0.0174
+
+Epoch 7/7, accuracy: 0.0496, loss: 2.2741
+ * Micro Average: f1: 0.0100, precision: 0.0057, recall: 0.0387
+ * Macro Average: f1: 0.0036, precision: 0.0021, recall: 0.0174
+
+Classification Report on test set:
+________________________________________
+ AD:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ EP:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ LOC:
+  * precision: 0.0103
+  * recall: 0.0989
+  * f1-score: 0.0187
+  * support: 435.0000
+ LS:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ ORG:
+  * precision: 0.0020
+  * recall: 0.0030
+  * f1-score: 0.0024
+  * support: 337.0000
+ PER:
+  * precision: 0.0005
+  * recall: 0.0026
+  * f1-score: 0.0008
+  * support: 390.0000
+ micro avg:
+  * precision: 0.0057
+  * recall: 0.0387
+  * f1-score: 0.0100
+  * support: 1162.0000
+ macro avg:
+  * precision: 0.0021
+  * recall: 0.0174
+  * f1-score: 0.0036
+  * support: 1162.0000
+ weighted avg:
+  * precision: 0.0046
+  * recall: 0.0387
+  * f1-score: 0.0079
+  * support: 1162.0000
+ accuracy:
+  * 0.0496
+________________________________________
+
+
+
+
+====================================================================================================
+Training model: bert-base-multilingual-cased
+ * 7 epochs
+ * learning rate is 0.0001
+ * train language: en-it-de
+ * test language: sw
+ * dropout: 0.1
+ * batch size is 64
+ * frozen weights: True
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+____________________________________________________________________________________________________
+
+Epoch 1/7, accuracy: 0.0525, loss: 2.3818
+ * Micro Average: f1: 0.0059, precision: 0.0034, recall: 0.0198
+ * Macro Average: f1: 0.0035, precision: 0.0022, recall: 0.0098
+
+Epoch 2/7, accuracy: 0.0525, loss: 2.3484
+ * Micro Average: f1: 0.0059, precision: 0.0034, recall: 0.0198
+ * Macro Average: f1: 0.0035, precision: 0.0022, recall: 0.0098
+
+Epoch 3/7, accuracy: 0.0525, loss: 2.3783
+ * Micro Average: f1: 0.0059, precision: 0.0034, recall: 0.0198
+ * Macro Average: f1: 0.0035, precision: 0.0022, recall: 0.0098
+
+Epoch 4/7, accuracy: 0.0525, loss: 2.4011
+ * Micro Average: f1: 0.0059, precision: 0.0034, recall: 0.0198
+ * Macro Average: f1: 0.0035, precision: 0.0022, recall: 0.0098
+
+Epoch 5/7, accuracy: 0.0525, loss: 2.3678
+ * Micro Average: f1: 0.0059, precision: 0.0034, recall: 0.0198
+ * Macro Average: f1: 0.0035, precision: 0.0022, recall: 0.0098
+
+Epoch 6/7, accuracy: 0.0525, loss: 2.3766
+ * Micro Average: f1: 0.0059, precision: 0.0034, recall: 0.0198
+ * Macro Average: f1: 0.0035, precision: 0.0022, recall: 0.0098
+
+Epoch 7/7, accuracy: 0.0525, loss: 2.3739
+ * Micro Average: f1: 0.0059, precision: 0.0034, recall: 0.0198
+ * Macro Average: f1: 0.0035, precision: 0.0022, recall: 0.0098
+
+Classification Report on test set:
+________________________________________
+ AD:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ EP:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ LOC:
+  * precision: 0.0049
+  * recall: 0.0299
+  * f1-score: 0.0084
+  * support: 435.0000
+ LS:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ ORG:
+  * precision: 0.0065
+  * recall: 0.0237
+  * f1-score: 0.0102
+  * support: 337.0000
+ PER:
+  * precision: 0.0017
+  * recall: 0.0051
+  * f1-score: 0.0025
+  * support: 390.0000
+ micro avg:
+  * precision: 0.0034
+  * recall: 0.0198
+  * f1-score: 0.0059
+  * support: 1162.0000
+ macro avg:
+  * precision: 0.0022
+  * recall: 0.0098
+  * f1-score: 0.0035
+  * support: 1162.0000
+ weighted avg:
+  * precision: 0.0043
+  * recall: 0.0198
+  * f1-score: 0.0069
+  * support: 1162.0000
+ accuracy:
+  * 0.0525
+________________________________________
+
+
+
+
+====================================================================================================
+Training model: bert-base-multilingual-cased
+ * 7 epochs
+ * learning rate is 5e-05
+ * train language: en-it-de
+ * test language: sw
+ * dropout: 0.1
+ * batch size is 64
+ * frozen weights: False
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+____________________________________________________________________________________________________
+
+Epoch 1/7, accuracy: 0.2101, loss: 2.3262
+ * Micro Average: f1: 0.0093, precision: 0.0058, recall: 0.0232
+ * Macro Average: f1: 0.0052, precision: 0.0038, recall: 0.0107
+
+Epoch 2/7, accuracy: 0.2105, loss: 2.3094
+ * Micro Average: f1: 0.0093, precision: 0.0058, recall: 0.0232
+ * Macro Average: f1: 0.0052, precision: 0.0038, recall: 0.0107
+
+Epoch 3/7, accuracy: 0.2108, loss: 2.3203
+ * Micro Average: f1: 0.0093, precision: 0.0058, recall: 0.0232
+ * Macro Average: f1: 0.0052, precision: 0.0038, recall: 0.0107
+
+Epoch 4/7, accuracy: 0.2114, loss: 2.3386
+ * Micro Average: f1: 0.0093, precision: 0.0058, recall: 0.0232
+ * Macro Average: f1: 0.0052, precision: 0.0038, recall: 0.0107
+
+Epoch 5/7, accuracy: 0.2121, loss: 2.3149
+ * Micro Average: f1: 0.0093, precision: 0.0058, recall: 0.0232
+ * Macro Average: f1: 0.0052, precision: 0.0038, recall: 0.0107
+
+Epoch 6/7, accuracy: 0.2126, loss: 2.3582
+ * Micro Average: f1: 0.0093, precision: 0.0058, recall: 0.0232
+ * Macro Average: f1: 0.0052, precision: 0.0038, recall: 0.0107
+
+Epoch 7/7, accuracy: 0.2137, loss: 2.3437
+ * Micro Average: f1: 0.0093, precision: 0.0059, recall: 0.0232
+ * Macro Average: f1: 0.0052, precision: 0.0038, recall: 0.0107
+
+Classification Report on test set:
+________________________________________
+ AD:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ EP:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ LOC:
+  * precision: 0.0116
+  * recall: 0.0483
+  * f1-score: 0.0187
+  * support: 435.0000
+ LS:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ ORG:
+  * precision: 0.0017
+  * recall: 0.0059
+  * f1-score: 0.0026
+  * support: 337.0000
+ PER:
+  * precision: 0.0097
+  * recall: 0.0103
+  * f1-score: 0.0100
+  * support: 390.0000
+ micro avg:
+  * precision: 0.0059
+  * recall: 0.0232
+  * f1-score: 0.0093
+  * support: 1162.0000
+ macro avg:
+  * precision: 0.0038
+  * recall: 0.0107
+  * f1-score: 0.0052
+  * support: 1162.0000
+ weighted avg:
+  * precision: 0.0081
+  * recall: 0.0232
+  * f1-score: 0.0111
+  * support: 1162.0000
+ accuracy:
+  * 0.2137
+________________________________________
+
+
+
+
+====================================================================================================
+Training model: bert-base-multilingual-cased
+ * 7 epochs
+ * learning rate is 5e-05
+ * train language: en-it-de
+ * test language: sw
+ * dropout: 0.1
+ * batch size is 64
+ * frozen weights: True
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+____________________________________________________________________________________________________
+
+Epoch 1/7, accuracy: 0.0812, loss: 2.3225
+ * Micro Average: f1: 0.0039, precision: 0.0024, recall: 0.0112
+ * Macro Average: f1: 0.0020, precision: 0.0012, recall: 0.0052
+
+Epoch 2/7, accuracy: 0.0812, loss: 2.2918
+ * Micro Average: f1: 0.0039, precision: 0.0024, recall: 0.0112
+ * Macro Average: f1: 0.0020, precision: 0.0012, recall: 0.0052
+
+Epoch 3/7, accuracy: 0.0812, loss: 2.3011
+ * Micro Average: f1: 0.0039, precision: 0.0024, recall: 0.0112
+ * Macro Average: f1: 0.0020, precision: 0.0012, recall: 0.0052
+
+Epoch 4/7, accuracy: 0.0812, loss: 2.2939
+ * Micro Average: f1: 0.0039, precision: 0.0024, recall: 0.0112
+ * Macro Average: f1: 0.0020, precision: 0.0012, recall: 0.0052
+
+Epoch 5/7, accuracy: 0.0812, loss: 2.3228
+ * Micro Average: f1: 0.0039, precision: 0.0024, recall: 0.0112
+ * Macro Average: f1: 0.0020, precision: 0.0012, recall: 0.0052
+
+Epoch 6/7, accuracy: 0.0812, loss: 2.3214
+ * Micro Average: f1: 0.0039, precision: 0.0024, recall: 0.0112
+ * Macro Average: f1: 0.0020, precision: 0.0012, recall: 0.0052
+
+Epoch 7/7, accuracy: 0.0812, loss: 2.3282
+ * Micro Average: f1: 0.0039, precision: 0.0024, recall: 0.0112
+ * Macro Average: f1: 0.0020, precision: 0.0012, recall: 0.0052
+
+Classification Report on test set:
+________________________________________
+ AD:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ EP:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ LOC:
+  * precision: 0.0065
+  * recall: 0.0253
+  * f1-score: 0.0103
+  * support: 435.0000
+ LS:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ ORG:
+  * precision: 0.0010
+  * recall: 0.0059
+  * f1-score: 0.0017
+  * support: 337.0000
+ PER:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 390.0000
+ micro avg:
+  * precision: 0.0024
+  * recall: 0.0112
+  * f1-score: 0.0039
+  * support: 1162.0000
+ macro avg:
+  * precision: 0.0012
+  * recall: 0.0052
+  * f1-score: 0.0020
+  * support: 1162.0000
+ weighted avg:
+  * precision: 0.0027
+  * recall: 0.0112
+  * f1-score: 0.0043
+  * support: 1162.0000
+ accuracy:
+  * 0.0812
+________________________________________
+
+
+
+
+====================================================================================================
+Training model: bert-base-multilingual-cased
+ * 7 epochs
+ * learning rate is 0.0001
+ * train language: en-it-de
+ * test language: sw
+ * dropout: 0.3
+ * batch size is 64
+ * frozen weights: False
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+____________________________________________________________________________________________________
+
+Epoch 1/7, accuracy: 0.1440, loss: 2.2895
+ * Micro Average: f1: 0.0093, precision: 0.0056, recall: 0.0275
+ * Macro Average: f1: 0.0052, precision: 0.0038, recall: 0.0128
+
+Epoch 2/7, accuracy: 0.1440, loss: 2.3148
+ * Micro Average: f1: 0.0093, precision: 0.0056, recall: 0.0275
+ * Macro Average: f1: 0.0052, precision: 0.0038, recall: 0.0128
+
+Epoch 3/7, accuracy: 0.1444, loss: 2.2935
+ * Micro Average: f1: 0.0094, precision: 0.0056, recall: 0.0275
+ * Macro Average: f1: 0.0053, precision: 0.0038, recall: 0.0128
+
+Epoch 4/7, accuracy: 0.1440, loss: 2.3047
+ * Micro Average: f1: 0.0094, precision: 0.0056, recall: 0.0275
+ * Macro Average: f1: 0.0053, precision: 0.0038, recall: 0.0128
+
+Epoch 5/7, accuracy: 0.1443, loss: 2.2866
+ * Micro Average: f1: 0.0094, precision: 0.0056, recall: 0.0275
+ * Macro Average: f1: 0.0053, precision: 0.0039, recall: 0.0128
+
+Epoch 6/7, accuracy: 0.1447, loss: 2.2655
+ * Micro Average: f1: 0.0094, precision: 0.0057, recall: 0.0275
+ * Macro Average: f1: 0.0053, precision: 0.0039, recall: 0.0128
+
+Epoch 7/7, accuracy: 0.1454, loss: 2.3165
+ * Micro Average: f1: 0.0088, precision: 0.0053, recall: 0.0258
+ * Macro Average: f1: 0.0047, precision: 0.0033, recall: 0.0119
+
+Classification Report on test set:
+________________________________________
+ AD:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ EP:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ LOC:
+  * precision: 0.0095
+  * recall: 0.0529
+  * f1-score: 0.0161
+  * support: 435.0000
+ LS:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ ORG:
+  * precision: 0.0065
+  * recall: 0.0059
+  * f1-score: 0.0062
+  * support: 337.0000
+ PER:
+  * precision: 0.0038
+  * recall: 0.0128
+  * f1-score: 0.0058
+  * support: 390.0000
+ micro avg:
+  * precision: 0.0053
+  * recall: 0.0258
+  * f1-score: 0.0088
+  * support: 1162.0000
+ macro avg:
+  * precision: 0.0033
+  * recall: 0.0119
+  * f1-score: 0.0047
+  * support: 1162.0000
+ weighted avg:
+  * precision: 0.0067
+  * recall: 0.0258
+  * f1-score: 0.0098
+  * support: 1162.0000
+ accuracy:
+  * 0.1454
+________________________________________
+
+
+
+
+====================================================================================================
+Training model: bert-base-multilingual-cased
+ * 7 epochs
+ * learning rate is 0.0001
+ * train language: en-it-de
+ * test language: sw
+ * dropout: 0.3
+ * batch size is 64
+ * frozen weights: True
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+____________________________________________________________________________________________________
+
+Epoch 1/7, accuracy: 0.1582, loss: 2.2801
+ * Micro Average: f1: 0.0068, precision: 0.0043, recall: 0.0155
+ * Macro Average: f1: 0.0037, precision: 0.0025, recall: 0.0071
+
+Epoch 2/7, accuracy: 0.1582, loss: 2.2741
+ * Micro Average: f1: 0.0068, precision: 0.0043, recall: 0.0155
+ * Macro Average: f1: 0.0037, precision: 0.0025, recall: 0.0071
+
+Epoch 3/7, accuracy: 0.1582, loss: 2.2894
+ * Micro Average: f1: 0.0068, precision: 0.0043, recall: 0.0155
+ * Macro Average: f1: 0.0037, precision: 0.0025, recall: 0.0071
+
+Epoch 4/7, accuracy: 0.1582, loss: 2.2936
+ * Micro Average: f1: 0.0068, precision: 0.0043, recall: 0.0155
+ * Macro Average: f1: 0.0037, precision: 0.0025, recall: 0.0071
+
+Epoch 5/7, accuracy: 0.1582, loss: 2.2719
+ * Micro Average: f1: 0.0068, precision: 0.0043, recall: 0.0155
+ * Macro Average: f1: 0.0037, precision: 0.0025, recall: 0.0071
+
+Epoch 6/7, accuracy: 0.1582, loss: 2.2712
+ * Micro Average: f1: 0.0068, precision: 0.0043, recall: 0.0155
+ * Macro Average: f1: 0.0037, precision: 0.0025, recall: 0.0071
+
+Epoch 7/7, accuracy: 0.1582, loss: 2.2761
+ * Micro Average: f1: 0.0068, precision: 0.0043, recall: 0.0155
+ * Macro Average: f1: 0.0037, precision: 0.0025, recall: 0.0071
+
+Classification Report on test set:
+________________________________________
+ AD:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ EP:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ LOC:
+  * precision: 0.0117
+  * recall: 0.0368
+  * f1-score: 0.0178
+  * support: 435.0000
+ LS:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ ORG:
+  * precision: 0.0036
+  * recall: 0.0059
+  * f1-score: 0.0045
+  * support: 337.0000
+ PER:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 390.0000
+ micro avg:
+  * precision: 0.0043
+  * recall: 0.0155
+  * f1-score: 0.0068
+  * support: 1162.0000
+ macro avg:
+  * precision: 0.0025
+  * recall: 0.0071
+  * f1-score: 0.0037
+  * support: 1162.0000
+ weighted avg:
+  * precision: 0.0054
+  * recall: 0.0155
+  * f1-score: 0.0079
+  * support: 1162.0000
+ accuracy:
+  * 0.1582
+________________________________________
+
+
+
+
+====================================================================================================
+Training model: bert-base-multilingual-cased
+ * 7 epochs
+ * learning rate is 5e-05
+ * train language: en-it-de
+ * test language: sw
+ * dropout: 0.3
+ * batch size is 64
+ * frozen weights: False
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+____________________________________________________________________________________________________
+
+Epoch 1/7, accuracy: 0.0974, loss: 2.3144
+ * Micro Average: f1: 0.0068, precision: 0.0042, recall: 0.0172
+ * Macro Average: f1: 0.0060, precision: 0.0049, recall: 0.0080
+
+Epoch 2/7, accuracy: 0.0972, loss: 2.3202
+ * Micro Average: f1: 0.0068, precision: 0.0042, recall: 0.0172
+ * Macro Average: f1: 0.0060, precision: 0.0049, recall: 0.0080
+
+Epoch 3/7, accuracy: 0.0972, loss: 2.3264
+ * Micro Average: f1: 0.0068, precision: 0.0042, recall: 0.0172
+ * Macro Average: f1: 0.0060, precision: 0.0049, recall: 0.0080
+
+Epoch 4/7, accuracy: 0.0971, loss: 2.3187
+ * Micro Average: f1: 0.0068, precision: 0.0042, recall: 0.0172
+ * Macro Average: f1: 0.0060, precision: 0.0049, recall: 0.0080
+
+Epoch 5/7, accuracy: 0.0975, loss: 2.3465
+ * Micro Average: f1: 0.0068, precision: 0.0042, recall: 0.0172
+ * Macro Average: f1: 0.0060, precision: 0.0049, recall: 0.0080
+
+Epoch 6/7, accuracy: 0.0976, loss: 2.3534
+ * Micro Average: f1: 0.0068, precision: 0.0042, recall: 0.0172
+ * Macro Average: f1: 0.0060, precision: 0.0050, recall: 0.0080
+
+Epoch 7/7, accuracy: 0.0981, loss: 2.3522
+ * Micro Average: f1: 0.0072, precision: 0.0045, recall: 0.0181
+ * Macro Average: f1: 0.0063, precision: 0.0052, recall: 0.0084
+
+Classification Report on test set:
+________________________________________
+ AD:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ EP:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ LOC:
+  * precision: 0.0257
+  * recall: 0.0391
+  * f1-score: 0.0310
+  * support: 435.0000
+ LS:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ ORG:
+  * precision: 0.0015
+  * recall: 0.0059
+  * f1-score: 0.0024
+  * support: 337.0000
+ PER:
+  * precision: 0.0041
+  * recall: 0.0051
+  * f1-score: 0.0046
+  * support: 390.0000
+ micro avg:
+  * precision: 0.0045
+  * recall: 0.0181
+  * f1-score: 0.0072
+  * support: 1162.0000
+ macro avg:
+  * precision: 0.0052
+  * recall: 0.0084
+  * f1-score: 0.0063
+  * support: 1162.0000
+ weighted avg:
+  * precision: 0.0114
+  * recall: 0.0181
+  * f1-score: 0.0138
+  * support: 1162.0000
+ accuracy:
+  * 0.0981
+________________________________________
+
+
+
+
+====================================================================================================
+Training model: bert-base-multilingual-cased
+ * 7 epochs
+ * learning rate is 5e-05
+ * train language: en-it-de
+ * test language: sw
+ * dropout: 0.3
+ * batch size is 64
+ * frozen weights: True
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+____________________________________________________________________________________________________
+
+Epoch 1/7, accuracy: 0.0752, loss: 2.3625
+ * Micro Average: f1: 0.0114, precision: 0.0067, recall: 0.0370
+ * Macro Average: f1: 0.0075, precision: 0.0048, recall: 0.0176
+
+Epoch 2/7, accuracy: 0.0752, loss: 2.3495
+ * Micro Average: f1: 0.0114, precision: 0.0067, recall: 0.0370
+ * Macro Average: f1: 0.0075, precision: 0.0048, recall: 0.0176
+
+Epoch 3/7, accuracy: 0.0752, loss: 2.3957
+ * Micro Average: f1: 0.0114, precision: 0.0067, recall: 0.0370
+ * Macro Average: f1: 0.0075, precision: 0.0048, recall: 0.0176
+
+Epoch 4/7, accuracy: 0.0752, loss: 2.3572
+ * Micro Average: f1: 0.0114, precision: 0.0067, recall: 0.0370
+ * Macro Average: f1: 0.0075, precision: 0.0048, recall: 0.0176
+
+Epoch 5/7, accuracy: 0.0752, loss: 2.3601
+ * Micro Average: f1: 0.0114, precision: 0.0067, recall: 0.0370
+ * Macro Average: f1: 0.0075, precision: 0.0048, recall: 0.0176
+
+Epoch 6/7, accuracy: 0.0752, loss: 2.3867
+ * Micro Average: f1: 0.0114, precision: 0.0067, recall: 0.0370
+ * Macro Average: f1: 0.0075, precision: 0.0048, recall: 0.0176
+
+Epoch 7/7, accuracy: 0.0752, loss: 2.3539
+ * Micro Average: f1: 0.0114, precision: 0.0067, recall: 0.0370
+ * Macro Average: f1: 0.0075, precision: 0.0048, recall: 0.0176
+
+Classification Report on test set:
+________________________________________
+ AD:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ EP:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ LOC:
+  * precision: 0.0175
+  * recall: 0.0598
+  * f1-score: 0.0271
+  * support: 435.0000
+ LS:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ ORG:
+  * precision: 0.0038
+  * recall: 0.0148
+  * f1-score: 0.0061
+  * support: 337.0000
+ PER:
+  * precision: 0.0075
+  * recall: 0.0308
+  * f1-score: 0.0121
+  * support: 390.0000
+ micro avg:
+  * precision: 0.0067
+  * recall: 0.0370
+  * f1-score: 0.0114
+  * support: 1162.0000
+ macro avg:
+  * precision: 0.0048
+  * recall: 0.0176
+  * f1-score: 0.0075
+  * support: 1162.0000
+ weighted avg:
+  * precision: 0.0102
+  * recall: 0.0370
+  * f1-score: 0.0160
+  * support: 1162.0000
+ accuracy:
+  * 0.0752
+________________________________________
+
+
+
+
+====================================================================================================
+Training model: bert-base-multilingual-cased
+ * 7 epochs
+ * learning rate is 0.0001
+ * train language: en-it-de
+ * test language: sw
+ * dropout: 0.1
+ * batch size is 128
+ * frozen weights: False
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+____________________________________________________________________________________________________
+
+Epoch 1/7, accuracy: 0.1374, loss: 2.3303
+ * Micro Average: f1: 0.0095, precision: 0.0059, recall: 0.0247
+ * Macro Average: f1: 0.0042, precision: 0.0027, recall: 0.0111
+
+Epoch 2/7, accuracy: 0.1374, loss: 2.3059
+ * Micro Average: f1: 0.0095, precision: 0.0059, recall: 0.0247
+ * Macro Average: f1: 0.0042, precision: 0.0027, recall: 0.0111
+
+Epoch 3/7, accuracy: 0.1378, loss: 2.3061
+ * Micro Average: f1: 0.0095, precision: 0.0059, recall: 0.0247
+ * Macro Average: f1: 0.0042, precision: 0.0027, recall: 0.0111
+
+Epoch 4/7, accuracy: 0.1384, loss: 2.3150
+ * Micro Average: f1: 0.0095, precision: 0.0059, recall: 0.0247
+ * Macro Average: f1: 0.0042, precision: 0.0027, recall: 0.0111
+
+Epoch 5/7, accuracy: 0.1396, loss: 2.3370
+ * Micro Average: f1: 0.0095, precision: 0.0059, recall: 0.0247
+ * Macro Average: f1: 0.0042, precision: 0.0027, recall: 0.0111
+
+Epoch 6/7, accuracy: 0.1398, loss: 2.3127
+ * Micro Average: f1: 0.0095, precision: 0.0059, recall: 0.0247
+ * Macro Average: f1: 0.0043, precision: 0.0027, recall: 0.0111
+
+Epoch 7/7, accuracy: 0.1406, loss: 2.3200
+ * Micro Average: f1: 0.0095, precision: 0.0059, recall: 0.0247
+ * Macro Average: f1: 0.0043, precision: 0.0027, recall: 0.0111
+
+Classification Report on test set:
+________________________________________
+ AD:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ EP:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ LOC:
+  * precision: 0.0132
+  * recall: 0.0605
+  * f1-score: 0.0217
+  * support: 413.0000
+ LS:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ ORG:
+  * precision: 0.0013
+  * recall: 0.0032
+  * f1-score: 0.0019
+  * support: 312.0000
+ PER:
+  * precision: 0.0015
+  * recall: 0.0027
+  * f1-score: 0.0019
+  * support: 367.0000
+ micro avg:
+  * precision: 0.0059
+  * recall: 0.0247
+  * f1-score: 0.0095
+  * support: 1092.0000
+ macro avg:
+  * precision: 0.0027
+  * recall: 0.0111
+  * f1-score: 0.0043
+  * support: 1092.0000
+ weighted avg:
+  * precision: 0.0059
+  * recall: 0.0247
+  * f1-score: 0.0094
+  * support: 1092.0000
+ accuracy:
+  * 0.1406
+________________________________________
+
+
+
+
+====================================================================================================
+Training model: bert-base-multilingual-cased
+ * 7 epochs
+ * learning rate is 0.0001
+ * train language: en-it-de
+ * test language: sw
+ * dropout: 0.1
+ * batch size is 128
+ * frozen weights: True
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+____________________________________________________________________________________________________
+
+Epoch 1/7, accuracy: 0.1223, loss: 2.4333
+ * Micro Average: f1: 0.0123, precision: 0.0073, recall: 0.0375
+ * Macro Average: f1: 0.0071, precision: 0.0045, recall: 0.0175
+
+Epoch 2/7, accuracy: 0.1223, loss: 2.4207
+ * Micro Average: f1: 0.0123, precision: 0.0073, recall: 0.0375
+ * Macro Average: f1: 0.0071, precision: 0.0045, recall: 0.0175
+
+Epoch 3/7, accuracy: 0.1223, loss: 2.4419
+ * Micro Average: f1: 0.0123, precision: 0.0073, recall: 0.0375
+ * Macro Average: f1: 0.0071, precision: 0.0045, recall: 0.0175
+
+Epoch 4/7, accuracy: 0.1223, loss: 2.4177
+ * Micro Average: f1: 0.0123, precision: 0.0073, recall: 0.0375
+ * Macro Average: f1: 0.0071, precision: 0.0045, recall: 0.0175
+
+Epoch 5/7, accuracy: 0.1223, loss: 2.4358
+ * Micro Average: f1: 0.0123, precision: 0.0073, recall: 0.0375
+ * Macro Average: f1: 0.0071, precision: 0.0045, recall: 0.0175
+
+Epoch 6/7, accuracy: 0.1223, loss: 2.4156
+ * Micro Average: f1: 0.0123, precision: 0.0073, recall: 0.0375
+ * Macro Average: f1: 0.0071, precision: 0.0045, recall: 0.0175
+
+Epoch 7/7, accuracy: 0.1223, loss: 2.4260
+ * Micro Average: f1: 0.0123, precision: 0.0073, recall: 0.0375
+ * Macro Average: f1: 0.0071, precision: 0.0045, recall: 0.0175
+
+Classification Report on test set:
+________________________________________
+ AD:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ EP:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ LOC:
+  * precision: 0.0222
+  * recall: 0.0799
+  * f1-score: 0.0348
+  * support: 413.0000
+ LS:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ ORG:
+  * precision: 0.0039
+  * recall: 0.0224
+  * f1-score: 0.0066
+  * support: 312.0000
+ PER:
+  * precision: 0.0007
+  * recall: 0.0027
+  * f1-score: 0.0011
+  * support: 367.0000
+ micro avg:
+  * precision: 0.0073
+  * recall: 0.0375
+  * f1-score: 0.0123
+  * support: 1092.0000
+ macro avg:
+  * precision: 0.0045
+  * recall: 0.0175
+  * f1-score: 0.0071
+  * support: 1092.0000
+ weighted avg:
+  * precision: 0.0097
+  * recall: 0.0375
+  * f1-score: 0.0154
+  * support: 1092.0000
+ accuracy:
+  * 0.1223
+________________________________________
+
+
+
+
+====================================================================================================
+Training model: bert-base-multilingual-cased
+ * 7 epochs
+ * learning rate is 5e-05
+ * train language: en-it-de
+ * test language: sw
+ * dropout: 0.1
+ * batch size is 128
+ * frozen weights: False
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+____________________________________________________________________________________________________
+
+Epoch 1/7, accuracy: 0.0610, loss: 2.3719
+ * Micro Average: f1: 0.0118, precision: 0.0071, recall: 0.0366
+ * Macro Average: f1: 0.0083, precision: 0.0057, recall: 0.0191
+
+Epoch 2/7, accuracy: 0.0610, loss: 2.3720
+ * Micro Average: f1: 0.0118, precision: 0.0071, recall: 0.0366
+ * Macro Average: f1: 0.0083, precision: 0.0057, recall: 0.0191
+
+Epoch 3/7, accuracy: 0.0610, loss: 2.3623
+ * Micro Average: f1: 0.0118, precision: 0.0071, recall: 0.0366
+ * Macro Average: f1: 0.0083, precision: 0.0057, recall: 0.0191
+
+Epoch 4/7, accuracy: 0.0610, loss: 2.3735
+ * Micro Average: f1: 0.0118, precision: 0.0071, recall: 0.0366
+ * Macro Average: f1: 0.0083, precision: 0.0057, recall: 0.0191
+
+Epoch 5/7, accuracy: 0.0610, loss: 2.3595
+ * Micro Average: f1: 0.0118, precision: 0.0071, recall: 0.0366
+ * Macro Average: f1: 0.0083, precision: 0.0057, recall: 0.0191
+
+Epoch 6/7, accuracy: 0.0609, loss: 2.3714
+ * Micro Average: f1: 0.0118, precision: 0.0071, recall: 0.0366
+ * Macro Average: f1: 0.0083, precision: 0.0057, recall: 0.0191
+
+Epoch 7/7, accuracy: 0.0610, loss: 2.3689
+ * Micro Average: f1: 0.0118, precision: 0.0070, recall: 0.0366
+ * Macro Average: f1: 0.0083, precision: 0.0057, recall: 0.0191
+
+Classification Report on test set:
+________________________________________
+ AD:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ EP:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ LOC:
+  * precision: 0.0219
+  * recall: 0.0412
+  * f1-score: 0.0285
+  * support: 413.0000
+ LS:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ ORG:
+  * precision: 0.0117
+  * recall: 0.0705
+  * f1-score: 0.0201
+  * support: 312.0000
+ PER:
+  * precision: 0.0007
+  * recall: 0.0027
+  * f1-score: 0.0011
+  * support: 367.0000
+ micro avg:
+  * precision: 0.0070
+  * recall: 0.0366
+  * f1-score: 0.0118
+  * support: 1092.0000
+ macro avg:
+  * precision: 0.0057
+  * recall: 0.0191
+  * f1-score: 0.0083
+  * support: 1092.0000
+ weighted avg:
+  * precision: 0.0119
+  * recall: 0.0366
+  * f1-score: 0.0169
+  * support: 1092.0000
+ accuracy:
+  * 0.0610
+________________________________________
+
+
+
+
+====================================================================================================
+Training model: bert-base-multilingual-cased
+ * 7 epochs
+ * learning rate is 5e-05
+ * train language: en-it-de
+ * test language: sw
+ * dropout: 0.1
+ * batch size is 128
+ * frozen weights: True
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+____________________________________________________________________________________________________
+
+Epoch 1/7, accuracy: 0.0439, loss: 2.3301
+ * Micro Average: f1: 0.0028, precision: 0.0016, recall: 0.0101
+ * Macro Average: f1: 0.0017, precision: 0.0010, recall: 0.0046
+
+Epoch 2/7, accuracy: 0.0439, loss: 2.3453
+ * Micro Average: f1: 0.0028, precision: 0.0016, recall: 0.0101
+ * Macro Average: f1: 0.0017, precision: 0.0010, recall: 0.0046
+
+Epoch 3/7, accuracy: 0.0439, loss: 2.3280
+ * Micro Average: f1: 0.0028, precision: 0.0016, recall: 0.0101
+ * Macro Average: f1: 0.0017, precision: 0.0010, recall: 0.0046
+
+Epoch 4/7, accuracy: 0.0439, loss: 2.3451
+ * Micro Average: f1: 0.0028, precision: 0.0016, recall: 0.0101
+ * Macro Average: f1: 0.0017, precision: 0.0010, recall: 0.0046
+
+Epoch 5/7, accuracy: 0.0439, loss: 2.3322
+ * Micro Average: f1: 0.0028, precision: 0.0016, recall: 0.0101
+ * Macro Average: f1: 0.0017, precision: 0.0010, recall: 0.0046
+
+Epoch 6/7, accuracy: 0.0439, loss: 2.3302
+ * Micro Average: f1: 0.0028, precision: 0.0016, recall: 0.0101
+ * Macro Average: f1: 0.0017, precision: 0.0010, recall: 0.0046
+
+Epoch 7/7, accuracy: 0.0439, loss: 2.3286
+ * Micro Average: f1: 0.0028, precision: 0.0016, recall: 0.0101
+ * Macro Average: f1: 0.0017, precision: 0.0010, recall: 0.0046
+
+Classification Report on test set:
+________________________________________
+ AD:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ EP:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ LOC:
+  * precision: 0.0055
+  * recall: 0.0242
+  * f1-score: 0.0090
+  * support: 413.0000
+ LS:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ ORG:
+  * precision: 0.0008
+  * recall: 0.0032
+  * f1-score: 0.0013
+  * support: 312.0000
+ PER:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 367.0000
+ micro avg:
+  * precision: 0.0016
+  * recall: 0.0101
+  * f1-score: 0.0028
+  * support: 1092.0000
+ macro avg:
+  * precision: 0.0010
+  * recall: 0.0046
+  * f1-score: 0.0017
+  * support: 1092.0000
+ weighted avg:
+  * precision: 0.0023
+  * recall: 0.0101
+  * f1-score: 0.0038
+  * support: 1092.0000
+ accuracy:
+  * 0.0439
+________________________________________
+
+
+
+
+====================================================================================================
+Training model: bert-base-multilingual-cased
+ * 7 epochs
+ * learning rate is 0.0001
+ * train language: en-it-de
+ * test language: sw
+ * dropout: 0.3
+ * batch size is 128
+ * frozen weights: False
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+____________________________________________________________________________________________________
+
+Epoch 1/7, accuracy: 0.2819, loss: 2.4509
+ * Micro Average: f1: 0.0064, precision: 0.0041, recall: 0.0147
+ * Macro Average: f1: 0.0043, precision: 0.0032, recall: 0.0065
+
+Epoch 2/7, accuracy: 0.2822, loss: 2.4399
+ * Micro Average: f1: 0.0064, precision: 0.0041, recall: 0.0147
+ * Macro Average: f1: 0.0043, precision: 0.0032, recall: 0.0065
+
+Epoch 3/7, accuracy: 0.2829, loss: 2.4516
+ * Micro Average: f1: 0.0064, precision: 0.0041, recall: 0.0147
+ * Macro Average: f1: 0.0043, precision: 0.0032, recall: 0.0065
+
+Epoch 4/7, accuracy: 0.2839, loss: 2.4889
+ * Micro Average: f1: 0.0064, precision: 0.0041, recall: 0.0147
+ * Macro Average: f1: 0.0043, precision: 0.0032, recall: 0.0065
+
+Epoch 5/7, accuracy: 0.2850, loss: 2.4363
+ * Micro Average: f1: 0.0064, precision: 0.0041, recall: 0.0147
+ * Macro Average: f1: 0.0043, precision: 0.0032, recall: 0.0065
+
+Epoch 6/7, accuracy: 0.2861, loss: 2.4497
+ * Micro Average: f1: 0.0065, precision: 0.0041, recall: 0.0147
+ * Macro Average: f1: 0.0043, precision: 0.0033, recall: 0.0065
+
+Epoch 7/7, accuracy: 0.2879, loss: 2.4547
+ * Micro Average: f1: 0.0065, precision: 0.0042, recall: 0.0147
+ * Macro Average: f1: 0.0043, precision: 0.0033, recall: 0.0065
+
+Classification Report on test set:
+________________________________________
+ AD:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ EP:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ LOC:
+  * precision: 0.0186
+  * recall: 0.0363
+  * f1-score: 0.0246
+  * support: 413.0000
+ LS:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ ORG:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 312.0000
+ PER:
+  * precision: 0.0010
+  * recall: 0.0027
+  * f1-score: 0.0015
+  * support: 367.0000
+ micro avg:
+  * precision: 0.0042
+  * recall: 0.0147
+  * f1-score: 0.0065
+  * support: 1092.0000
+ macro avg:
+  * precision: 0.0033
+  * recall: 0.0065
+  * f1-score: 0.0043
+  * support: 1092.0000
+ weighted avg:
+  * precision: 0.0074
+  * recall: 0.0147
+  * f1-score: 0.0098
+  * support: 1092.0000
+ accuracy:
+  * 0.2879
+________________________________________
+
+
+
+
+====================================================================================================
+Training model: bert-base-multilingual-cased
+ * 7 epochs
+ * learning rate is 0.0001
+ * train language: en-it-de
+ * test language: sw
+ * dropout: 0.3
+ * batch size is 128
+ * frozen weights: True
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+____________________________________________________________________________________________________
+
+Epoch 1/7, accuracy: 0.0969, loss: 2.3308
+ * Micro Average: f1: 0.0069, precision: 0.0041, recall: 0.0211
+ * Macro Average: f1: 0.0076, precision: 0.0066, recall: 0.0098
+
+Epoch 2/7, accuracy: 0.0969, loss: 2.3428
+ * Micro Average: f1: 0.0069, precision: 0.0041, recall: 0.0211
+ * Macro Average: f1: 0.0076, precision: 0.0066, recall: 0.0098
+
+Epoch 3/7, accuracy: 0.0969, loss: 2.3212
+ * Micro Average: f1: 0.0069, precision: 0.0041, recall: 0.0211
+ * Macro Average: f1: 0.0076, precision: 0.0066, recall: 0.0098
+
+Epoch 4/7, accuracy: 0.0969, loss: 2.3367
+ * Micro Average: f1: 0.0069, precision: 0.0041, recall: 0.0211
+ * Macro Average: f1: 0.0076, precision: 0.0066, recall: 0.0098
+
+Epoch 5/7, accuracy: 0.0969, loss: 2.3257
+ * Micro Average: f1: 0.0069, precision: 0.0041, recall: 0.0211
+ * Macro Average: f1: 0.0076, precision: 0.0066, recall: 0.0098
+
+Epoch 6/7, accuracy: 0.0969, loss: 2.3293
+ * Micro Average: f1: 0.0069, precision: 0.0041, recall: 0.0211
+ * Macro Average: f1: 0.0076, precision: 0.0066, recall: 0.0098
+
+Epoch 7/7, accuracy: 0.0969, loss: 2.3214
+ * Micro Average: f1: 0.0069, precision: 0.0041, recall: 0.0211
+ * Macro Average: f1: 0.0076, precision: 0.0066, recall: 0.0098
+
+Classification Report on test set:
+________________________________________
+ AD:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ EP:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ LOC:
+  * precision: 0.0309
+  * recall: 0.0363
+  * f1-score: 0.0334
+  * support: 413.0000
+ LS:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ ORG:
+  * precision: 0.0015
+  * recall: 0.0064
+  * f1-score: 0.0024
+  * support: 312.0000
+ PER:
+  * precision: 0.0071
+  * recall: 0.0163
+  * f1-score: 0.0099
+  * support: 367.0000
+ micro avg:
+  * precision: 0.0041
+  * recall: 0.0211
+  * f1-score: 0.0069
+  * support: 1092.0000
+ macro avg:
+  * precision: 0.0066
+  * recall: 0.0098
+  * f1-score: 0.0076
+  * support: 1092.0000
+ weighted avg:
+  * precision: 0.0145
+  * recall: 0.0211
+  * f1-score: 0.0166
+  * support: 1092.0000
+ accuracy:
+  * 0.0969
+________________________________________
+
+
+
+
+====================================================================================================
+Training model: bert-base-multilingual-cased
+ * 7 epochs
+ * learning rate is 5e-05
+ * train language: en-it-de
+ * test language: sw
+ * dropout: 0.3
+ * batch size is 128
+ * frozen weights: False
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+____________________________________________________________________________________________________
+
+Epoch 1/7, accuracy: 0.1083, loss: 2.3047
+ * Micro Average: f1: 0.0095, precision: 0.0057, recall: 0.0293
+ * Macro Average: f1: 0.0122, precision: 0.0116, recall: 0.0130
+
+Epoch 2/7, accuracy: 0.1083, loss: 2.2826
+ * Micro Average: f1: 0.0095, precision: 0.0057, recall: 0.0293
+ * Macro Average: f1: 0.0122, precision: 0.0116, recall: 0.0130
+
+Epoch 3/7, accuracy: 0.1083, loss: 2.2804
+ * Micro Average: f1: 0.0095, precision: 0.0057, recall: 0.0293
+ * Macro Average: f1: 0.0122, precision: 0.0116, recall: 0.0130
+
+Epoch 4/7, accuracy: 0.1084, loss: 2.2874
+ * Micro Average: f1: 0.0095, precision: 0.0057, recall: 0.0293
+ * Macro Average: f1: 0.0122, precision: 0.0116, recall: 0.0130
+
+Epoch 5/7, accuracy: 0.1083, loss: 2.2811
+ * Micro Average: f1: 0.0095, precision: 0.0057, recall: 0.0293
+ * Macro Average: f1: 0.0122, precision: 0.0116, recall: 0.0130
+
+Epoch 6/7, accuracy: 0.1085, loss: 2.2873
+ * Micro Average: f1: 0.0095, precision: 0.0057, recall: 0.0293
+ * Macro Average: f1: 0.0122, precision: 0.0117, recall: 0.0130
+
+Epoch 7/7, accuracy: 0.1086, loss: 2.2869
+ * Micro Average: f1: 0.0095, precision: 0.0057, recall: 0.0293
+ * Macro Average: f1: 0.0122, precision: 0.0117, recall: 0.0130
+
+Classification Report on test set:
+________________________________________
+ AD:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ EP:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ LOC:
+  * precision: 0.0682
+  * recall: 0.0726
+  * f1-score: 0.0703
+  * support: 413.0000
+ LS:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ ORG:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 312.0000
+ PER:
+  * precision: 0.0021
+  * recall: 0.0054
+  * f1-score: 0.0030
+  * support: 367.0000
+ micro avg:
+  * precision: 0.0057
+  * recall: 0.0293
+  * f1-score: 0.0095
+  * support: 1092.0000
+ macro avg:
+  * precision: 0.0117
+  * recall: 0.0130
+  * f1-score: 0.0122
+  * support: 1092.0000
+ weighted avg:
+  * precision: 0.0265
+  * recall: 0.0293
+  * f1-score: 0.0276
+  * support: 1092.0000
+ accuracy:
+  * 0.1086
+________________________________________
+
+
+
+
+====================================================================================================
+Training model: bert-base-multilingual-cased
+ * 7 epochs
+ * learning rate is 5e-05
+ * train language: en-it-de
+ * test language: sw
+ * dropout: 0.3
+ * batch size is 128
+ * frozen weights: True
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+____________________________________________________________________________________________________
+
+Epoch 1/7, accuracy: 0.0791, loss: 2.2557
+ * Micro Average: f1: 0.0138, precision: 0.0083, recall: 0.0421
+ * Macro Average: f1: 0.0056, precision: 0.0033, recall: 0.0186
+
+Epoch 2/7, accuracy: 0.0791, loss: 2.2275
+ * Micro Average: f1: 0.0138, precision: 0.0083, recall: 0.0421
+ * Macro Average: f1: 0.0056, precision: 0.0033, recall: 0.0186
+
+Epoch 3/7, accuracy: 0.0791, loss: 2.2610
+ * Micro Average: f1: 0.0138, precision: 0.0083, recall: 0.0421
+ * Macro Average: f1: 0.0056, precision: 0.0033, recall: 0.0186
+
+Epoch 4/7, accuracy: 0.0791, loss: 2.2775
+ * Micro Average: f1: 0.0138, precision: 0.0083, recall: 0.0421
+ * Macro Average: f1: 0.0056, precision: 0.0033, recall: 0.0186
+
+Epoch 5/7, accuracy: 0.0791, loss: 2.2748
+ * Micro Average: f1: 0.0138, precision: 0.0083, recall: 0.0421
+ * Macro Average: f1: 0.0056, precision: 0.0033, recall: 0.0186
+
+Epoch 6/7, accuracy: 0.0791, loss: 2.2460
+ * Micro Average: f1: 0.0138, precision: 0.0083, recall: 0.0421
+ * Macro Average: f1: 0.0056, precision: 0.0033, recall: 0.0186
+
+Epoch 7/7, accuracy: 0.0791, loss: 2.2351
+ * Micro Average: f1: 0.0138, precision: 0.0083, recall: 0.0421
+ * Macro Average: f1: 0.0056, precision: 0.0033, recall: 0.0186
+
+Classification Report on test set:
+________________________________________
+ AD:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ EP:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ LOC:
+  * precision: 0.0189
+  * recall: 0.1090
+  * f1-score: 0.0322
+  * support: 413.0000
+ LS:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ ORG:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 312.0000
+ PER:
+  * precision: 0.0008
+  * recall: 0.0027
+  * f1-score: 0.0013
+  * support: 367.0000
+ micro avg:
+  * precision: 0.0083
+  * recall: 0.0421
+  * f1-score: 0.0138
+  * support: 1092.0000
+ macro avg:
+  * precision: 0.0033
+  * recall: 0.0186
+  * f1-score: 0.0056
+  * support: 1092.0000
+ weighted avg:
+  * precision: 0.0074
+  * recall: 0.0421
+  * f1-score: 0.0126
+  * support: 1092.0000
+ accuracy:
+  * 0.0791
+________________________________________
+
+
+
+
+====================================================================================================
+BEST MODEL (f1: 0.01228):
+Training model: bert-base-multilingual-cased
+ * 7 epochs
+ * learning rate is 0.0001
+ * train language: en-it-de
+ * test language: sw
+ * dropout: 0.1
+ * batch size is 128
+ * frozen weights: True
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+
+Saving model to /fp/projects01/ec30/eirikeg/models
+Model saved!
+
+----------------------------------------------------------------------------------------------------
+
+
+Task and CPU usage stats:
+JobID           JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+459452           in5550          4                                             00:03:56      0:0 
+459452.batch      batch          4        1   00:03:51          0   00:03:51   00:03:56      0:0 
+459452.exte+     extern          4        1   00:00:00          0   00:00:00   00:03:56      0:0 
+
+Memory usage stats:
+JobID            MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+459452                                                                           
+459452.batch   2854824K          0   2854824K        0              0          0 
+459452.exte+          0          0          0        0              0          0 
+
+Disk usage stats:
+JobID         MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+459452                                                                                                
+459452.batch    15416.67M               0      15416.67M        0.48M                0          0.48M 
+459452.exte+        0.01M               0          0.01M        0.00M                0          0.00M 
+
+GPU usage stats:
+Successfully retrieved statistics for job: 459452. 
++------------------------------------------------------------------------------+
+| GPU ID: 1                                                                    |
++====================================+=========================================+
+|-----  Execution Stats  ------------+-----------------------------------------|
+| Start Time                         | Tue Mar 12 20:38:01 2024                |
+| End Time                           | Tue Mar 12 20:41:58 2024                |
+| Total Execution Time (sec)         | 236.1                                   |
+| No. of Processes                   | 1                                       |
++-----  Performance Stats  ----------+-----------------------------------------+
+| Energy Consumed (Joules)           | 38251                                   |
+| Power Usage (Watts)                | Avg: 181.111, Max: 314.286, Min: 70.777 |
+| Max GPU Memory Used (bytes)        | 29106372608                             |
+| SM Clock (MHz)                     | Avg: 1389, Max: 1410, Min: 1365         |
+| Memory Clock (MHz)                 | Avg: 1512, Max: 1512, Min: 1512         |
+| SM Utilization (%)                 | Avg: 50, Max: 66, Min: 9                |
+| Memory Utilization (%)             | Avg: 5, Max: 8, Min: 0                  |
+| PCIe Rx Bandwidth (megabytes)      | Avg: N/A, Max: N/A, Min: N/A            |
+| PCIe Tx Bandwidth (megabytes)      | Avg: N/A, Max: N/A, Min: N/A            |
++-----  Event Stats  ----------------+-----------------------------------------+
+| Single Bit ECC Errors              | 0                                       |
+| Double Bit ECC Errors              | 0                                       |
+| PCIe Replay Warnings               | 0                                       |
+| Critical XID Errors                | 0                                       |
++-----  Slowdown Stats  -------------+-----------------------------------------+
+| Due to - Power (%)                 | 0                                       |
+|        - Thermal (%)               | 0                                       |
+|        - Reliability (%)           | Not Supported                           |
+|        - Board Limit (%)           | Not Supported                           |
+|        - Low Utilization (%)       | Not Supported                           |
+|        - Sync Boost (%)            | 0                                       |
++--  Compute Process Utilization  ---+-----------------------------------------+
+| PID                                | 2012638                                 |
+|     Avg SM Utilization (%)         | 49                                      |
+|     Avg Memory Utilization (%)     | 4                                       |
++-----  Overall Health  -------------+-----------------------------------------+
+| Overall Health                     | Healthy                                 |
++------------------------------------+-----------------------------------------+
+
++------------------------------------------------------------------------------+
+| GPU ID: 2                                                                    |
++====================================+=========================================+
+|-----  Execution Stats  ------------+-----------------------------------------|
+| Start Time                         | Tue Mar 12 20:38:01 2024                |
+| End Time                           | Tue Mar 12 20:41:58 2024                |
+| Total Execution Time (sec)         | 236.1                                   |
+| No. of Processes                   | 0                                       |
++-----  Performance Stats  ----------+-----------------------------------------+
+| Energy Consumed (Joules)           | 9693                                    |
+| Power Usage (Watts)                | Avg: 45.0994, Max: 45.205, Min: 45.008  |
+| Max GPU Memory Used (bytes)        | 0                                       |
+| SM Clock (MHz)                     | Avg: 210, Max: 210, Min: 210            |
+| Memory Clock (MHz)                 | Avg: 1512, Max: 1512, Min: 1512         |
+| SM Utilization (%)                 | Avg: 0, Max: 0, Min: 0                  |
+| Memory Utilization (%)             | Avg: 0, Max: 0, Min: 0                  |
+| PCIe Rx Bandwidth (megabytes)      | Avg: N/A, Max: N/A, Min: N/A            |
+| PCIe Tx Bandwidth (megabytes)      | Avg: N/A, Max: N/A, Min: N/A            |
++-----  Event Stats  ----------------+-----------------------------------------+
+| Single Bit ECC Errors              | 0                                       |
+| Double Bit ECC Errors              | 0                                       |
+| PCIe Replay Warnings               | 0                                       |
+| Critical XID Errors                | 0                                       |
++-----  Slowdown Stats  -------------+-----------------------------------------+
+| Due to - Power (%)                 | 0                                       |
+|        - Thermal (%)               | 0                                       |
+|        - Reliability (%)           | Not Supported                           |
+|        - Board Limit (%)           | Not Supported                           |
+|        - Low Utilization (%)       | Not Supported                           |
+|        - Sync Boost (%)            | 0                                       |
++-----  Overall Health  -------------+-----------------------------------------+
+| Overall Health                     | Healthy                                 |
++------------------------------------+-----------------------------------------+
+
+
+Job 459452 completed at Tue Mar 12 20:41:58 CET 2024

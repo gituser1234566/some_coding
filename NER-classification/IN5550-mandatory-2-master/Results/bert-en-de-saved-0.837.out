@@ -1,0 +1,117 @@
+python3 hyperparameter_test_eirik.py --batch_size "8" --dropout "0.2"  --lr "2e-05" --epochs 5 --train_language "en-de" --test_language "en" --freeze True
+
+Data preprocessing...
+TESTING FOR MUTLIPLE PARAMETERS:
+
+
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+
+
+====================================================================================================
+Training model: bert-base-multilingual-cased
+ * 5 epochs
+ * learning rate is 2e-05
+ * train language: en-de
+ * test language: en
+ * dropout: 0.2
+ * batch size is 8
+ * frozen weights: False
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+____________________________________________________________________________________________________
+
+Epoch 1/5, accuracy: 0.9010, loss: 0.1726
+ * Micro Average: f1: 0.7649, precision: 0.7447, recall: 0.7862
+ * Macro Average: f1: 0.7651, precision: 0.7453, recall: 0.7883
+
+Epoch 2/5, accuracy: 0.9186, loss: 0.0943
+ * Micro Average: f1: 0.8041, precision: 0.7891, recall: 0.8196
+ * Macro Average: f1: 0.8043, precision: 0.7888, recall: 0.8219
+
+Epoch 3/5, accuracy: 0.9224, loss: 0.0733
+ * Micro Average: f1: 0.8160, precision: 0.8013, recall: 0.8313
+ * Macro Average: f1: 0.8184, precision: 0.8049, recall: 0.8326
+
+Epoch 4/5, accuracy: 0.9243, loss: 0.0586
+ * Micro Average: f1: 0.8249, precision: 0.8153, recall: 0.8348
+ * Macro Average: f1: 0.8245, precision: 0.8145, recall: 0.8370
+
+git stauts
+Epoch 5/5, accuracy: 0.9266, loss: 0.0478
+ * Micro Average: f1: 0.8297, precision: 0.8212, recall: 0.8384
+ * Macro Average: f1: 0.8297, precision: 0.8202, recall: 0.8405
+
+Classification Report on test set:
+
+________________________________________
+ LOC:
+  * precision: 0.8409
+  * recall: 0.8688
+  * f1-score: 0.8546
+  * support: 4831.0000
+ ORG:
+  * precision: 0.7663
+  * recall: 0.7481
+  * f1-score: 0.7571
+  * support: 4672.0000
+ PER:
+  * precision: 0.8775
+  * recall: 0.9167
+  * f1-score: 0.8967
+  * support: 4633.0000
+ micro avg:
+  * precision: 0.8296
+  * recall: 0.8446
+  * f1-score: 0.8370
+  * support: 14136.0000
+ macro avg:
+  * precision: 0.8282
+  * recall: 0.8445
+  * f1-score: 0.8361
+  * support: 14136.0000
+ weighted avg:
+  * precision: 0.8282
+  * recall: 0.8446
+  * f1-score: 0.8362
+  * support: 14136.0000
+ accuracy:
+  * 0.9277
+________________________________________
+
+
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Saving model to .
+Model saved!
+
+----------------------------------------------------------------------------------------------------
+
+
+
+====================================================================================================
+BEST MODEL (f1: 0.837):
+Training model: bert-base-multilingual-cased
+ * 5 epochs
+ * learning rate is 2e-05
+ * train language: en-de
+ * test language: en
+ * dropout: 0.2
+ * batch size is 8
+ * frozen weights: False
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+
+Saving model to .
+Model saved!
+
+----------------------------------------------------------------------------------------------------
+
+bash-4.4$ git stauts
+git: 'stauts' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+bash-4.4$ 

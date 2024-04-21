@@ -1,0 +1,750 @@
+Starting job 460138 on gpu-4 at Wed Mar 13 07:09:39 CET 2024
+
+submission directory: /fp/homes01/u01/ec-eirikeg/mandatory_2
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/fp/projects01/ec30/software/easybuild/software/nlpl-nlptools/01-foss-2022b-Python-3.10.8/lib/python3.10/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: [PAD] seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/fp/projects01/ec30/software/easybuild/software/nlpl-nlptools/01-foss-2022b-Python-3.10.8/lib/python3.10/site-packages/seqeval/metrics/v1.py:57: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/fp/projects01/ec30/software/easybuild/software/nlpl-nlptools/01-foss-2022b-Python-3.10.8/lib/python3.10/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: [SEP] seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/fp/projects01/ec30/software/easybuild/software/nlpl-nlptools/01-foss-2022b-Python-3.10.8/lib/python3.10/site-packages/seqeval/metrics/v1.py:57: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/fp/projects01/ec30/software/easybuild/software/nlpl-nlptools/01-foss-2022b-Python-3.10.8/lib/python3.10/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: [CLS] seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+
+Data preprocessing...
+TESTING FOR MUTLIPLE PARAMETERS:
+
+
+
+
+====================================================================================================
+Training model: bert-base-multilingual-cased
+ * 10 epochs
+ * learning rate is 2e-05
+ * train language: en
+ * test language: en,it,de,sw,af,ru
+ * dropout: 0.3
+ * batch size is 32
+ * frozen weights: True
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+____________________________________________________________________________________________________
+
+Epoch 1/10, accuracy: 0.1290, loss: 1.8957
+ * Micro Average: f1: 0.0002, precision: 0.0002, recall: 0.0002
+ * Macro Average: f1: 0.0003, precision: 0.0139, recall: 0.0001
+
+Epoch 2/10, accuracy: 0.0979, loss: 1.4573
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 3/10, accuracy: 0.1521, loss: 1.2978
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 4/10, accuracy: 0.2174, loss: 1.2235
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 5/10, accuracy: 0.2634, loss: 1.1658
+ * Micro Average: f1: 0.0002, precision: 0.0002, recall: 0.0002
+ * Macro Average: f1: 0.0003, precision: 0.0357, recall: 0.0001
+
+Epoch 6/10, accuracy: 0.2978, loss: 1.1318
+ * Micro Average: f1: 0.0002, precision: 0.0002, recall: 0.0002
+ * Macro Average: f1: 0.0003, precision: 0.0086, recall: 0.0001
+
+Epoch 7/10, accuracy: 0.3192, loss: 1.1036
+ * Micro Average: f1: 0.0002, precision: 0.0002, recall: 0.0002
+ * Macro Average: f1: 0.0003, precision: 0.0051, recall: 0.0001
+
+Epoch 8/10, accuracy: 0.3315, loss: 1.0763
+ * Micro Average: f1: 0.0002, precision: 0.0002, recall: 0.0002
+ * Macro Average: f1: 0.0003, precision: 0.0032, recall: 0.0001
+
+Epoch 9/10, accuracy: 0.3395, loss: 1.0652
+ * Micro Average: f1: 0.0002, precision: 0.0002, recall: 0.0002
+ * Macro Average: f1: 0.0003, precision: 0.0024, recall: 0.0001
+
+Epoch 10/10, accuracy: 0.3428, loss: 1.0713
+ * Micro Average: f1: 0.0002, precision: 0.0002, recall: 0.0002
+ * Macro Average: f1: 0.0002, precision: 0.0022, recall: 0.0001
+
+Finished training in 139.23 seconds
+
+Classification Report on test set:
+
+________________________________________
+ LOC:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 4825.0000
+ ORG:
+  * precision: 0.0178
+  * recall: 0.0015
+  * f1-score: 0.0028
+  * support: 4666.0000
+ PAD]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ PER:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 4630.0000
+ SEP]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ micro avg:
+  * precision: 0.0004
+  * recall: 0.0005
+  * f1-score: 0.0005
+  * support: 14121.0000
+ macro avg:
+  * precision: 0.0036
+  * recall: 0.0003
+  * f1-score: 0.0006
+  * support: 14121.0000
+ weighted avg:
+  * precision: 0.0059
+  * recall: 0.0005
+  * f1-score: 0.0009
+  * support: 14121.0000
+ accuracy:
+  * 0.3372
+________________________________________
+
+
+Saving model to /fp/projects01/ec30/eirikeg/models
+Model saved!
+
+----------------------------------------------------------------------------------------------------
+
+
+
+====================================================================================================
+Training model: bert-base-multilingual-cased
+ * 10 epochs
+ * learning rate is 2e-05
+ * train language: en
+ * test language: en,it,de,sw,af,ru
+ * dropout: 0.3
+ * batch size is 32
+ * frozen weights: True
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+____________________________________________________________________________________________________
+
+Epoch 1/10, accuracy: 0.0159, loss: 1.9425
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 2/10, accuracy: 0.0345, loss: 1.4837
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 3/10, accuracy: 0.1274, loss: 1.3260
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 4/10, accuracy: 0.2337, loss: 1.2483
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 5/10, accuracy: 0.3012, loss: 1.1869
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 6/10, accuracy: 0.3487, loss: 1.1552
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 7/10, accuracy: 0.3792, loss: 1.1198
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 8/10, accuracy: 0.3948, loss: 1.0955
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 9/10, accuracy: 0.4040, loss: 1.0788
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 10/10, accuracy: 0.4071, loss: 1.0681
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Finished training in 142.05 seconds
+
+Classification Report on test set:
+
+________________________________________
+ CLS]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ LOC:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 4595.0000
+ ORG:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 4108.0000
+ PAD]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ PER:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 4906.0000
+ SEP]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ micro avg:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 13609.0000
+ macro avg:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 13609.0000
+ weighted avg:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 13609.0000
+ accuracy:
+  * 0.4019
+________________________________________
+
+
+Saving model to /fp/projects01/ec30/eirikeg/models
+Model saved!
+
+----------------------------------------------------------------------------------------------------
+
+
+
+====================================================================================================
+Training model: bert-base-multilingual-cased
+ * 10 epochs
+ * learning rate is 2e-05
+ * train language: en
+ * test language: en,it,de,sw,af,ru
+ * dropout: 0.3
+ * batch size is 32
+ * frozen weights: True
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+____________________________________________________________________________________________________
+
+Epoch 1/10, accuracy: 0.2829, loss: 1.9781
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 2/10, accuracy: 0.1888, loss: 1.4862
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 3/10, accuracy: 0.2622, loss: 1.3134
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 4/10, accuracy: 0.3492, loss: 1.2310
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 5/10, accuracy: 0.4109, loss: 1.1699
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 6/10, accuracy: 0.4556, loss: 1.1396
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 7/10, accuracy: 0.4820, loss: 1.1095
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 8/10, accuracy: 0.4999, loss: 1.0920
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 9/10, accuracy: 0.5085, loss: 1.0713
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 10/10, accuracy: 0.5107, loss: 1.0600
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Finished training in 148.09 seconds
+
+Classification Report on test set:
+
+________________________________________
+ CLS]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ LOC:
+  * precision: 0.0062
+  * recall: 0.0002
+  * f1-score: 0.0004
+  * support: 4961.0000
+ ORG:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 4273.0000
+ PAD]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ PER:
+  * precision: 0.0024
+  * recall: 0.0002
+  * f1-score: 0.0004
+  * support: 4565.0000
+ SEP]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ micro avg:
+  * precision: 0.0001
+  * recall: 0.0001
+  * f1-score: 0.0001
+  * support: 13799.0000
+ macro avg:
+  * precision: 0.0014
+  * recall: 0.0001
+  * f1-score: 0.0001
+  * support: 13799.0000
+ weighted avg:
+  * precision: 0.0030
+  * recall: 0.0001
+  * f1-score: 0.0003
+  * support: 13799.0000
+ accuracy:
+  * 0.5186
+________________________________________
+
+
+Saving model to /fp/projects01/ec30/eirikeg/models
+Model saved!
+
+----------------------------------------------------------------------------------------------------
+
+
+
+====================================================================================================
+Training model: bert-base-multilingual-cased
+ * 10 epochs
+ * learning rate is 2e-05
+ * train language: en
+ * test language: en,it,de,sw,af,ru
+ * dropout: 0.3
+ * batch size is 32
+ * frozen weights: True
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+____________________________________________________________________________________________________
+
+Epoch 1/10, accuracy: 0.0311, loss: 1.9466
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 2/10, accuracy: 0.0311, loss: 1.4991
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 3/10, accuracy: 0.0610, loss: 1.3352
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 4/10, accuracy: 0.0880, loss: 1.2435
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 5/10, accuracy: 0.1238, loss: 1.1862
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 6/10, accuracy: 0.1538, loss: 1.1424
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 7/10, accuracy: 0.1690, loss: 1.1116
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 8/10, accuracy: 0.1843, loss: 1.0942
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 9/10, accuracy: 0.1913, loss: 1.0769
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 10/10, accuracy: 0.1931, loss: 1.0725
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Finished training in 92.10 seconds
+
+Classification Report on test set:
+
+________________________________________
+ LOC:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 446.0000
+ ORG:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 351.0000
+ PAD]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ PER:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 402.0000
+ micro avg:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 1199.0000
+ macro avg:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 1199.0000
+ weighted avg:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 1199.0000
+ accuracy:
+  * 0.1830
+________________________________________
+
+
+Saving model to /fp/projects01/ec30/eirikeg/models
+Model saved!
+
+----------------------------------------------------------------------------------------------------
+
+
+
+====================================================================================================
+Training model: bert-base-multilingual-cased
+ * 10 epochs
+ * learning rate is 2e-05
+ * train language: en
+ * test language: en,it,de,sw,af,ru
+ * dropout: 0.3
+ * batch size is 32
+ * frozen weights: True
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+____________________________________________________________________________________________________
+
+Epoch 1/10, accuracy: 0.3021, loss: 2.0157
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 2/10, accuracy: 0.1488, loss: 1.5008
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 3/10, accuracy: 0.1919, loss: 1.3241
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 4/10, accuracy: 0.2732, loss: 1.2407
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 5/10, accuracy: 0.3410, loss: 1.1821
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 6/10, accuracy: 0.3964, loss: 1.1440
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 7/10, accuracy: 0.4300, loss: 1.1120
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 8/10, accuracy: 0.4487, loss: 1.0883
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 9/10, accuracy: 0.4620, loss: 1.0730
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 10/10, accuracy: 0.4666, loss: 1.0751
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Finished training in 106.55 seconds
+
+Classification Report on test set:
+
+________________________________________
+ CLS]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ LOC:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 526.0000
+ ORG:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 581.0000
+ PAD]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ PER:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 365.0000
+ micro avg:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 1472.0000
+ macro avg:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 1472.0000
+ weighted avg:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 1472.0000
+ accuracy:
+  * 0.4745
+________________________________________
+
+
+Saving model to /fp/projects01/ec30/eirikeg/models
+Model saved!
+
+----------------------------------------------------------------------------------------------------
+
+
+
+====================================================================================================
+Training model: bert-base-multilingual-cased
+ * 10 epochs
+ * learning rate is 2e-05
+ * train language: en
+ * test language: en,it,de,sw,af,ru
+ * dropout: 0.3
+ * batch size is 32
+ * frozen weights: True
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+____________________________________________________________________________________________________
+
+Epoch 1/10, accuracy: 0.1454, loss: 2.0077
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 2/10, accuracy: 0.0983, loss: 1.5073
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 3/10, accuracy: 0.1506, loss: 1.3379
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 4/10, accuracy: 0.2110, loss: 1.2433
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 5/10, accuracy: 0.2571, loss: 1.1811
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 6/10, accuracy: 0.3011, loss: 1.1494
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 7/10, accuracy: 0.3301, loss: 1.1211
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 8/10, accuracy: 0.3473, loss: 1.0976
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 9/10, accuracy: 0.3556, loss: 1.0772
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 10/10, accuracy: 0.3593, loss: 1.0776
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Finished training in 145.99 seconds
+
+Classification Report on test set:
+
+________________________________________
+ CLS]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ LOC:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 4845.0000
+ ORG:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 3887.0000
+ PAD]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ PER:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 3583.0000
+ SEP]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ micro avg:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 12315.0000
+ macro avg:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 12315.0000
+ weighted avg:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 12315.0000
+ accuracy:
+  * 0.3643
+________________________________________
+
+
+Saving model to /fp/projects01/ec30/eirikeg/models
+Model saved!
+
+----------------------------------------------------------------------------------------------------
+
+
+
+====================================================================================================
+BEST MODEL (f1: 0.0004588):
+Training model: bert-base-multilingual-cased
+ * 10 epochs
+ * learning rate is 2e-05
+ * train language: en
+ * test language: en,it,de,sw,af,ru
+ * dropout: 0.3
+ * batch size is 32
+ * frozen weights: True
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+
+Saving model to /fp/projects01/ec30/eirikeg/models
+Model saved!
+
+----------------------------------------------------------------------------------------------------
+
+
+Task and CPU usage stats:
+JobID           JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+460138           in5550          4                                             00:13:36      0:0 
+460138.batch      batch          4        1   00:13:28          0   00:13:28   00:13:36      0:0 
+460138.exte+     extern          4        1   00:00:00          0   00:00:00   00:13:36      0:0 
+
+Memory usage stats:
+JobID            MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+460138                                                                           
+460138.batch   1968236K          0   1968236K        0              0          0 
+460138.exte+          0          0          0        0              0          0 
+
+Disk usage stats:
+JobID         MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+460138                                                                                                
+460138.batch     4275.64M               0       4275.64M     3382.07M                0       3382.07M 
+460138.exte+        0.01M               0          0.01M        0.00M                0          0.00M 
+
+Job 460138 completed at Wed Mar 13 07:23:14 CET 2024

@@ -1,0 +1,241 @@
+bash-4.4$ python3 hyperparameter_test_eirik.py --batch_size "16" --dropout "0.3"  --lr "2e-05" --epochs 10 --train_language "en-it-de" --test_language "en"
+
+Data preprocessing...
+TESTING FOR MUTLIPLE PARAMETERS:
+
+
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+
+
+====================================================================================================
+Training model: bert-base-multilingual-cased
+ * 10 epochs
+ * learning rate is 2e-05
+ * train language: en-it-de
+ * test language: en
+ * dropout: 0.3
+ * batch size is 16
+ * frozen weights: False
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+____________________________________________________________________________________________________
+
+Epoch 1/10, accuracy: 0.9073, loss: 0.2050
+ * Micro Average: f1: 0.7786, precision: 0.7615, recall: 0.7965
+ * Macro Average: f1: 0.7794, precision: 0.7614, recall: 0.7986
+
+Epoch 2/10, accuracy: 0.9103, loss: 0.1018
+ * Micro Average: f1: 0.7909, precision: 0.7791, recall: 0.8032
+ * Macro Average: f1: 0.7912, precision: 0.7788, recall: 0.8051
+
+Epoch 3/10, accuracy: 0.9167, loss: 0.0860
+ * Micro Average: f1: 0.8121, precision: 0.8012, recall: 0.8233
+ * Macro Average: f1: 0.8147, precision: 0.8054, recall: 0.8246
+
+Epoch 4/10, accuracy: 0.9207, loss: 0.0757
+ * Micro Average: f1: 0.8177, precision: 0.8078, recall: 0.8278
+ * Macro Average: f1: 0.8186, precision: 0.8082, recall: 0.8296
+
+Epoch 5/10, accuracy: 0.9190, loss: 0.0665
+ * Micro Average: f1: 0.8142, precision: 0.8026, recall: 0.8262
+ * Macro Average: f1: 0.8143, precision: 0.8020, recall: 0.8283
+
+Epoch 6/10, accuracy: 0.9233, loss: 0.0595
+ * Micro Average: f1: 0.8242, precision: 0.8126, recall: 0.8360
+ * Macro Average: f1: 0.8248, precision: 0.8127, recall: 0.8378
+
+Epoch 7/10, accuracy: 0.9211, loss: 0.0543
+ * Micro Average: f1: 0.8217, precision: 0.8108, recall: 0.8329
+ * Macro Average: f1: 0.8217, precision: 0.8101, recall: 0.8348
+
+Epoch 8/10, accuracy: 0.9260, loss: 0.0497
+ * Micro Average: f1: 0.8338, precision: 0.8269, recall: 0.8408
+ * Macro Average: f1: 0.8337, precision: 0.8265, recall: 0.8428
+
+Epoch 9/10, accuracy: 0.9266, loss: 0.0467
+ * Micro Average: f1: 0.8339, precision: 0.8241, recall: 0.8441
+ * Macro Average: f1: 0.8340, precision: 0.8235, recall: 0.8460
+
+Epoch 10/10, accuracy: 0.9261, loss: 0.0430
+ * Micro Average: f1: 0.8362, precision: 0.8289, recall: 0.8437
+ * Macro Average: f1: 0.8363, precision: 0.8282, recall: 0.8456
+
+Classification Report on test set:
+
+________________________________________
+ LOC:
+  * precision: 0.8506
+  * recall: 0.8767
+  * f1-score: 0.8634
+  * support: 4825.0000
+ ORG:
+  * precision: 0.7810
+  * recall: 0.7580
+  * f1-score: 0.7693
+  * support: 4666.0000
+ PER:
+  * precision: 0.8853
+  * recall: 0.9149
+  * f1-score: 0.8998
+  * support: 4630.0000
+ micro avg:
+  * precision: 0.8401
+  * recall: 0.8500
+  * f1-score: 0.8450
+  * support: 14121.0000
+ macro avg:
+  * precision: 0.8389
+  * recall: 0.8499
+  * f1-score: 0.8442
+  * support: 14121.0000
+ weighted avg:
+  * precision: 0.8390
+  * recall: 0.8500
+  * f1-score: 0.8443
+  * support: 14121.0000
+ accuracy:
+  * 0.9288
+________________________________________
+
+
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+
+
+====================================================================================================
+Training model: bert-base-multilingual-cased
+ * 10 epochs
+ * learning rate is 2e-05
+ * train language: en-it-de
+ * test language: en
+ * dropout: 0.3
+ * batch size is 16
+ * frozen weights: True
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+____________________________________________________________________________________________________
+
+/itf-fi-ml/home/eirikeg/.local/lib/python3.9/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: [PAD] seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/itf-fi-ml/home/eirikeg/.local/lib/python3.9/site-packages/seqeval/metrics/v1.py:57: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/itf-fi-ml/home/eirikeg/.local/lib/python3.9/site-packages/seqeval/metrics/v1.py:57: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Epoch 1/10, accuracy: 0.2912, loss: 1.4986
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+/itf-fi-ml/home/eirikeg/.local/lib/python3.9/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: [SEP] seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+Epoch 2/10, accuracy: 0.4034, loss: 1.0955
+ * Micro Average: f1: 0.0005, precision: 0.0004, recall: 0.0005
+ * Macro Average: f1: 0.0005, precision: 0.0014, recall: 0.0003
+
+Epoch 3/10, accuracy: 0.5047, loss: 0.9473
+ * Micro Average: f1: 0.0127, precision: 0.0100, recall: 0.0173
+ * Macro Average: f1: 0.0117, precision: 0.0134, recall: 0.0104
+
+Epoch 4/10, accuracy: 0.5782, loss: 0.8609
+ * Micro Average: f1: 0.0413, precision: 0.0317, recall: 0.0591
+ * Macro Average: f1: 0.0356, precision: 0.0365, recall: 0.0355
+
+Epoch 5/10, accuracy: 0.6145, loss: 0.8084
+ * Micro Average: f1: 0.0728, precision: 0.0558, recall: 0.1047
+ * Macro Average: f1: 0.0605, precision: 0.0592, recall: 0.0629
+
+Epoch 6/10, accuracy: 0.6403, loss: 0.7705
+ * Micro Average: f1: 0.1016, precision: 0.0781, recall: 0.1452
+ * Macro Average: f1: 0.0818, precision: 0.0779, recall: 0.0874
+
+Epoch 7/10, accuracy: 0.6581, loss: 0.7501
+ * Micro Average: f1: 0.1289, precision: 0.0998, recall: 0.1820
+ * Macro Average: f1: 0.1005, precision: 0.0938, recall: 0.1097
+
+Epoch 8/10, accuracy: 0.6680, loss: 0.7353
+ * Micro Average: f1: 0.1477, precision: 0.1148, recall: 0.2072
+ * Macro Average: f1: 0.1131, precision: 0.1043, recall: 0.1250
+
+Epoch 9/10, accuracy: 0.6733, loss: 0.7244
+ * Micro Average: f1: 0.1577, precision: 0.1229, recall: 0.2201
+ * Macro Average: f1: 0.1196, precision: 0.1099, recall: 0.1328
+
+Epoch 10/10, accuracy: 0.6752, loss: 0.7201
+ * Micro Average: f1: 0.1605, precision: 0.1250, recall: 0.2240
+ * Macro Average: f1: 0.1216, precision: 0.1115, recall: 0.1351
+
+/itf-fi-ml/home/eirikeg/.local/lib/python3.9/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: [CLS] seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+Classification Report on test set:
+
+________________________________________
+ CLS]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ LOC:
+  * precision: 0.1547
+  * recall: 0.1347
+  * f1-score: 0.1440
+  * support: 4825.0000
+ ORG:
+  * precision: 0.1527
+  * recall: 0.1978
+  * f1-score: 0.1724
+  * support: 4666.0000
+ PAD]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ PER:
+  * precision: 0.2578
+  * recall: 0.3395
+  * f1-score: 0.2931
+  * support: 4630.0000
+ SEP]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ micro avg:
+  * precision: 0.1269
+  * recall: 0.2227
+  * f1-score: 0.1616
+  * support: 14121.0000
+ macro avg:
+  * precision: 0.0942
+  * recall: 0.1120
+  * f1-score: 0.1016
+  * support: 14121.0000
+ weighted avg:
+  * precision: 0.1879
+  * recall: 0.2227
+  * f1-score: 0.2023
+  * support: 14121.0000
+ accuracy:
+  * 0.6720
+________________________________________
+
+
+
+
+====================================================================================================
+BEST MODEL (f1: 0.845):
+Training model: bert-base-multilingual-cased
+ * 10 epochs
+ * learning rate is 2e-05
+ * train language: en-it-de
+ * test language: en
+ * dropout: 0.3
+ * batch size is 16
+ * frozen weights: False
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+
+Saving model to .
+Model saved!

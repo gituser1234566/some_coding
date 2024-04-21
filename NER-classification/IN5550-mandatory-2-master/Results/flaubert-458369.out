@@ -1,0 +1,47 @@
+Starting job 458369 on c1-20 at Tue Mar 12 00:15:01 CET 2024
+
+/var/spool/slurmd/job458369/slurm_script: line 13: /fp/homes01/u01/ec-torkilef/.bashrc: No such file or directory
+submission directory: /fp/homes01/u01/ec-torkilef/IN5550-mandatory-2
+Some weights of FlaubertForTokenClassification were not initialized from the model checkpoint at flaubert/flaubert_base_cased and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+
+Data preprocessing...
+Traceback (most recent call last):
+  File "/fp/homes01/u01/ec-torkilef/IN5550-mandatory-2/hyperparameter_test_new.py", line 141, in <module>
+    train_set = XTREMEDataset("./train-en-split.tsv.gz",args.model)
+  File "/fp/homes01/u01/ec-torkilef/IN5550-mandatory-2/train_finetune_script.py", line 105, in __init__
+    self.tokenize_data()
+  File "/fp/homes01/u01/ec-torkilef/IN5550-mandatory-2/train_finetune_script.py", line 110, in tokenize_data
+    tokens = self.tokenizer(sent_string, return_offsets_mapping=True, max_length=512, truncation=True)
+  File "/fp/projects01/ec30/software/easybuild/software/nlpl-transformers/4.35.2-foss-2022b-Python-3.10.8/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2798, in __call__
+    encodings = self._call_one(text=text, text_pair=text_pair, **all_kwargs)
+  File "/fp/projects01/ec30/software/easybuild/software/nlpl-transformers/4.35.2-foss-2022b-Python-3.10.8/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2904, in _call_one
+    return self.encode_plus(
+  File "/fp/projects01/ec30/software/easybuild/software/nlpl-transformers/4.35.2-foss-2022b-Python-3.10.8/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2977, in encode_plus
+    return self._encode_plus(
+  File "/fp/projects01/ec30/software/easybuild/software/nlpl-transformers/4.35.2-foss-2022b-Python-3.10.8/lib/python3.10/site-packages/transformers/tokenization_utils.py", line 711, in _encode_plus
+    raise NotImplementedError(
+NotImplementedError: return_offset_mapping is not available when using Python tokenizers. To use this feature, change your tokenizer to one deriving from transformers.PreTrainedTokenizerFast. More information on available tokenizers at https://github.com/huggingface/transformers/pull/2674
+
+Task and CPU usage stats:
+JobID           JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+458369           in5550          4                                             00:00:20      1:0 
+458369.batch      batch          4        1   00:00:10          0   00:00:10   00:00:20      1:0 
+458369.exte+     extern          4        1   00:00:00          0   00:00:00   00:00:20      0:0 
+
+Memory usage stats:
+JobID            MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+458369                                                                           
+458369.batch      1616K          0      1616K        0              0          0 
+458369.exte+          0          0          0        0              0          0 
+
+Disk usage stats:
+JobID         MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+458369                                                                                                
+458369.batch            0               0              0        0.00M                0          0.00M 
+458369.exte+        0.01M               0          0.01M        0.00M                0          0.00M 
+
+Job 458369 completed at Tue Mar 12 00:15:21 CET 2024

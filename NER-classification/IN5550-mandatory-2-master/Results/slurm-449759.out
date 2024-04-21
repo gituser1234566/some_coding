@@ -1,0 +1,3059 @@
+Starting job 449759 on gpu-8 at Thu Mar 7 23:07:46 CET 2024
+
+submission directory: /fp/homes01/u01/ec-eirikeg/mandatory_2
+Some weights of XLMRobertaForTokenClassification were not initialized from the model checkpoint at xlm-roberta-base and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/fp/projects01/ec30/software/easybuild/software/nlpl-nlptools/01-foss-2022b-Python-3.10.8/lib/python3.10/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: [CLS] seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/fp/projects01/ec30/software/easybuild/software/nlpl-nlptools/01-foss-2022b-Python-3.10.8/lib/python3.10/site-packages/seqeval/metrics/v1.py:57: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/fp/projects01/ec30/software/easybuild/software/nlpl-nlptools/01-foss-2022b-Python-3.10.8/lib/python3.10/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: [SEP] seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/fp/projects01/ec30/software/easybuild/software/nlpl-nlptools/01-foss-2022b-Python-3.10.8/lib/python3.10/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: [PAD] seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+
+Data preprocessing...
+TESTING FOR MUTLIPLE PARAMETERS:
+
+
+
+
+====================================================================================================
+Training model: xlm-roberta-base
+ * 10 epochs
+ * learning rate is 2e-05
+ * batch size is 16
+ * frozen weights: False
+ * device is on cuda * warmup steps: 50
+ * activation: GELU
+ * languages: en
+----------------------------------------------------------------------------------------------------
+
+Epoch 1/10, accuracy: 0.6487
+ * Micro Average: f1: 0.1928, precision: 0.1650, recall: 0.2320
+ * Macro Average: f1: 0.1307, precision: 0.1068, recall: 0.1769
+
+Epoch 2/10, accuracy: 0.7138
+ * Micro Average: f1: 0.3369, precision: 0.2993, recall: 0.3854
+ * Macro Average: f1: 0.2555, precision: 0.2294, recall: 0.2902
+
+Epoch 3/10, accuracy: 0.7463
+ * Micro Average: f1: 0.4008, precision: 0.3605, recall: 0.4514
+ * Macro Average: f1: 0.2402, precision: 0.2196, recall: 0.2725
+
+Epoch 4/10, accuracy: 0.7698
+ * Micro Average: f1: 0.4540, precision: 0.4195, recall: 0.4946
+ * Macro Average: f1: 0.2741, precision: 0.2558, recall: 0.2975
+
+Epoch 5/10, accuracy: 0.7855
+ * Micro Average: f1: 0.4781, precision: 0.4549, recall: 0.5037
+ * Macro Average: f1: 0.3591, precision: 0.3435, recall: 0.3794
+
+Epoch 6/10, accuracy: 0.7904
+ * Micro Average: f1: 0.4898, precision: 0.4532, recall: 0.5327
+ * Macro Average: f1: 0.4956, precision: 0.4659, recall: 0.5336
+
+Epoch 7/10, accuracy: 0.7969
+ * Micro Average: f1: 0.5070, precision: 0.4763, recall: 0.5420
+ * Macro Average: f1: 0.5010, precision: 0.4701, recall: 0.5455
+
+Epoch 8/10, accuracy: 0.8053
+ * Micro Average: f1: 0.5242, precision: 0.4991, recall: 0.5521
+ * Macro Average: f1: 0.5250, precision: 0.4990, recall: 0.5542
+
+Epoch 9/10, accuracy: 0.8073
+ * Micro Average: f1: 0.5255, precision: 0.4990, recall: 0.5550
+ * Macro Average: f1: 0.5278, precision: 0.5027, recall: 0.5568
+
+Epoch 10/10, accuracy: 0.8077
+ * Micro Average: f1: 0.5270, precision: 0.4978, recall: 0.5599
+ * Macro Average: f1: 0.5279, precision: 0.4986, recall: 0.5621
+
+Classification Report on test set:
+
+________________________________________
+ LOC:
+  * precision: 0.5739
+  * recall: 0.6079
+  * f1-score: 0.5904
+  * support: 4825.0000
+ ORG:
+  * precision: 0.4074
+  * recall: 0.4556
+  * f1-score: 0.4301
+  * support: 4666.0000
+ PER:
+  * precision: 0.5555
+  * recall: 0.6512
+  * f1-score: 0.5995
+  * support: 4630.0000
+ micro avg:
+  * precision: 0.5124
+  * recall: 0.5718
+  * f1-score: 0.5404
+  * support: 14121.0000
+ macro avg:
+  * precision: 0.5122
+  * recall: 0.5716
+  * f1-score: 0.5400
+  * support: 14121.0000
+ weighted avg:
+  * precision: 0.5128
+  * recall: 0.5718
+  * f1-score: 0.5404
+  * support: 14121.0000
+ accuracy:
+  * 0.8064
+________________________________________
+
+
+====================================================================================================
+
+
+
+
+====================================================================================================
+Training model: xlm-roberta-base
+ * 10 epochs
+ * learning rate is 2e-05
+ * batch size is 16
+ * frozen weights: True
+ * device is on cuda * warmup steps: 50
+ * activation: GELU
+ * languages: en
+----------------------------------------------------------------------------------------------------
+
+Epoch 1/10, accuracy: 0.8081
+ * Micro Average: f1: 0.5278, precision: 0.4991, recall: 0.5599
+ * Macro Average: f1: 0.5289, precision: 0.5002, recall: 0.5620
+
+Epoch 2/10, accuracy: 0.8078
+ * Micro Average: f1: 0.5263, precision: 0.4968, recall: 0.5595
+ * Macro Average: f1: 0.5274, precision: 0.4978, recall: 0.5616
+
+Epoch 3/10, accuracy: 0.8079
+ * Micro Average: f1: 0.5271, precision: 0.4983, recall: 0.5595
+ * Macro Average: f1: 0.5284, precision: 0.4996, recall: 0.5617
+
+Epoch 4/10, accuracy: 0.8078
+ * Micro Average: f1: 0.5257, precision: 0.4958, recall: 0.5594
+ * Macro Average: f1: 0.5267, precision: 0.4967, recall: 0.5615
+
+Epoch 5/10, accuracy: 0.8076
+ * Micro Average: f1: 0.5263, precision: 0.4970, recall: 0.5592
+ * Macro Average: f1: 0.5274, precision: 0.4981, recall: 0.5613
+
+Epoch 6/10, accuracy: 0.8079
+ * Micro Average: f1: 0.5261, precision: 0.4969, recall: 0.5588
+ * Macro Average: f1: 0.5272, precision: 0.4980, recall: 0.5609
+
+Epoch 7/10, accuracy: 0.8077
+ * Micro Average: f1: 0.5265, precision: 0.4972, recall: 0.5595
+ * Macro Average: f1: 0.5275, precision: 0.4979, recall: 0.5617
+
+Epoch 8/10, accuracy: 0.8077
+ * Micro Average: f1: 0.5254, precision: 0.4957, recall: 0.5588
+ * Macro Average: f1: 0.5266, precision: 0.4970, recall: 0.5609
+
+Epoch 9/10, accuracy: 0.8078
+ * Micro Average: f1: 0.5262, precision: 0.4968, recall: 0.5594
+ * Macro Average: f1: 0.5273, precision: 0.4978, recall: 0.5615
+
+Epoch 10/10, accuracy: 0.8078
+ * Micro Average: f1: 0.5265, precision: 0.4970, recall: 0.5597
+ * Macro Average: f1: 0.5276, precision: 0.4981, recall: 0.5619
+
+Classification Report on test set:
+
+________________________________________
+ LOC:
+  * precision: 0.5735
+  * recall: 0.6093
+  * f1-score: 0.5909
+  * support: 4825.0000
+ ORG:
+  * precision: 0.4064
+  * recall: 0.4554
+  * f1-score: 0.4295
+  * support: 4666.0000
+ PER:
+  * precision: 0.5587
+  * recall: 0.6488
+  * f1-score: 0.6004
+  * support: 4630.0000
+ micro avg:
+  * precision: 0.5129
+  * recall: 0.5714
+  * f1-score: 0.5406
+  * support: 14121.0000
+ macro avg:
+  * precision: 0.5129
+  * recall: 0.5712
+  * f1-score: 0.5403
+  * support: 14121.0000
+ weighted avg:
+  * precision: 0.5134
+  * recall: 0.5714
+  * f1-score: 0.5407
+  * support: 14121.0000
+ accuracy:
+  * 0.8062
+________________________________________
+
+
+====================================================================================================
+
+
+
+
+====================================================================================================
+Training model: xlm-roberta-base
+ * 10 epochs
+ * learning rate is 2e-05
+ * batch size is 16
+ * frozen weights: False
+ * device is on cuda * warmup steps: 50
+ * activation: GELU
+ * languages: en
+----------------------------------------------------------------------------------------------------
+
+Epoch 1/10, accuracy: 0.8030
+ * Micro Average: f1: 0.5259, precision: 0.5007, recall: 0.5537
+ * Macro Average: f1: 0.5225, precision: 0.5006, recall: 0.5569
+
+Epoch 2/10, accuracy: 0.8037
+ * Micro Average: f1: 0.5245, precision: 0.4991, recall: 0.5526
+ * Macro Average: f1: 0.5207, precision: 0.4974, recall: 0.5559
+
+Epoch 3/10, accuracy: 0.8043
+ * Micro Average: f1: 0.5275, precision: 0.5021, recall: 0.5557
+ * Macro Average: f1: 0.5241, precision: 0.5013, recall: 0.5589
+
+Epoch 4/10, accuracy: 0.8055
+ * Micro Average: f1: 0.5302, precision: 0.5059, recall: 0.5570
+ * Macro Average: f1: 0.5274, precision: 0.5051, recall: 0.5600
+
+Epoch 5/10, accuracy: 0.8046
+ * Micro Average: f1: 0.5280, precision: 0.5032, recall: 0.5554
+ * Macro Average: f1: 0.5246, precision: 0.5025, recall: 0.5585
+
+Epoch 6/10, accuracy: 0.8045
+ * Micro Average: f1: 0.5276, precision: 0.5026, recall: 0.5554
+ * Macro Average: f1: 0.5241, precision: 0.5014, recall: 0.5585
+
+Epoch 7/10, accuracy: 0.8048
+ * Micro Average: f1: 0.5269, precision: 0.5016, recall: 0.5550
+ * Macro Average: f1: 0.5235, precision: 0.5001, recall: 0.5582
+
+Epoch 8/10, accuracy: 0.8048
+ * Micro Average: f1: 0.5269, precision: 0.5012, recall: 0.5555
+ * Macro Average: f1: 0.5234, precision: 0.4996, recall: 0.5587
+
+Epoch 9/10, accuracy: 0.8050
+ * Micro Average: f1: 0.5267, precision: 0.5012, recall: 0.5550
+ * Macro Average: f1: 0.5234, precision: 0.4998, recall: 0.5582
+
+Epoch 10/10, accuracy: 0.8049
+ * Micro Average: f1: 0.5268, precision: 0.5011, recall: 0.5554
+ * Macro Average: f1: 0.5234, precision: 0.4996, recall: 0.5585
+
+Classification Report on test set:
+
+________________________________________
+ LOC:
+  * precision: 0.5817
+  * recall: 0.5861
+  * f1-score: 0.5839
+  * support: 4825.0000
+ ORG:
+  * precision: 0.4341
+  * recall: 0.4136
+  * f1-score: 0.4236
+  * support: 4666.0000
+ PER:
+  * precision: 0.5068
+  * recall: 0.6961
+  * f1-score: 0.5865
+  * support: 4630.0000
+ SEP]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ micro avg:
+  * precision: 0.5093
+  * recall: 0.5652
+  * f1-score: 0.5358
+  * support: 14121.0000
+ macro avg:
+  * precision: 0.3806
+  * recall: 0.4240
+  * f1-score: 0.3985
+  * support: 14121.0000
+ weighted avg:
+  * precision: 0.5083
+  * recall: 0.5652
+  * f1-score: 0.5318
+  * support: 14121.0000
+ accuracy:
+  * 0.8025
+________________________________________
+
+
+====================================================================================================
+
+
+
+
+====================================================================================================
+Training model: xlm-roberta-base
+ * 10 epochs
+ * learning rate is 2e-05
+ * batch size is 16
+ * frozen weights: True
+ * device is on cuda * warmup steps: 50
+ * activation: GELU
+ * languages: en
+----------------------------------------------------------------------------------------------------
+
+Epoch 1/10, accuracy: 0.8046
+ * Micro Average: f1: 0.5259, precision: 0.5005, recall: 0.5541
+ * Macro Average: f1: 0.5222, precision: 0.4991, recall: 0.5573
+
+Epoch 2/10, accuracy: 0.8041
+ * Micro Average: f1: 0.5265, precision: 0.5010, recall: 0.5548
+ * Macro Average: f1: 0.5226, precision: 0.4998, recall: 0.5580
+
+Epoch 3/10, accuracy: 0.8039
+ * Micro Average: f1: 0.5257, precision: 0.5002, recall: 0.5539
+ * Macro Average: f1: 0.5217, precision: 0.4984, recall: 0.5572
+
+Epoch 4/10, accuracy: 0.8045
+ * Micro Average: f1: 0.5270, precision: 0.5020, recall: 0.5546
+ * Macro Average: f1: 0.5233, precision: 0.5002, recall: 0.5578
+
+Epoch 5/10, accuracy: 0.8040
+ * Micro Average: f1: 0.5260, precision: 0.5002, recall: 0.5546
+ * Macro Average: f1: 0.5221, precision: 0.4984, recall: 0.5579
+
+Epoch 6/10, accuracy: 0.8047
+ * Micro Average: f1: 0.5267, precision: 0.4999, recall: 0.5564
+ * Macro Average: f1: 0.5231, precision: 0.4984, recall: 0.5596
+
+Epoch 7/10, accuracy: 0.8045
+ * Micro Average: f1: 0.5262, precision: 0.4998, recall: 0.5555
+ * Macro Average: f1: 0.5226, precision: 0.4982, recall: 0.5587
+
+Epoch 8/10, accuracy: 0.8049
+ * Micro Average: f1: 0.5270, precision: 0.5007, recall: 0.5563
+ * Macro Average: f1: 0.5236, precision: 0.4992, recall: 0.5594
+
+Epoch 9/10, accuracy: 0.8045
+ * Micro Average: f1: 0.5265, precision: 0.5006, recall: 0.5554
+ * Macro Average: f1: 0.5228, precision: 0.4988, recall: 0.5585
+
+Epoch 10/10, accuracy: 0.8046
+ * Micro Average: f1: 0.5276, precision: 0.5016, recall: 0.5564
+ * Macro Average: f1: 0.5240, precision: 0.5000, recall: 0.5596
+
+Classification Report on test set:
+
+________________________________________
+ LOC:
+  * precision: 0.5728
+  * recall: 0.5830
+  * f1-score: 0.5779
+  * support: 4825.0000
+ ORG:
+  * precision: 0.4304
+  * recall: 0.4104
+  * f1-score: 0.4202
+  * support: 4666.0000
+ PER:
+  * precision: 0.5059
+  * recall: 0.6968
+  * f1-score: 0.5862
+  * support: 4630.0000
+ SEP]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ micro avg:
+  * precision: 0.5053
+  * recall: 0.5633
+  * f1-score: 0.5327
+  * support: 14121.0000
+ macro avg:
+  * precision: 0.3773
+  * recall: 0.4225
+  * f1-score: 0.3961
+  * support: 14121.0000
+ weighted avg:
+  * precision: 0.5038
+  * recall: 0.5633
+  * f1-score: 0.5285
+  * support: 14121.0000
+ accuracy:
+  * 0.8022
+________________________________________
+
+
+====================================================================================================
+
+
+
+
+====================================================================================================
+Training model: xlm-roberta-base
+ * 10 epochs
+ * learning rate is 2e-05
+ * batch size is 16
+ * frozen weights: False
+ * device is on cuda * warmup steps: 50
+ * activation: GELU
+ * languages: en
+----------------------------------------------------------------------------------------------------
+
+Epoch 1/10, accuracy: 0.8018
+ * Micro Average: f1: 0.5180, precision: 0.4971, recall: 0.5406
+ * Macro Average: f1: 0.3859, precision: 0.3741, recall: 0.4079
+
+Epoch 2/10, accuracy: 0.7978
+ * Micro Average: f1: 0.5079, precision: 0.4919, recall: 0.5249
+ * Macro Average: f1: 0.3780, precision: 0.3714, recall: 0.3961
+
+Epoch 3/10, accuracy: 0.7949
+ * Micro Average: f1: 0.5024, precision: 0.4885, recall: 0.5172
+ * Macro Average: f1: 0.3738, precision: 0.3694, recall: 0.3904
+
+Epoch 4/10, accuracy: 0.7935
+ * Micro Average: f1: 0.5003, precision: 0.4881, recall: 0.5130
+ * Macro Average: f1: 0.3720, precision: 0.3692, recall: 0.3873
+
+Epoch 5/10, accuracy: 0.7915
+ * Micro Average: f1: 0.4953, precision: 0.4850, recall: 0.5059
+ * Macro Average: f1: 0.2943, precision: 0.2938, recall: 0.3056
+
+Epoch 6/10, accuracy: 0.7894
+ * Micro Average: f1: 0.4887, precision: 0.4791, recall: 0.4988
+ * Macro Average: f1: 0.2902, precision: 0.2903, recall: 0.3014
+
+Epoch 7/10, accuracy: 0.7883
+ * Micro Average: f1: 0.4867, precision: 0.4783, recall: 0.4953
+ * Macro Average: f1: 0.2890, precision: 0.2902, recall: 0.2993
+
+Epoch 8/10, accuracy: 0.7876
+ * Micro Average: f1: 0.4851, precision: 0.4775, recall: 0.4930
+ * Macro Average: f1: 0.2879, precision: 0.2896, recall: 0.2979
+
+Epoch 9/10, accuracy: 0.7867
+ * Micro Average: f1: 0.4808, precision: 0.4732, recall: 0.4888
+ * Macro Average: f1: 0.2851, precision: 0.2865, recall: 0.2954
+
+Epoch 10/10, accuracy: 0.7866
+ * Micro Average: f1: 0.4804, precision: 0.4727, recall: 0.4882
+ * Macro Average: f1: 0.2848, precision: 0.2862, recall: 0.2950
+
+Classification Report on test set:
+
+________________________________________
+ LOC:
+  * precision: 0.5846
+  * recall: 0.4481
+  * f1-score: 0.5073
+  * support: 4825.0000
+ ORG:
+  * precision: 0.3843
+  * recall: 0.3495
+  * f1-score: 0.3661
+  * support: 4666.0000
+ PAD]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ PER:
+  * precision: 0.4988
+  * recall: 0.7019
+  * f1-score: 0.5832
+  * support: 4630.0000
+ SEP]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ micro avg:
+  * precision: 0.4842
+  * recall: 0.4988
+  * f1-score: 0.4913
+  * support: 14121.0000
+ macro avg:
+  * precision: 0.2935
+  * recall: 0.2999
+  * f1-score: 0.2913
+  * support: 14121.0000
+ weighted avg:
+  * precision: 0.4903
+  * recall: 0.4988
+  * f1-score: 0.4855
+  * support: 14121.0000
+ accuracy:
+  * 0.7872
+________________________________________
+
+
+====================================================================================================
+
+
+
+
+====================================================================================================
+Training model: xlm-roberta-base
+ * 10 epochs
+ * learning rate is 2e-05
+ * batch size is 16
+ * frozen weights: True
+ * device is on cuda * warmup steps: 50
+ * activation: GELU
+ * languages: en
+----------------------------------------------------------------------------------------------------
+
+Epoch 1/10, accuracy: 0.7840
+ * Micro Average: f1: 0.4736, precision: 0.4683, recall: 0.4791
+ * Macro Average: f1: 0.2803, precision: 0.2830, recall: 0.2896
+
+Epoch 2/10, accuracy: 0.7809
+ * Micro Average: f1: 0.4680, precision: 0.4650, recall: 0.4711
+ * Macro Average: f1: 0.2767, precision: 0.2806, recall: 0.2848
+
+Epoch 3/10, accuracy: 0.7777
+ * Micro Average: f1: 0.4542, precision: 0.4511, recall: 0.4574
+ * Macro Average: f1: 0.2683, precision: 0.2724, recall: 0.2766
+
+Epoch 4/10, accuracy: 0.7734
+ * Micro Average: f1: 0.4301, precision: 0.4242, recall: 0.4363
+ * Macro Average: f1: 0.2541, precision: 0.2561, recall: 0.2638
+
+Epoch 5/10, accuracy: 0.7701
+ * Micro Average: f1: 0.4212, precision: 0.4155, recall: 0.4270
+ * Macro Average: f1: 0.2487, precision: 0.2513, recall: 0.2583
+
+Epoch 6/10, accuracy: 0.7678
+ * Micro Average: f1: 0.4127, precision: 0.4068, recall: 0.4187
+ * Macro Average: f1: 0.2436, precision: 0.2459, recall: 0.2534
+
+Epoch 7/10, accuracy: 0.7659
+ * Micro Average: f1: 0.4047, precision: 0.3986, recall: 0.4111
+ * Macro Average: f1: 0.2389, precision: 0.2409, recall: 0.2487
+
+Epoch 8/10, accuracy: 0.7638
+ * Micro Average: f1: 0.3961, precision: 0.3894, recall: 0.4031
+ * Macro Average: f1: 0.2337, precision: 0.2352, recall: 0.2439
+
+Epoch 9/10, accuracy: 0.7632
+ * Micro Average: f1: 0.3931, precision: 0.3861, recall: 0.4003
+ * Macro Average: f1: 0.2318, precision: 0.2330, recall: 0.2422
+
+Epoch 10/10, accuracy: 0.7628
+ * Micro Average: f1: 0.3899, precision: 0.3828, recall: 0.3972
+ * Macro Average: f1: 0.2298, precision: 0.2306, recall: 0.2404
+
+Classification Report on test set:
+
+________________________________________
+ LOC:
+  * precision: 0.3630
+  * recall: 0.2528
+  * f1-score: 0.2981
+  * support: 4825.0000
+ ORG:
+  * precision: 0.3279
+  * recall: 0.2913
+  * f1-score: 0.3085
+  * support: 4666.0000
+ PAD]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ PER:
+  * precision: 0.5016
+  * recall: 0.6890
+  * f1-score: 0.5805
+  * support: 4630.0000
+ SEP]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ micro avg:
+  * precision: 0.3931
+  * recall: 0.4085
+  * f1-score: 0.4007
+  * support: 14121.0000
+ macro avg:
+  * precision: 0.2385
+  * recall: 0.2466
+  * f1-score: 0.2374
+  * support: 14121.0000
+ weighted avg:
+  * precision: 0.3968
+  * recall: 0.4085
+  * f1-score: 0.3941
+  * support: 14121.0000
+ accuracy:
+  * 0.7640
+________________________________________
+
+
+====================================================================================================
+
+
+
+
+====================================================================================================
+Training model: xlm-roberta-base
+ * 10 epochs
+ * learning rate is 2e-05
+ * batch size is 32
+ * frozen weights: False
+ * device is on cuda * warmup steps: 50
+ * activation: GELU
+ * languages: en
+----------------------------------------------------------------------------------------------------
+
+Epoch 1/10, accuracy: 0.8076
+ * Micro Average: f1: 0.5293, precision: 0.5075, recall: 0.5530
+ * Macro Average: f1: 0.3983, precision: 0.3832, recall: 0.4162
+
+Epoch 2/10, accuracy: 0.8079
+ * Micro Average: f1: 0.5302, precision: 0.5052, recall: 0.5579
+ * Macro Average: f1: 0.3990, precision: 0.3809, recall: 0.4199
+
+Epoch 3/10, accuracy: 0.8078
+ * Micro Average: f1: 0.5296, precision: 0.5029, recall: 0.5594
+ * Macro Average: f1: 0.3982, precision: 0.3783, recall: 0.4211
+
+Epoch 4/10, accuracy: 0.8076
+ * Micro Average: f1: 0.5307, precision: 0.5039, recall: 0.5605
+ * Macro Average: f1: 0.3988, precision: 0.3788, recall: 0.4219
+
+Epoch 5/10, accuracy: 0.8074
+ * Micro Average: f1: 0.5303, precision: 0.5031, recall: 0.5606
+ * Macro Average: f1: 0.3987, precision: 0.3785, recall: 0.4220
+
+Epoch 6/10, accuracy: 0.8073
+ * Micro Average: f1: 0.5308, precision: 0.5035, recall: 0.5612
+ * Macro Average: f1: 0.3989, precision: 0.3784, recall: 0.4225
+
+Epoch 7/10, accuracy: 0.8073
+ * Micro Average: f1: 0.5302, precision: 0.5024, recall: 0.5612
+ * Macro Average: f1: 0.3984, precision: 0.3775, recall: 0.4225
+
+Epoch 8/10, accuracy: 0.8074
+ * Micro Average: f1: 0.5291, precision: 0.5013, recall: 0.5601
+ * Macro Average: f1: 0.3978, precision: 0.3771, recall: 0.4216
+
+Epoch 9/10, accuracy: 0.8077
+ * Micro Average: f1: 0.5299, precision: 0.5020, recall: 0.5610
+ * Macro Average: f1: 0.3983, precision: 0.3775, recall: 0.4223
+
+Epoch 10/10, accuracy: 0.8077
+ * Micro Average: f1: 0.5289, precision: 0.5008, recall: 0.5603
+ * Macro Average: f1: 0.3975, precision: 0.3765, recall: 0.4217
+
+Classification Report on test set:
+
+________________________________________
+ LOC:
+  * precision: 0.5752
+  * recall: 0.6035
+  * f1-score: 0.5890
+  * support: 4825.0000
+ ORG:
+  * precision: 0.4116
+  * recall: 0.4623
+  * f1-score: 0.4355
+  * support: 4666.0000
+ PER:
+  * precision: 0.5611
+  * recall: 0.6499
+  * f1-score: 0.6022
+  * support: 4630.0000
+ SEP]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ micro avg:
+  * precision: 0.5155
+  * recall: 0.5721
+  * f1-score: 0.5423
+  * support: 14121.0000
+ macro avg:
+  * precision: 0.3870
+  * recall: 0.4289
+  * f1-score: 0.4067
+  * support: 14121.0000
+ weighted avg:
+  * precision: 0.5165
+  * recall: 0.5721
+  * f1-score: 0.5426
+  * support: 14121.0000
+ accuracy:
+  * 0.8058
+________________________________________
+
+
+====================================================================================================
+
+
+
+
+====================================================================================================
+Training model: xlm-roberta-base
+ * 10 epochs
+ * learning rate is 2e-05
+ * batch size is 32
+ * frozen weights: True
+ * device is on cuda * warmup steps: 50
+ * activation: GELU
+ * languages: en
+----------------------------------------------------------------------------------------------------
+
+Epoch 1/10, accuracy: 0.8076
+ * Micro Average: f1: 0.5285, precision: 0.4998, recall: 0.5606
+ * Macro Average: f1: 0.3970, precision: 0.3754, recall: 0.4220
+
+Epoch 2/10, accuracy: 0.8071
+ * Micro Average: f1: 0.5276, precision: 0.4992, recall: 0.5595
+ * Macro Average: f1: 0.3963, precision: 0.3747, recall: 0.4212
+
+Epoch 3/10, accuracy: 0.8073
+ * Micro Average: f1: 0.5289, precision: 0.5007, recall: 0.5605
+ * Macro Average: f1: 0.5294, precision: 0.5008, recall: 0.5626
+
+Epoch 4/10, accuracy: 0.8075
+ * Micro Average: f1: 0.5281, precision: 0.4993, recall: 0.5605
+ * Macro Average: f1: 0.5292, precision: 0.5002, recall: 0.5625
+
+Epoch 5/10, accuracy: 0.8076
+ * Micro Average: f1: 0.5276, precision: 0.4991, recall: 0.5595
+ * Macro Average: f1: 0.5285, precision: 0.4998, recall: 0.5616
+
+Epoch 6/10, accuracy: 0.8074
+ * Micro Average: f1: 0.5277, precision: 0.4991, recall: 0.5597
+ * Macro Average: f1: 0.5287, precision: 0.5000, recall: 0.5618
+
+Epoch 7/10, accuracy: 0.8074
+ * Micro Average: f1: 0.5273, precision: 0.4981, recall: 0.5603
+ * Macro Average: f1: 0.5283, precision: 0.4987, recall: 0.5624
+
+Epoch 8/10, accuracy: 0.8075
+ * Micro Average: f1: 0.5270, precision: 0.4980, recall: 0.5595
+ * Macro Average: f1: 0.5279, precision: 0.4987, recall: 0.5617
+
+Epoch 9/10, accuracy: 0.8073
+ * Micro Average: f1: 0.5268, precision: 0.4977, recall: 0.5595
+ * Macro Average: f1: 0.5278, precision: 0.4985, recall: 0.5616
+
+Epoch 10/10, accuracy: 0.8074
+ * Micro Average: f1: 0.5270, precision: 0.4977, recall: 0.5599
+ * Macro Average: f1: 0.5280, precision: 0.4985, recall: 0.5620
+
+Classification Report on test set:
+
+________________________________________
+ LOC:
+  * precision: 0.5708
+  * recall: 0.6091
+  * f1-score: 0.5893
+  * support: 4825.0000
+ ORG:
+  * precision: 0.4098
+  * recall: 0.4608
+  * f1-score: 0.4338
+  * support: 4666.0000
+ PER:
+  * precision: 0.5614
+  * recall: 0.6484
+  * f1-score: 0.6018
+  * support: 4630.0000
+ SEP]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ micro avg:
+  * precision: 0.5139
+  * recall: 0.5730
+  * f1-score: 0.5418
+  * support: 14121.0000
+ macro avg:
+  * precision: 0.3855
+  * recall: 0.4296
+  * f1-score: 0.4062
+  * support: 14121.0000
+ weighted avg:
+  * precision: 0.5145
+  * recall: 0.5730
+  * f1-score: 0.5420
+  * support: 14121.0000
+ accuracy:
+  * 0.8059
+________________________________________
+
+
+====================================================================================================
+
+
+
+
+====================================================================================================
+Training model: xlm-roberta-base
+ * 10 epochs
+ * learning rate is 2e-05
+ * batch size is 32
+ * frozen weights: False
+ * device is on cuda * warmup steps: 50
+ * activation: GELU
+ * languages: en
+----------------------------------------------------------------------------------------------------
+
+Epoch 1/10, accuracy: 0.8035
+ * Micro Average: f1: 0.5245, precision: 0.4936, recall: 0.5595
+ * Macro Average: f1: 0.5210, precision: 0.4916, recall: 0.5627
+
+Epoch 2/10, accuracy: 0.8042
+ * Micro Average: f1: 0.5262, precision: 0.4965, recall: 0.5595
+ * Macro Average: f1: 0.5224, precision: 0.4940, recall: 0.5627
+
+Epoch 3/10, accuracy: 0.8042
+ * Micro Average: f1: 0.5259, precision: 0.4964, recall: 0.5592
+ * Macro Average: f1: 0.5222, precision: 0.4941, recall: 0.5623
+
+Epoch 4/10, accuracy: 0.8041
+ * Micro Average: f1: 0.5263, precision: 0.4968, recall: 0.5595
+ * Macro Average: f1: 0.5225, precision: 0.4946, recall: 0.5627
+
+Epoch 5/10, accuracy: 0.8045
+ * Micro Average: f1: 0.5273, precision: 0.4983, recall: 0.5599
+ * Macro Average: f1: 0.5236, precision: 0.4963, recall: 0.5631
+
+Epoch 6/10, accuracy: 0.8045
+ * Micro Average: f1: 0.5279, precision: 0.4993, recall: 0.5601
+ * Macro Average: f1: 0.5243, precision: 0.4973, recall: 0.5632
+
+Epoch 7/10, accuracy: 0.8048
+ * Micro Average: f1: 0.5286, precision: 0.5000, recall: 0.5606
+ * Macro Average: f1: 0.5251, precision: 0.4983, recall: 0.5637
+
+Epoch 8/10, accuracy: 0.8045
+ * Micro Average: f1: 0.5282, precision: 0.4999, recall: 0.5599
+ * Macro Average: f1: 0.5245, precision: 0.4978, recall: 0.5631
+
+Epoch 9/10, accuracy: 0.8048
+ * Micro Average: f1: 0.5289, precision: 0.5003, recall: 0.5610
+ * Macro Average: f1: 0.5253, precision: 0.4984, recall: 0.5641
+
+Epoch 10/10, accuracy: 0.8048
+ * Micro Average: f1: 0.5287, precision: 0.5000, recall: 0.5610
+ * Macro Average: f1: 0.5252, precision: 0.4981, recall: 0.5641
+
+Classification Report on test set:
+
+________________________________________
+ LOC:
+  * precision: 0.5711
+  * recall: 0.5915
+  * f1-score: 0.5811
+  * support: 4825.0000
+ ORG:
+  * precision: 0.4306
+  * recall: 0.4100
+  * f1-score: 0.4200
+  * support: 4666.0000
+ PER:
+  * precision: 0.5088
+  * recall: 0.6991
+  * f1-score: 0.5890
+  * support: 4630.0000
+ SEP]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ micro avg:
+  * precision: 0.5065
+  * recall: 0.5668
+  * f1-score: 0.5349
+  * support: 14121.0000
+ macro avg:
+  * precision: 0.3776
+  * recall: 0.4252
+  * f1-score: 0.3975
+  * support: 14121.0000
+ weighted avg:
+  * precision: 0.5043
+  * recall: 0.5668
+  * f1-score: 0.5305
+  * support: 14121.0000
+ accuracy:
+  * 0.8025
+________________________________________
+
+
+====================================================================================================
+
+
+
+
+====================================================================================================
+Training model: xlm-roberta-base
+ * 10 epochs
+ * learning rate is 2e-05
+ * batch size is 32
+ * frozen weights: True
+ * device is on cuda * warmup steps: 50
+ * activation: GELU
+ * languages: en
+----------------------------------------------------------------------------------------------------
+
+Epoch 1/10, accuracy: 0.8044
+ * Micro Average: f1: 0.5260, precision: 0.4978, recall: 0.5575
+ * Macro Average: f1: 0.5220, precision: 0.4956, recall: 0.5608
+
+Epoch 2/10, accuracy: 0.8050
+ * Micro Average: f1: 0.5285, precision: 0.5007, recall: 0.5597
+ * Macro Average: f1: 0.5251, precision: 0.4991, recall: 0.5628
+
+Epoch 3/10, accuracy: 0.8046
+ * Micro Average: f1: 0.5276, precision: 0.5002, recall: 0.5583
+ * Macro Average: f1: 0.5237, precision: 0.4978, recall: 0.5615
+
+Epoch 4/10, accuracy: 0.8048
+ * Micro Average: f1: 0.5283, precision: 0.5011, recall: 0.5586
+ * Macro Average: f1: 0.5247, precision: 0.4994, recall: 0.5617
+
+Epoch 5/10, accuracy: 0.8050
+ * Micro Average: f1: 0.5275, precision: 0.4998, recall: 0.5585
+ * Macro Average: f1: 0.5240, precision: 0.4978, recall: 0.5615
+
+Epoch 6/10, accuracy: 0.8048
+ * Micro Average: f1: 0.5264, precision: 0.4983, recall: 0.5579
+ * Macro Average: f1: 0.5229, precision: 0.4964, recall: 0.5610
+
+Epoch 7/10, accuracy: 0.8046
+ * Micro Average: f1: 0.5279, precision: 0.5000, recall: 0.5590
+ * Macro Average: f1: 0.5242, precision: 0.4981, recall: 0.5621
+
+Epoch 8/10, accuracy: 0.8047
+ * Micro Average: f1: 0.5270, precision: 0.4992, recall: 0.5581
+ * Macro Average: f1: 0.5234, precision: 0.4972, recall: 0.5612
+
+Epoch 9/10, accuracy: 0.8046
+ * Micro Average: f1: 0.5270, precision: 0.4990, recall: 0.5583
+ * Macro Average: f1: 0.5234, precision: 0.4971, recall: 0.5614
+
+Epoch 10/10, accuracy: 0.8045
+ * Micro Average: f1: 0.5271, precision: 0.4993, recall: 0.5583
+ * Macro Average: f1: 0.5234, precision: 0.4973, recall: 0.5614
+
+Classification Report on test set:
+
+________________________________________
+ LOC:
+  * precision: 0.5679
+  * recall: 0.5886
+  * f1-score: 0.5781
+  * support: 4825.0000
+ ORG:
+  * precision: 0.4297
+  * recall: 0.4102
+  * f1-score: 0.4197
+  * support: 4666.0000
+ PER:
+  * precision: 0.5063
+  * recall: 0.6972
+  * f1-score: 0.5866
+  * support: 4630.0000
+ SEP]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ micro avg:
+  * precision: 0.5041
+  * recall: 0.5653
+  * f1-score: 0.5329
+  * support: 14121.0000
+ macro avg:
+  * precision: 0.3760
+  * recall: 0.4240
+  * f1-score: 0.3961
+  * support: 14121.0000
+ weighted avg:
+  * precision: 0.5020
+  * recall: 0.5653
+  * f1-score: 0.5285
+  * support: 14121.0000
+ accuracy:
+  * 0.8025
+________________________________________
+
+
+====================================================================================================
+
+
+
+
+====================================================================================================
+Training model: xlm-roberta-base
+ * 10 epochs
+ * learning rate is 2e-05
+ * batch size is 32
+ * frozen weights: False
+ * device is on cuda * warmup steps: 50
+ * activation: GELU
+ * languages: en
+----------------------------------------------------------------------------------------------------
+
+Epoch 1/10, accuracy: 0.8037
+ * Micro Average: f1: 0.5238, precision: 0.4993, recall: 0.5508
+ * Macro Average: f1: 0.3904, precision: 0.3746, recall: 0.4155
+
+Epoch 2/10, accuracy: 0.8020
+ * Micro Average: f1: 0.5170, precision: 0.4950, recall: 0.5411
+ * Macro Average: f1: 0.3852, precision: 0.3720, recall: 0.4083
+
+Epoch 3/10, accuracy: 0.8008
+ * Micro Average: f1: 0.5130, precision: 0.4924, recall: 0.5353
+ * Macro Average: f1: 0.3822, precision: 0.3707, recall: 0.4039
+
+Epoch 4/10, accuracy: 0.7992
+ * Micro Average: f1: 0.5100, precision: 0.4912, recall: 0.5304
+ * Macro Average: f1: 0.3798, precision: 0.3697, recall: 0.4003
+
+Epoch 5/10, accuracy: 0.7982
+ * Micro Average: f1: 0.5098, precision: 0.4924, recall: 0.5285
+ * Macro Average: f1: 0.3796, precision: 0.3712, recall: 0.3989
+
+Epoch 6/10, accuracy: 0.7972
+ * Micro Average: f1: 0.5067, precision: 0.4896, recall: 0.5251
+ * Macro Average: f1: 0.3772, precision: 0.3690, recall: 0.3963
+
+Epoch 7/10, accuracy: 0.7968
+ * Micro Average: f1: 0.5051, precision: 0.4890, recall: 0.5223
+ * Macro Average: f1: 0.3758, precision: 0.3683, recall: 0.3943
+
+Epoch 8/10, accuracy: 0.7968
+ * Micro Average: f1: 0.5042, precision: 0.4885, recall: 0.5211
+ * Macro Average: f1: 0.3751, precision: 0.3678, recall: 0.3933
+
+Epoch 9/10, accuracy: 0.7963
+ * Micro Average: f1: 0.5036, precision: 0.4884, recall: 0.5198
+ * Macro Average: f1: 0.2997, precision: 0.2943, recall: 0.3139
+
+Epoch 10/10, accuracy: 0.7963
+ * Micro Average: f1: 0.5040, precision: 0.4888, recall: 0.5202
+ * Macro Average: f1: 0.2999, precision: 0.2946, recall: 0.3141
+
+Classification Report on test set:
+
+________________________________________
+ LOC:
+  * precision: 0.6034
+  * recall: 0.5159
+  * f1-score: 0.5562
+  * support: 4825.0000
+ ORG:
+  * precision: 0.4051
+  * recall: 0.3798
+  * f1-score: 0.3920
+  * support: 4666.0000
+ PAD]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ PER:
+  * precision: 0.5053
+  * recall: 0.7065
+  * f1-score: 0.5892
+  * support: 4630.0000
+ SEP]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ micro avg:
+  * precision: 0.5020
+  * recall: 0.5334
+  * f1-score: 0.5172
+  * support: 14121.0000
+ macro avg:
+  * precision: 0.3028
+  * recall: 0.3204
+  * f1-score: 0.3075
+  * support: 14121.0000
+ weighted avg:
+  * precision: 0.5057
+  * recall: 0.5334
+  * f1-score: 0.5128
+  * support: 14121.0000
+ accuracy:
+  * 0.7959
+________________________________________
+
+
+====================================================================================================
+
+
+
+
+====================================================================================================
+Training model: xlm-roberta-base
+ * 10 epochs
+ * learning rate is 2e-05
+ * batch size is 32
+ * frozen weights: True
+ * device is on cuda * warmup steps: 50
+ * activation: GELU
+ * languages: en
+----------------------------------------------------------------------------------------------------
+
+Epoch 1/10, accuracy: 0.7944
+ * Micro Average: f1: 0.5001, precision: 0.4855, recall: 0.5156
+ * Macro Average: f1: 0.2974, precision: 0.2923, recall: 0.3114
+
+Epoch 2/10, accuracy: 0.7927
+ * Micro Average: f1: 0.4965, precision: 0.4832, recall: 0.5105
+ * Macro Average: f1: 0.2951, precision: 0.2914, recall: 0.3084
+
+Epoch 3/10, accuracy: 0.7915
+ * Micro Average: f1: 0.4931, precision: 0.4808, recall: 0.5061
+ * Macro Average: f1: 0.2932, precision: 0.2902, recall: 0.3058
+
+Epoch 4/10, accuracy: 0.7897
+ * Micro Average: f1: 0.4875, precision: 0.4760, recall: 0.4995
+ * Macro Average: f1: 0.2897, precision: 0.2874, recall: 0.3019
+
+Epoch 5/10, accuracy: 0.7890
+ * Micro Average: f1: 0.4842, precision: 0.4736, recall: 0.4953
+ * Macro Average: f1: 0.2876, precision: 0.2856, recall: 0.2993
+
+Epoch 6/10, accuracy: 0.7874
+ * Micro Average: f1: 0.4810, precision: 0.4718, recall: 0.4904
+ * Macro Average: f1: 0.2854, precision: 0.2844, recall: 0.2964
+
+Epoch 7/10, accuracy: 0.7866
+ * Micro Average: f1: 0.4769, precision: 0.4675, recall: 0.4866
+ * Macro Average: f1: 0.2828, precision: 0.2817, recall: 0.2941
+
+Epoch 8/10, accuracy: 0.7859
+ * Micro Average: f1: 0.4745, precision: 0.4657, recall: 0.4835
+ * Macro Average: f1: 0.2813, precision: 0.2806, recall: 0.2922
+
+Epoch 9/10, accuracy: 0.7853
+ * Micro Average: f1: 0.4731, precision: 0.4649, recall: 0.4817
+ * Macro Average: f1: 0.2804, precision: 0.2800, recall: 0.2911
+
+Epoch 10/10, accuracy: 0.7853
+ * Micro Average: f1: 0.4726, precision: 0.4644, recall: 0.4811
+ * Macro Average: f1: 0.2802, precision: 0.2800, recall: 0.2908
+
+Classification Report on test set:
+
+________________________________________
+ LOC:
+  * precision: 0.5538
+  * recall: 0.4446
+  * f1-score: 0.4932
+  * support: 4825.0000
+ ORG:
+  * precision: 0.3731
+  * recall: 0.3388
+  * f1-score: 0.3552
+  * support: 4666.0000
+ PAD]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ PER:
+  * precision: 0.5042
+  * recall: 0.6996
+  * f1-score: 0.5860
+  * support: 4630.0000
+ SEP]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ micro avg:
+  * precision: 0.4735
+  * recall: 0.4932
+  * f1-score: 0.4832
+  * support: 14121.0000
+ macro avg:
+  * precision: 0.2862
+  * recall: 0.2966
+  * f1-score: 0.2869
+  * support: 14121.0000
+ weighted avg:
+  * precision: 0.4779
+  * recall: 0.4932
+  * f1-score: 0.4780
+  * support: 14121.0000
+ accuracy:
+  * 0.7861
+________________________________________
+
+
+====================================================================================================
+
+
+
+
+====================================================================================================
+Training model: xlm-roberta-base
+ * 10 epochs
+ * learning rate is 2e-05
+ * batch size is 64
+ * frozen weights: False
+ * device is on cuda * warmup steps: 50
+ * activation: GELU
+ * languages: en
+----------------------------------------------------------------------------------------------------
+
+Epoch 1/10, accuracy: 0.8081
+ * Micro Average: f1: 0.5302, precision: 0.5089, recall: 0.5533
+ * Macro Average: f1: 0.3985, precision: 0.3835, recall: 0.4166
+
+Epoch 2/10, accuracy: 0.8080
+ * Micro Average: f1: 0.5318, precision: 0.5081, recall: 0.5579
+ * Macro Average: f1: 0.3996, precision: 0.3821, recall: 0.4200
+
+Epoch 3/10, accuracy: 0.8078
+ * Micro Average: f1: 0.5310, precision: 0.5054, recall: 0.5594
+ * Macro Average: f1: 0.3994, precision: 0.3806, recall: 0.4211
+
+Epoch 4/10, accuracy: 0.8081
+ * Micro Average: f1: 0.5311, precision: 0.5049, recall: 0.5601
+ * Macro Average: f1: 0.3992, precision: 0.3798, recall: 0.4216
+
+Epoch 5/10, accuracy: 0.8080
+ * Micro Average: f1: 0.5310, precision: 0.5043, recall: 0.5606
+ * Macro Average: f1: 0.3992, precision: 0.3793, recall: 0.4221
+
+Epoch 6/10, accuracy: 0.8081
+ * Micro Average: f1: 0.5303, precision: 0.5033, recall: 0.5605
+ * Macro Average: f1: 0.3988, precision: 0.3786, recall: 0.4219
+
+Epoch 7/10, accuracy: 0.8083
+ * Micro Average: f1: 0.5297, precision: 0.5024, recall: 0.5601
+ * Macro Average: f1: 0.3983, precision: 0.3780, recall: 0.4216
+
+Epoch 8/10, accuracy: 0.8082
+ * Micro Average: f1: 0.5300, precision: 0.5028, recall: 0.5603
+ * Macro Average: f1: 0.3984, precision: 0.3781, recall: 0.4218
+
+Epoch 9/10, accuracy: 0.8081
+ * Micro Average: f1: 0.5300, precision: 0.5029, recall: 0.5603
+ * Macro Average: f1: 0.3985, precision: 0.3782, recall: 0.4218
+
+Epoch 10/10, accuracy: 0.8081
+ * Micro Average: f1: 0.5298, precision: 0.5026, recall: 0.5603
+ * Macro Average: f1: 0.3983, precision: 0.3779, recall: 0.4218
+
+Classification Report on test set:
+
+________________________________________
+ LOC:
+  * precision: 0.5745
+  * recall: 0.6008
+  * f1-score: 0.5874
+  * support: 4825.0000
+ ORG:
+  * precision: 0.4123
+  * recall: 0.4610
+  * f1-score: 0.4353
+  * support: 4666.0000
+ PER:
+  * precision: 0.5587
+  * recall: 0.6484
+  * f1-score: 0.6002
+  * support: 4630.0000
+ SEP]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ micro avg:
+  * precision: 0.5148
+  * recall: 0.5702
+  * f1-score: 0.5411
+  * support: 14121.0000
+ macro avg:
+  * precision: 0.3864
+  * recall: 0.4276
+  * f1-score: 0.4057
+  * support: 14121.0000
+ weighted avg:
+  * precision: 0.5157
+  * recall: 0.5702
+  * f1-score: 0.5413
+  * support: 14121.0000
+ accuracy:
+  * 0.8056
+________________________________________
+
+
+====================================================================================================
+
+
+
+
+====================================================================================================
+Training model: xlm-roberta-base
+ * 10 epochs
+ * learning rate is 2e-05
+ * batch size is 64
+ * frozen weights: True
+ * device is on cuda * warmup steps: 50
+ * activation: GELU
+ * languages: en
+----------------------------------------------------------------------------------------------------
+
+Epoch 1/10, accuracy: 0.8078
+ * Micro Average: f1: 0.5307, precision: 0.5039, recall: 0.5605
+ * Macro Average: f1: 0.3987, precision: 0.3787, recall: 0.4219
+
+Epoch 2/10, accuracy: 0.8082
+ * Micro Average: f1: 0.5287, precision: 0.5004, recall: 0.5603
+ * Macro Average: f1: 0.3974, precision: 0.3762, recall: 0.4217
+
+Epoch 3/10, accuracy: 0.8077
+ * Micro Average: f1: 0.5284, precision: 0.5003, recall: 0.5599
+ * Macro Average: f1: 0.3972, precision: 0.3762, recall: 0.4215
+
+Epoch 4/10, accuracy: 0.8076
+ * Micro Average: f1: 0.5282, precision: 0.5002, recall: 0.5595
+ * Macro Average: f1: 0.3969, precision: 0.3758, recall: 0.4212
+
+Epoch 5/10, accuracy: 0.8076
+ * Micro Average: f1: 0.5279, precision: 0.4997, recall: 0.5595
+ * Macro Average: f1: 0.3967, precision: 0.3754, recall: 0.4212
+
+Epoch 6/10, accuracy: 0.8079
+ * Micro Average: f1: 0.5272, precision: 0.4987, recall: 0.5592
+ * Macro Average: f1: 0.3963, precision: 0.3748, recall: 0.4209
+
+Epoch 7/10, accuracy: 0.8077
+ * Micro Average: f1: 0.5278, precision: 0.4993, recall: 0.5597
+ * Macro Average: f1: 0.3966, precision: 0.3751, recall: 0.4213
+
+Epoch 8/10, accuracy: 0.8076
+ * Micro Average: f1: 0.5275, precision: 0.4990, recall: 0.5595
+ * Macro Average: f1: 0.3964, precision: 0.3748, recall: 0.4212
+
+Epoch 9/10, accuracy: 0.8076
+ * Micro Average: f1: 0.5277, precision: 0.4993, recall: 0.5595
+ * Macro Average: f1: 0.3966, precision: 0.3751, recall: 0.4212
+
+Epoch 10/10, accuracy: 0.8077
+ * Micro Average: f1: 0.5275, precision: 0.4989, recall: 0.5597
+ * Macro Average: f1: 0.3965, precision: 0.3749, recall: 0.4213
+
+Classification Report on test set:
+
+________________________________________
+ LOC:
+  * precision: 0.5714
+  * recall: 0.6073
+  * f1-score: 0.5888
+  * support: 4825.0000
+ ORG:
+  * precision: 0.4123
+  * recall: 0.4614
+  * f1-score: 0.4355
+  * support: 4666.0000
+ PER:
+  * precision: 0.5597
+  * recall: 0.6471
+  * f1-score: 0.6002
+  * support: 4630.0000
+ SEP]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ micro avg:
+  * precision: 0.5144
+  * recall: 0.5721
+  * f1-score: 0.5417
+  * support: 14121.0000
+ macro avg:
+  * precision: 0.3858
+  * recall: 0.4289
+  * f1-score: 0.4061
+  * support: 14121.0000
+ weighted avg:
+  * precision: 0.5150
+  * recall: 0.5721
+  * f1-score: 0.5419
+  * support: 14121.0000
+ accuracy:
+  * 0.8059
+________________________________________
+
+
+====================================================================================================
+
+
+
+
+====================================================================================================
+Training model: xlm-roberta-base
+ * 10 epochs
+ * learning rate is 2e-05
+ * batch size is 64
+ * frozen weights: False
+ * device is on cuda * warmup steps: 50
+ * activation: GELU
+ * languages: en
+----------------------------------------------------------------------------------------------------
+
+Epoch 1/10, accuracy: 0.8024
+ * Micro Average: f1: 0.5242, precision: 0.4933, recall: 0.5594
+ * Macro Average: f1: 0.3902, precision: 0.3681, recall: 0.4219
+
+Epoch 2/10, accuracy: 0.8039
+ * Micro Average: f1: 0.5271, precision: 0.4967, recall: 0.5614
+ * Macro Average: f1: 0.3924, precision: 0.3705, recall: 0.4234
+
+Epoch 3/10, accuracy: 0.8040
+ * Micro Average: f1: 0.5265, precision: 0.4951, recall: 0.5621
+ * Macro Average: f1: 0.5228, precision: 0.4929, recall: 0.5653
+
+Epoch 4/10, accuracy: 0.8047
+ * Micro Average: f1: 0.5283, precision: 0.4987, recall: 0.5617
+ * Macro Average: f1: 0.5247, precision: 0.4964, recall: 0.5649
+
+Epoch 5/10, accuracy: 0.8049
+ * Micro Average: f1: 0.5282, precision: 0.4987, recall: 0.5614
+ * Macro Average: f1: 0.5248, precision: 0.4966, recall: 0.5645
+
+Epoch 6/10, accuracy: 0.8049
+ * Micro Average: f1: 0.5280, precision: 0.4985, recall: 0.5612
+ * Macro Average: f1: 0.5244, precision: 0.4962, recall: 0.5643
+
+Epoch 7/10, accuracy: 0.8050
+ * Micro Average: f1: 0.5276, precision: 0.4980, recall: 0.5608
+ * Macro Average: f1: 0.5239, precision: 0.4957, recall: 0.5640
+
+Epoch 8/10, accuracy: 0.8051
+ * Micro Average: f1: 0.5287, precision: 0.4993, recall: 0.5617
+ * Macro Average: f1: 0.5251, precision: 0.4971, recall: 0.5649
+
+Epoch 9/10, accuracy: 0.8052
+ * Micro Average: f1: 0.5278, precision: 0.4983, recall: 0.5610
+ * Macro Average: f1: 0.5241, precision: 0.4958, recall: 0.5642
+
+Epoch 10/10, accuracy: 0.8052
+ * Micro Average: f1: 0.5283, precision: 0.4990, recall: 0.5612
+ * Macro Average: f1: 0.5246, precision: 0.4965, recall: 0.5644
+
+Classification Report on test set:
+
+________________________________________
+ LOC:
+  * precision: 0.5691
+  * recall: 0.5973
+  * f1-score: 0.5829
+  * support: 4825.0000
+ ORG:
+  * precision: 0.4307
+  * recall: 0.4093
+  * f1-score: 0.4197
+  * support: 4666.0000
+ PER:
+  * precision: 0.5078
+  * recall: 0.6981
+  * f1-score: 0.5879
+  * support: 4630.0000
+ SEP]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ micro avg:
+  * precision: 0.5057
+  * recall: 0.5682
+  * f1-score: 0.5351
+  * support: 14121.0000
+ macro avg:
+  * precision: 0.3769
+  * recall: 0.4262
+  * f1-score: 0.3976
+  * support: 14121.0000
+ weighted avg:
+  * precision: 0.5033
+  * recall: 0.5682
+  * f1-score: 0.5306
+  * support: 14121.0000
+ accuracy:
+  * 0.8027
+________________________________________
+
+
+====================================================================================================
+
+
+
+
+====================================================================================================
+Training model: xlm-roberta-base
+ * 10 epochs
+ * learning rate is 2e-05
+ * batch size is 64
+ * frozen weights: True
+ * device is on cuda * warmup steps: 50
+ * activation: GELU
+ * languages: en
+----------------------------------------------------------------------------------------------------
+
+Epoch 1/10, accuracy: 0.8049
+ * Micro Average: f1: 0.5266, precision: 0.4973, recall: 0.5595
+ * Macro Average: f1: 0.5229, precision: 0.4948, recall: 0.5627
+
+Epoch 2/10, accuracy: 0.8058
+ * Micro Average: f1: 0.5294, precision: 0.5008, recall: 0.5614
+ * Macro Average: f1: 0.5261, precision: 0.4988, recall: 0.5644
+
+Epoch 3/10, accuracy: 0.8051
+ * Micro Average: f1: 0.5282, precision: 0.4993, recall: 0.5606
+ * Macro Average: f1: 0.5246, precision: 0.4969, recall: 0.5638
+
+Epoch 4/10, accuracy: 0.8054
+ * Micro Average: f1: 0.5286, precision: 0.5003, recall: 0.5603
+ * Macro Average: f1: 0.5250, precision: 0.4980, recall: 0.5634
+
+Epoch 5/10, accuracy: 0.8050
+ * Micro Average: f1: 0.5282, precision: 0.4998, recall: 0.5601
+ * Macro Average: f1: 0.5244, precision: 0.4975, recall: 0.5633
+
+Epoch 6/10, accuracy: 0.8052
+ * Micro Average: f1: 0.5276, precision: 0.4993, recall: 0.5594
+ * Macro Average: f1: 0.5239, precision: 0.4968, recall: 0.5625
+
+Epoch 7/10, accuracy: 0.8051
+ * Micro Average: f1: 0.5288, precision: 0.5007, recall: 0.5603
+ * Macro Average: f1: 0.5251, precision: 0.4982, recall: 0.5634
+
+Epoch 8/10, accuracy: 0.8051
+ * Micro Average: f1: 0.5280, precision: 0.4999, recall: 0.5595
+ * Macro Average: f1: 0.5243, precision: 0.4975, recall: 0.5627
+
+Epoch 9/10, accuracy: 0.8051
+ * Micro Average: f1: 0.5278, precision: 0.4994, recall: 0.5595
+ * Macro Average: f1: 0.5240, precision: 0.4971, recall: 0.5627
+
+Epoch 10/10, accuracy: 0.8051
+ * Micro Average: f1: 0.5280, precision: 0.4998, recall: 0.5595
+ * Macro Average: f1: 0.5242, precision: 0.4973, recall: 0.5627
+
+Classification Report on test set:
+
+________________________________________
+ LOC:
+  * precision: 0.5669
+  * recall: 0.5911
+  * f1-score: 0.5787
+  * support: 4825.0000
+ ORG:
+  * precision: 0.4330
+  * recall: 0.4111
+  * f1-score: 0.4217
+  * support: 4666.0000
+ PER:
+  * precision: 0.5068
+  * recall: 0.6981
+  * f1-score: 0.5873
+  * support: 4630.0000
+ SEP]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ micro avg:
+  * precision: 0.5051
+  * recall: 0.5667
+  * f1-score: 0.5341
+  * support: 14121.0000
+ macro avg:
+  * precision: 0.3767
+  * recall: 0.4251
+  * f1-score: 0.3969
+  * support: 14121.0000
+ weighted avg:
+  * precision: 0.5029
+  * recall: 0.5667
+  * f1-score: 0.5296
+  * support: 14121.0000
+ accuracy:
+  * 0.8027
+________________________________________
+
+
+====================================================================================================
+
+
+
+
+====================================================================================================
+Training model: xlm-roberta-base
+ * 10 epochs
+ * learning rate is 2e-05
+ * batch size is 64
+ * frozen weights: False
+ * device is on cuda * warmup steps: 50
+ * activation: GELU
+ * languages: en
+----------------------------------------------------------------------------------------------------
+
+Epoch 1/10, accuracy: 0.8046
+ * Micro Average: f1: 0.5263, precision: 0.5005, recall: 0.5549
+ * Macro Average: f1: 0.3922, precision: 0.3746, recall: 0.4186
+
+Epoch 2/10, accuracy: 0.8041
+ * Micro Average: f1: 0.5237, precision: 0.4983, recall: 0.5518
+ * Macro Average: f1: 0.3904, precision: 0.3737, recall: 0.4163
+
+Epoch 3/10, accuracy: 0.8032
+ * Micro Average: f1: 0.5203, precision: 0.4957, recall: 0.5476
+ * Macro Average: f1: 0.3879, precision: 0.3721, recall: 0.4131
+
+Epoch 4/10, accuracy: 0.8024
+ * Micro Average: f1: 0.5175, precision: 0.4946, recall: 0.5426
+ * Macro Average: f1: 0.3856, precision: 0.3715, recall: 0.4094
+
+Epoch 5/10, accuracy: 0.8017
+ * Micro Average: f1: 0.5157, precision: 0.4936, recall: 0.5399
+ * Macro Average: f1: 0.3842, precision: 0.3709, recall: 0.4074
+
+Epoch 6/10, accuracy: 0.8013
+ * Micro Average: f1: 0.5149, precision: 0.4938, recall: 0.5379
+ * Macro Average: f1: 0.3835, precision: 0.3711, recall: 0.4059
+
+Epoch 7/10, accuracy: 0.8011
+ * Micro Average: f1: 0.5150, precision: 0.4945, recall: 0.5373
+ * Macro Average: f1: 0.3837, precision: 0.3719, recall: 0.4055
+
+Epoch 8/10, accuracy: 0.8007
+ * Micro Average: f1: 0.5138, precision: 0.4937, recall: 0.5355
+ * Macro Average: f1: 0.3827, precision: 0.3714, recall: 0.4041
+
+Epoch 9/10, accuracy: 0.8005
+ * Micro Average: f1: 0.5123, precision: 0.4926, recall: 0.5336
+ * Macro Average: f1: 0.3816, precision: 0.3706, recall: 0.4027
+
+Epoch 10/10, accuracy: 0.8005
+ * Micro Average: f1: 0.5119, precision: 0.4921, recall: 0.5333
+ * Macro Average: f1: 0.3812, precision: 0.3701, recall: 0.4024
+
+Classification Report on test set:
+
+________________________________________
+ LOC:
+  * precision: 0.6034
+  * recall: 0.5393
+  * f1-score: 0.5696
+  * support: 4825.0000
+ ORG:
+  * precision: 0.4147
+  * recall: 0.3943
+  * f1-score: 0.4043
+  * support: 4666.0000
+ PAD]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ PER:
+  * precision: 0.5035
+  * recall: 0.7045
+  * f1-score: 0.5873
+  * support: 4630.0000
+ SEP]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ micro avg:
+  * precision: 0.5051
+  * recall: 0.5456
+  * f1-score: 0.5245
+  * support: 14121.0000
+ macro avg:
+  * precision: 0.3043
+  * recall: 0.3276
+  * f1-score: 0.3122
+  * support: 14121.0000
+ weighted avg:
+  * precision: 0.5083
+  * recall: 0.5456
+  * f1-score: 0.5207
+  * support: 14121.0000
+ accuracy:
+  * 0.7984
+________________________________________
+
+
+====================================================================================================
+
+
+
+
+====================================================================================================
+Training model: xlm-roberta-base
+ * 10 epochs
+ * learning rate is 2e-05
+ * batch size is 64
+ * frozen weights: True
+ * device is on cuda * warmup steps: 50
+ * activation: GELU
+ * languages: en
+----------------------------------------------------------------------------------------------------
+
+Epoch 1/10, accuracy: 0.7991
+ * Micro Average: f1: 0.5108, precision: 0.4923, recall: 0.5307
+ * Macro Average: f1: 0.3804, precision: 0.3704, recall: 0.4005
+
+Epoch 2/10, accuracy: 0.7979
+ * Micro Average: f1: 0.5064, precision: 0.4890, recall: 0.5252
+ * Macro Average: f1: 0.3015, precision: 0.2942, recall: 0.3171
+
+Epoch 3/10, accuracy: 0.7974
+ * Micro Average: f1: 0.5057, precision: 0.4892, recall: 0.5233
+ * Macro Average: f1: 0.3010, precision: 0.2943, recall: 0.3160
+
+Epoch 4/10, accuracy: 0.7965
+ * Micro Average: f1: 0.5047, precision: 0.4887, recall: 0.5217
+ * Macro Average: f1: 0.3003, precision: 0.2938, recall: 0.3151
+
+Epoch 5/10, accuracy: 0.7964
+ * Micro Average: f1: 0.5044, precision: 0.4889, recall: 0.5209
+ * Macro Average: f1: 0.3002, precision: 0.2940, recall: 0.3146
+
+Epoch 6/10, accuracy: 0.7956
+ * Micro Average: f1: 0.5006, precision: 0.4854, recall: 0.5167
+ * Macro Average: f1: 0.2978, precision: 0.2914, recall: 0.3121
+
+Epoch 7/10, accuracy: 0.7951
+ * Micro Average: f1: 0.4990, precision: 0.4840, recall: 0.5149
+ * Macro Average: f1: 0.2969, precision: 0.2909, recall: 0.3110
+
+Epoch 8/10, accuracy: 0.7949
+ * Micro Average: f1: 0.4976, precision: 0.4827, recall: 0.5134
+ * Macro Average: f1: 0.2960, precision: 0.2900, recall: 0.3101
+
+Epoch 9/10, accuracy: 0.7945
+ * Micro Average: f1: 0.4970, precision: 0.4824, recall: 0.5125
+ * Macro Average: f1: 0.2957, precision: 0.2900, recall: 0.3096
+
+Epoch 10/10, accuracy: 0.7943
+ * Micro Average: f1: 0.4968, precision: 0.4822, recall: 0.5123
+ * Macro Average: f1: 0.2956, precision: 0.2900, recall: 0.3095
+
+Classification Report on test set:
+
+________________________________________
+ LOC:
+  * precision: 0.5838
+  * recall: 0.4987
+  * f1-score: 0.5379
+  * support: 4825.0000
+ ORG:
+  * precision: 0.3923
+  * recall: 0.3695
+  * f1-score: 0.3805
+  * support: 4666.0000
+ PAD]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ PER:
+  * precision: 0.5068
+  * recall: 0.7015
+  * f1-score: 0.5885
+  * support: 4630.0000
+ SEP]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ micro avg:
+  * precision: 0.4911
+  * recall: 0.5225
+  * f1-score: 0.5063
+  * support: 14121.0000
+ macro avg:
+  * precision: 0.2966
+  * recall: 0.3139
+  * f1-score: 0.3014
+  * support: 14121.0000
+ weighted avg:
+  * precision: 0.4953
+  * recall: 0.5225
+  * f1-score: 0.5025
+  * support: 14121.0000
+ accuracy:
+  * 0.7938
+________________________________________
+
+
+====================================================================================================
+
+
+
+
+====================================================================================================
+Training model: xlm-roberta-base
+ * 10 epochs
+ * learning rate is 2e-05
+ * batch size is 128
+ * frozen weights: False
+ * device is on cuda * warmup steps: 50
+ * activation: GELU
+ * languages: en
+----------------------------------------------------------------------------------------------------
+
+Epoch 1/10, accuracy: 0.8083
+ * Micro Average: f1: 0.5256, precision: 0.5041, recall: 0.5491
+ * Macro Average: f1: 0.3946, precision: 0.3798, recall: 0.4136
+
+Epoch 2/10, accuracy: 0.8080
+ * Micro Average: f1: 0.5311, precision: 0.5077, recall: 0.5568
+ * Macro Average: f1: 0.3992, precision: 0.3822, recall: 0.4192
+
+Epoch 3/10, accuracy: 0.8077
+ * Micro Average: f1: 0.5309, precision: 0.5063, recall: 0.5581
+ * Macro Average: f1: 0.3992, precision: 0.3812, recall: 0.4201
+
+Epoch 4/10, accuracy: 0.8077
+ * Micro Average: f1: 0.5305, precision: 0.5049, recall: 0.5588
+ * Macro Average: f1: 0.3989, precision: 0.3801, recall: 0.4207
+
+Epoch 5/10, accuracy: 0.8080
+ * Micro Average: f1: 0.5314, precision: 0.5056, recall: 0.5599
+ * Macro Average: f1: 0.3996, precision: 0.3806, recall: 0.4215
+
+Epoch 6/10, accuracy: 0.8080
+ * Micro Average: f1: 0.5313, precision: 0.5052, recall: 0.5603
+ * Macro Average: f1: 0.3995, precision: 0.3801, recall: 0.4217
+
+Epoch 7/10, accuracy: 0.8081
+ * Micro Average: f1: 0.5310, precision: 0.5049, recall: 0.5599
+ * Macro Average: f1: 0.3993, precision: 0.3799, recall: 0.4215
+
+Epoch 8/10, accuracy: 0.8082
+ * Micro Average: f1: 0.5318, precision: 0.5057, recall: 0.5608
+ * Macro Average: f1: 0.3998, precision: 0.3804, recall: 0.4222
+
+Epoch 9/10, accuracy: 0.8083
+ * Micro Average: f1: 0.5321, precision: 0.5058, recall: 0.5612
+ * Macro Average: f1: 0.4000, precision: 0.3804, recall: 0.4225
+
+Epoch 10/10, accuracy: 0.8082
+ * Micro Average: f1: 0.5317, precision: 0.5053, recall: 0.5610
+ * Macro Average: f1: 0.3997, precision: 0.3800, recall: 0.4223
+
+Classification Report on test set:
+
+________________________________________
+ LOC:
+  * precision: 0.5747
+  * recall: 0.5971
+  * f1-score: 0.5857
+  * support: 4825.0000
+ ORG:
+  * precision: 0.4126
+  * recall: 0.4606
+  * f1-score: 0.4352
+  * support: 4666.0000
+ PER:
+  * precision: 0.5583
+  * recall: 0.6499
+  * f1-score: 0.6006
+  * support: 4630.0000
+ SEP]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ micro avg:
+  * precision: 0.5148
+  * recall: 0.5693
+  * f1-score: 0.5407
+  * support: 14121.0000
+ macro avg:
+  * precision: 0.3864
+  * recall: 0.4269
+  * f1-score: 0.4054
+  * support: 14121.0000
+ weighted avg:
+  * precision: 0.5157
+  * recall: 0.5693
+  * f1-score: 0.5409
+  * support: 14121.0000
+ accuracy:
+  * 0.8054
+________________________________________
+
+
+====================================================================================================
+
+
+
+
+====================================================================================================
+Training model: xlm-roberta-base
+ * 10 epochs
+ * learning rate is 2e-05
+ * batch size is 128
+ * frozen weights: True
+ * device is on cuda * warmup steps: 50
+ * activation: GELU
+ * languages: en
+----------------------------------------------------------------------------------------------------
+
+Epoch 1/10, accuracy: 0.8081
+ * Micro Average: f1: 0.5299, precision: 0.5026, recall: 0.5603
+ * Macro Average: f1: 0.3984, precision: 0.3781, recall: 0.4218
+
+Epoch 2/10, accuracy: 0.8083
+ * Micro Average: f1: 0.5304, precision: 0.5036, recall: 0.5603
+ * Macro Average: f1: 0.3990, precision: 0.3790, recall: 0.4218
+
+Epoch 3/10, accuracy: 0.8081
+ * Micro Average: f1: 0.5307, precision: 0.5038, recall: 0.5606
+ * Macro Average: f1: 0.3990, precision: 0.3789, recall: 0.4220
+
+Epoch 4/10, accuracy: 0.8081
+ * Micro Average: f1: 0.5298, precision: 0.5025, recall: 0.5603
+ * Macro Average: f1: 0.3985, precision: 0.3782, recall: 0.4218
+
+Epoch 5/10, accuracy: 0.8080
+ * Micro Average: f1: 0.5295, precision: 0.5021, recall: 0.5601
+ * Macro Average: f1: 0.3981, precision: 0.3777, recall: 0.4216
+
+Epoch 6/10, accuracy: 0.8079
+ * Micro Average: f1: 0.5306, precision: 0.5035, recall: 0.5606
+ * Macro Average: f1: 0.3988, precision: 0.3785, recall: 0.4220
+
+Epoch 7/10, accuracy: 0.8078
+ * Micro Average: f1: 0.5297, precision: 0.5024, recall: 0.5601
+ * Macro Average: f1: 0.3982, precision: 0.3777, recall: 0.4216
+
+Epoch 8/10, accuracy: 0.8078
+ * Micro Average: f1: 0.5294, precision: 0.5019, recall: 0.5601
+ * Macro Average: f1: 0.3980, precision: 0.3774, recall: 0.4216
+
+Epoch 9/10, accuracy: 0.8078
+ * Micro Average: f1: 0.5291, precision: 0.5016, recall: 0.5599
+ * Macro Average: f1: 0.3978, precision: 0.3772, recall: 0.4215
+
+Epoch 10/10, accuracy: 0.8078
+ * Micro Average: f1: 0.5291, precision: 0.5016, recall: 0.5599
+ * Macro Average: f1: 0.3978, precision: 0.3772, recall: 0.4215
+
+Classification Report on test set:
+
+________________________________________
+ LOC:
+  * precision: 0.5719
+  * recall: 0.6019
+  * f1-score: 0.5865
+  * support: 4825.0000
+ ORG:
+  * precision: 0.4109
+  * recall: 0.4621
+  * f1-score: 0.4350
+  * support: 4666.0000
+ PER:
+  * precision: 0.5593
+  * recall: 0.6475
+  * f1-score: 0.6002
+  * support: 4630.0000
+ SEP]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ micro avg:
+  * precision: 0.5136
+  * recall: 0.5706
+  * f1-score: 0.5406
+  * support: 14121.0000
+ macro avg:
+  * precision: 0.3855
+  * recall: 0.4279
+  * f1-score: 0.4054
+  * support: 14121.0000
+ weighted avg:
+  * precision: 0.5146
+  * recall: 0.5706
+  * f1-score: 0.5409
+  * support: 14121.0000
+ accuracy:
+  * 0.8056
+________________________________________
+
+
+====================================================================================================
+
+
+
+
+====================================================================================================
+Training model: xlm-roberta-base
+ * 10 epochs
+ * learning rate is 2e-05
+ * batch size is 128
+ * frozen weights: False
+ * device is on cuda * warmup steps: 50
+ * activation: GELU
+ * languages: en
+----------------------------------------------------------------------------------------------------
+
+Epoch 1/10, accuracy: 0.8037
+ * Micro Average: f1: 0.5269, precision: 0.4965, recall: 0.5612
+ * Macro Average: f1: 0.3927, precision: 0.3705, recall: 0.4232
+
+Epoch 2/10, accuracy: 0.8031
+ * Micro Average: f1: 0.5268, precision: 0.4962, recall: 0.5614
+ * Macro Average: f1: 0.3923, precision: 0.3704, recall: 0.4234
+
+Epoch 3/10, accuracy: 0.8040
+ * Micro Average: f1: 0.5282, precision: 0.4974, recall: 0.5630
+ * Macro Average: f1: 0.3934, precision: 0.3714, recall: 0.4247
+
+Epoch 4/10, accuracy: 0.8038
+ * Micro Average: f1: 0.5284, precision: 0.4979, recall: 0.5628
+ * Macro Average: f1: 0.3936, precision: 0.3720, recall: 0.4245
+
+Epoch 5/10, accuracy: 0.8037
+ * Micro Average: f1: 0.5273, precision: 0.4965, recall: 0.5621
+ * Macro Average: f1: 0.3927, precision: 0.3708, recall: 0.4240
+
+Epoch 6/10, accuracy: 0.8040
+ * Micro Average: f1: 0.5286, precision: 0.4985, recall: 0.5627
+ * Macro Average: f1: 0.3938, precision: 0.3722, recall: 0.4243
+
+Epoch 7/10, accuracy: 0.8043
+ * Micro Average: f1: 0.5293, precision: 0.4992, recall: 0.5632
+ * Macro Average: f1: 0.3943, precision: 0.3728, recall: 0.4247
+
+Epoch 8/10, accuracy: 0.8045
+ * Micro Average: f1: 0.5296, precision: 0.4998, recall: 0.5632
+ * Macro Average: f1: 0.3946, precision: 0.3732, recall: 0.4247
+
+Epoch 9/10, accuracy: 0.8045
+ * Micro Average: f1: 0.5294, precision: 0.4995, recall: 0.5630
+ * Macro Average: f1: 0.3944, precision: 0.3731, recall: 0.4246
+
+Epoch 10/10, accuracy: 0.8045
+ * Micro Average: f1: 0.5294, precision: 0.4995, recall: 0.5630
+ * Macro Average: f1: 0.3944, precision: 0.3731, recall: 0.4246
+
+Classification Report on test set:
+
+________________________________________
+ LOC:
+  * precision: 0.5645
+  * recall: 0.5961
+  * f1-score: 0.5798
+  * support: 4825.0000
+ ORG:
+  * precision: 0.4310
+  * recall: 0.4098
+  * f1-score: 0.4201
+  * support: 4666.0000
+ PER:
+  * precision: 0.5100
+  * recall: 0.6998
+  * f1-score: 0.5900
+  * support: 4630.0000
+ SEP]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ micro avg:
+  * precision: 0.5053
+  * recall: 0.5685
+  * f1-score: 0.5350
+  * support: 14121.0000
+ macro avg:
+  * precision: 0.3764
+  * recall: 0.4264
+  * f1-score: 0.3975
+  * support: 14121.0000
+ weighted avg:
+  * precision: 0.5025
+  * recall: 0.5685
+  * f1-score: 0.5304
+  * support: 14121.0000
+ accuracy:
+  * 0.8026
+________________________________________
+
+
+====================================================================================================
+
+
+
+
+====================================================================================================
+Training model: xlm-roberta-base
+ * 10 epochs
+ * learning rate is 2e-05
+ * batch size is 128
+ * frozen weights: True
+ * device is on cuda * warmup steps: 50
+ * activation: GELU
+ * languages: en
+----------------------------------------------------------------------------------------------------
+
+Epoch 1/10, accuracy: 0.8046
+ * Micro Average: f1: 0.5290, precision: 0.4994, recall: 0.5623
+ * Macro Average: f1: 0.3940, precision: 0.3729, recall: 0.4240
+
+Epoch 2/10, accuracy: 0.8051
+ * Micro Average: f1: 0.5294, precision: 0.4999, recall: 0.5625
+ * Macro Average: f1: 0.3944, precision: 0.3733, recall: 0.4242
+
+Epoch 3/10, accuracy: 0.8051
+ * Micro Average: f1: 0.5291, precision: 0.5001, recall: 0.5617
+ * Macro Average: f1: 0.3942, precision: 0.3733, recall: 0.4236
+
+Epoch 4/10, accuracy: 0.8052
+ * Micro Average: f1: 0.5301, precision: 0.5012, recall: 0.5625
+ * Macro Average: f1: 0.5265, precision: 0.4990, recall: 0.5656
+
+Epoch 5/10, accuracy: 0.8052
+ * Micro Average: f1: 0.5294, precision: 0.5002, recall: 0.5621
+ * Macro Average: f1: 0.5259, precision: 0.4981, recall: 0.5652
+
+Epoch 6/10, accuracy: 0.8053
+ * Micro Average: f1: 0.5301, precision: 0.5015, recall: 0.5623
+ * Macro Average: f1: 0.5267, precision: 0.4993, recall: 0.5654
+
+Epoch 7/10, accuracy: 0.8052
+ * Micro Average: f1: 0.5286, precision: 0.4995, recall: 0.5612
+ * Macro Average: f1: 0.5249, precision: 0.4969, recall: 0.5643
+
+Epoch 8/10, accuracy: 0.8052
+ * Micro Average: f1: 0.5291, precision: 0.5002, recall: 0.5616
+ * Macro Average: f1: 0.5255, precision: 0.4978, recall: 0.5647
+
+Epoch 9/10, accuracy: 0.8053
+ * Micro Average: f1: 0.5298, precision: 0.5011, recall: 0.5619
+ * Macro Average: f1: 0.5262, precision: 0.4988, recall: 0.5650
+
+Epoch 10/10, accuracy: 0.8054
+ * Micro Average: f1: 0.5290, precision: 0.5001, recall: 0.5616
+ * Macro Average: f1: 0.5255, precision: 0.4976, recall: 0.5647
+
+Classification Report on test set:
+
+________________________________________
+ LOC:
+  * precision: 0.5668
+  * recall: 0.5927
+  * f1-score: 0.5795
+  * support: 4825.0000
+ ORG:
+  * precision: 0.4308
+  * recall: 0.4113
+  * f1-score: 0.4208
+  * support: 4666.0000
+ PER:
+  * precision: 0.5077
+  * recall: 0.6968
+  * f1-score: 0.5874
+  * support: 4630.0000
+ SEP]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ micro avg:
+  * precision: 0.5048
+  * recall: 0.5669
+  * f1-score: 0.5340
+  * support: 14121.0000
+ macro avg:
+  * precision: 0.3763
+  * recall: 0.4252
+  * f1-score: 0.3969
+  * support: 14121.0000
+ weighted avg:
+  * precision: 0.5025
+  * recall: 0.5669
+  * f1-score: 0.5297
+  * support: 14121.0000
+ accuracy:
+  * 0.8029
+________________________________________
+
+
+====================================================================================================
+
+
+
+
+====================================================================================================
+Training model: xlm-roberta-base
+ * 10 epochs
+ * learning rate is 2e-05
+ * batch size is 128
+ * frozen weights: False
+ * device is on cuda * warmup steps: 50
+ * activation: GELU
+ * languages: en
+----------------------------------------------------------------------------------------------------
+
+Epoch 1/10, accuracy: 0.8049
+ * Micro Average: f1: 0.5274, precision: 0.5000, recall: 0.5579
+ * Macro Average: f1: 0.3930, precision: 0.3740, recall: 0.4207
+
+Epoch 2/10, accuracy: 0.8044
+ * Micro Average: f1: 0.5272, precision: 0.5006, recall: 0.5568
+ * Macro Average: f1: 0.3931, precision: 0.3752, recall: 0.4199
+
+Epoch 3/10, accuracy: 0.8042
+ * Micro Average: f1: 0.5267, precision: 0.5013, recall: 0.5548
+ * Macro Average: f1: 0.3927, precision: 0.3761, recall: 0.4184
+
+Epoch 4/10, accuracy: 0.8041
+ * Micro Average: f1: 0.5240, precision: 0.4986, recall: 0.5522
+ * Macro Average: f1: 0.3908, precision: 0.3741, recall: 0.4165
+
+Epoch 5/10, accuracy: 0.8039
+ * Micro Average: f1: 0.5238, precision: 0.4983, recall: 0.5520
+ * Macro Average: f1: 0.3907, precision: 0.3742, recall: 0.4164
+
+Epoch 6/10, accuracy: 0.8035
+ * Micro Average: f1: 0.5221, precision: 0.4967, recall: 0.5503
+ * Macro Average: f1: 0.3894, precision: 0.3730, recall: 0.4152
+
+Epoch 7/10, accuracy: 0.8033
+ * Micro Average: f1: 0.5208, precision: 0.4957, recall: 0.5485
+ * Macro Average: f1: 0.3884, precision: 0.3721, recall: 0.4138
+
+Epoch 8/10, accuracy: 0.8031
+ * Micro Average: f1: 0.5191, precision: 0.4943, recall: 0.5465
+ * Macro Average: f1: 0.3871, precision: 0.3712, recall: 0.4123
+
+Epoch 9/10, accuracy: 0.8030
+ * Micro Average: f1: 0.5197, precision: 0.4952, recall: 0.5467
+ * Macro Average: f1: 0.3875, precision: 0.3719, recall: 0.4124
+
+Epoch 10/10, accuracy: 0.8030
+ * Micro Average: f1: 0.5197, precision: 0.4953, recall: 0.5467
+ * Macro Average: f1: 0.3876, precision: 0.3720, recall: 0.4124
+
+Classification Report on test set:
+
+________________________________________
+ LOC:
+  * precision: 0.5988
+  * recall: 0.5581
+  * f1-score: 0.5778
+  * support: 4825.0000
+ ORG:
+  * precision: 0.4225
+  * recall: 0.4083
+  * f1-score: 0.4153
+  * support: 4666.0000
+ PAD]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ PER:
+  * precision: 0.5046
+  * recall: 0.7041
+  * f1-score: 0.5879
+  * support: 4630.0000
+ SEP]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ micro avg:
+  * precision: 0.5076
+  * recall: 0.5565
+  * f1-score: 0.5309
+  * support: 14121.0000
+ macro avg:
+  * precision: 0.3052
+  * recall: 0.3341
+  * f1-score: 0.3162
+  * support: 14121.0000
+ weighted avg:
+  * precision: 0.5097
+  * recall: 0.5565
+  * f1-score: 0.5274
+  * support: 14121.0000
+ accuracy:
+  * 0.8005
+________________________________________
+
+
+====================================================================================================
+
+
+
+
+====================================================================================================
+Training model: xlm-roberta-base
+ * 10 epochs
+ * learning rate is 2e-05
+ * batch size is 128
+ * frozen weights: True
+ * device is on cuda * warmup steps: 50
+ * activation: GELU
+ * languages: en
+----------------------------------------------------------------------------------------------------
+
+Epoch 1/10, accuracy: 0.8026
+ * Micro Average: f1: 0.5166, precision: 0.4923, recall: 0.5434
+ * Macro Average: f1: 0.3852, precision: 0.3698, recall: 0.4100
+
+Epoch 2/10, accuracy: 0.8020
+ * Micro Average: f1: 0.5150, precision: 0.4917, recall: 0.5406
+ * Macro Average: f1: 0.3838, precision: 0.3694, recall: 0.4079
+
+Epoch 3/10, accuracy: 0.8016
+ * Micro Average: f1: 0.5142, precision: 0.4917, recall: 0.5390
+ * Macro Average: f1: 0.3831, precision: 0.3694, recall: 0.4067
+
+Epoch 4/10, accuracy: 0.8011
+ * Micro Average: f1: 0.5126, precision: 0.4909, recall: 0.5364
+ * Macro Average: f1: 0.3819, precision: 0.3688, recall: 0.4048
+
+Epoch 5/10, accuracy: 0.8006
+ * Micro Average: f1: 0.5103, precision: 0.4893, recall: 0.5333
+ * Macro Average: f1: 0.3041, precision: 0.2940, recall: 0.3219
+
+Epoch 6/10, accuracy: 0.8006
+ * Micro Average: f1: 0.5116, precision: 0.4912, recall: 0.5338
+ * Macro Average: f1: 0.3049, precision: 0.2952, recall: 0.3223
+
+Epoch 7/10, accuracy: 0.8004
+ * Micro Average: f1: 0.5121, precision: 0.4922, recall: 0.5336
+ * Macro Average: f1: 0.3052, precision: 0.2960, recall: 0.3222
+
+Epoch 8/10, accuracy: 0.8002
+ * Micro Average: f1: 0.5117, precision: 0.4919, recall: 0.5331
+ * Macro Average: f1: 0.3050, precision: 0.2960, recall: 0.3218
+
+Epoch 9/10, accuracy: 0.8001
+ * Micro Average: f1: 0.5123, precision: 0.4928, recall: 0.5334
+ * Macro Average: f1: 0.3055, precision: 0.2966, recall: 0.3220
+
+Epoch 10/10, accuracy: 0.8001
+ * Micro Average: f1: 0.5124, precision: 0.4929, recall: 0.5334
+ * Macro Average: f1: 0.3055, precision: 0.2967, recall: 0.3220
+
+Classification Report on test set:
+
+________________________________________
+ LOC:
+  * precision: 0.5963
+  * recall: 0.5341
+  * f1-score: 0.5635
+  * support: 4825.0000
+ ORG:
+  * precision: 0.4069
+  * recall: 0.3911
+  * f1-score: 0.3989
+  * support: 4666.0000
+ PAD]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ PER:
+  * precision: 0.5063
+  * recall: 0.7032
+  * f1-score: 0.5887
+  * support: 4630.0000
+ SEP]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ micro avg:
+  * precision: 0.5009
+  * recall: 0.5423
+  * f1-score: 0.5208
+  * support: 14121.0000
+ macro avg:
+  * precision: 0.3019
+  * recall: 0.3257
+  * f1-score: 0.3102
+  * support: 14121.0000
+ weighted avg:
+  * precision: 0.5042
+  * recall: 0.5423
+  * f1-score: 0.5174
+  * support: 14121.0000
+ accuracy:
+  * 0.7979
+________________________________________
+
+
+====================================================================================================
+
+
+
+
+====================================================================================================
+Training model: xlm-roberta-base
+ * 10 epochs
+ * learning rate is 2e-05
+ * batch size is 256
+ * frozen weights: False
+ * device is on cuda * warmup steps: 50
+ * activation: GELU
+ * languages: en
+----------------------------------------------------------------------------------------------------
+
+Epoch 1/10, accuracy: 0.8085
+ * Micro Average: f1: 0.5280, precision: 0.5074, recall: 0.5504
+ * Macro Average: f1: 0.3953, precision: 0.3813, recall: 0.4147
+
+Epoch 2/10, accuracy: 0.8095
+ * Micro Average: f1: 0.5329, precision: 0.5086, recall: 0.5597
+ * Macro Average: f1: 0.4003, precision: 0.3829, recall: 0.4214
+
+Epoch 3/10, accuracy: 0.8084
+ * Micro Average: f1: 0.5328, precision: 0.5081, recall: 0.5601
+ * Macro Average: f1: 0.4004, precision: 0.3823, recall: 0.4216
+
+Epoch 4/10, accuracy: 0.8083
+ * Micro Average: f1: 0.5349, precision: 0.5098, recall: 0.5625
+ * Macro Average: f1: 0.4020, precision: 0.3836, recall: 0.4234
+
+Epoch 5/10, accuracy: 0.8083
+ * Micro Average: f1: 0.5323, precision: 0.5056, recall: 0.5620
+ * Macro Average: f1: 0.4002, precision: 0.3804, recall: 0.4229
+
+Epoch 6/10, accuracy: 0.8084
+ * Micro Average: f1: 0.5324, precision: 0.5058, recall: 0.5620
+ * Macro Average: f1: 0.4003, precision: 0.3805, recall: 0.4229
+
+Epoch 7/10, accuracy: 0.8085
+ * Micro Average: f1: 0.5322, precision: 0.5055, recall: 0.5620
+ * Macro Average: f1: 0.4001, precision: 0.3803, recall: 0.4229
+
+Epoch 8/10, accuracy: 0.8085
+ * Micro Average: f1: 0.5318, precision: 0.5049, recall: 0.5618
+ * Macro Average: f1: 0.3998, precision: 0.3798, recall: 0.4228
+
+Epoch 9/10, accuracy: 0.8087
+ * Micro Average: f1: 0.5329, precision: 0.5061, recall: 0.5627
+ * Macro Average: f1: 0.4007, precision: 0.3807, recall: 0.4235
+
+Epoch 10/10, accuracy: 0.8087
+ * Micro Average: f1: 0.5329, precision: 0.5061, recall: 0.5627
+ * Macro Average: f1: 0.4007, precision: 0.3808, recall: 0.4235
+
+Classification Report on test set:
+
+________________________________________
+ LOC:
+  * precision: 0.5765
+  * recall: 0.5971
+  * f1-score: 0.5866
+  * support: 4825.0000
+ ORG:
+  * precision: 0.4100
+  * recall: 0.4601
+  * f1-score: 0.4336
+  * support: 4666.0000
+ PAD]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ PER:
+  * precision: 0.5578
+  * recall: 0.6501
+  * f1-score: 0.6004
+  * support: 4630.0000
+ SEP]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ micro avg:
+  * precision: 0.5140
+  * recall: 0.5692
+  * f1-score: 0.5402
+  * support: 14121.0000
+ macro avg:
+  * precision: 0.3089
+  * recall: 0.3415
+  * f1-score: 0.3241
+  * support: 14121.0000
+ weighted avg:
+  * precision: 0.5154
+  * recall: 0.5692
+  * f1-score: 0.5406
+  * support: 14121.0000
+ accuracy:
+  * 0.8054
+________________________________________
+
+
+====================================================================================================
+
+
+
+
+====================================================================================================
+Training model: xlm-roberta-base
+ * 10 epochs
+ * learning rate is 2e-05
+ * batch size is 256
+ * frozen weights: True
+ * device is on cuda * warmup steps: 50
+ * activation: GELU
+ * languages: en
+----------------------------------------------------------------------------------------------------
+
+Epoch 1/10, accuracy: 0.8085
+ * Micro Average: f1: 0.5328, precision: 0.5057, recall: 0.5629
+ * Macro Average: f1: 0.4005, precision: 0.3804, recall: 0.4237
+
+Epoch 2/10, accuracy: 0.8086
+ * Micro Average: f1: 0.5332, precision: 0.5060, recall: 0.5635
+ * Macro Average: f1: 0.4008, precision: 0.3805, recall: 0.4241
+
+Epoch 3/10, accuracy: 0.8087
+ * Micro Average: f1: 0.5333, precision: 0.5061, recall: 0.5635
+ * Macro Average: f1: 0.4009, precision: 0.3806, recall: 0.4241
+
+Epoch 4/10, accuracy: 0.8087
+ * Micro Average: f1: 0.5329, precision: 0.5055, recall: 0.5633
+ * Macro Average: f1: 0.4006, precision: 0.3802, recall: 0.4239
+
+Epoch 5/10, accuracy: 0.8088
+ * Micro Average: f1: 0.5321, precision: 0.5044, recall: 0.5629
+ * Macro Average: f1: 0.4000, precision: 0.3794, recall: 0.4237
+
+Epoch 6/10, accuracy: 0.8085
+ * Micro Average: f1: 0.5313, precision: 0.5035, recall: 0.5623
+ * Macro Average: f1: 0.3994, precision: 0.3787, recall: 0.4232
+
+Epoch 7/10, accuracy: 0.8085
+ * Micro Average: f1: 0.5317, precision: 0.5043, recall: 0.5623
+ * Macro Average: f1: 0.3998, precision: 0.3793, recall: 0.4232
+
+Epoch 8/10, accuracy: 0.8084
+ * Micro Average: f1: 0.5314, precision: 0.5039, recall: 0.5620
+ * Macro Average: f1: 0.3995, precision: 0.3790, recall: 0.4229
+
+Epoch 9/10, accuracy: 0.8085
+ * Micro Average: f1: 0.5315, precision: 0.5041, recall: 0.5620
+ * Macro Average: f1: 0.3995, precision: 0.3790, recall: 0.4229
+
+Epoch 10/10, accuracy: 0.8085
+ * Micro Average: f1: 0.5315, precision: 0.5041, recall: 0.5622
+ * Macro Average: f1: 0.3996, precision: 0.3790, recall: 0.4231
+
+Classification Report on test set:
+
+________________________________________
+ LOC:
+  * precision: 0.5723
+  * recall: 0.6012
+  * f1-score: 0.5864
+  * support: 4825.0000
+ ORG:
+  * precision: 0.4110
+  * recall: 0.4612
+  * f1-score: 0.4347
+  * support: 4666.0000
+ PER:
+  * precision: 0.5591
+  * recall: 0.6488
+  * f1-score: 0.6006
+  * support: 4630.0000
+ SEP]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ micro avg:
+  * precision: 0.5137
+  * recall: 0.5706
+  * f1-score: 0.5407
+  * support: 14121.0000
+ macro avg:
+  * precision: 0.3856
+  * recall: 0.4278
+  * f1-score: 0.4054
+  * support: 14121.0000
+ weighted avg:
+  * precision: 0.5147
+  * recall: 0.5706
+  * f1-score: 0.5409
+  * support: 14121.0000
+ accuracy:
+  * 0.8053
+________________________________________
+
+
+====================================================================================================
+
+
+
+
+====================================================================================================
+Training model: xlm-roberta-base
+ * 10 epochs
+ * learning rate is 2e-05
+ * batch size is 256
+ * frozen weights: False
+ * device is on cuda * warmup steps: 50
+ * activation: GELU
+ * languages: en
+----------------------------------------------------------------------------------------------------
+
+Epoch 1/10, accuracy: 0.8070
+ * Micro Average: f1: 0.5316, precision: 0.5020, recall: 0.5648
+ * Macro Average: f1: 0.3975, precision: 0.3747, recall: 0.4255
+
+Epoch 2/10, accuracy: 0.8049
+ * Micro Average: f1: 0.5285, precision: 0.4974, recall: 0.5637
+ * Macro Average: f1: 0.3939, precision: 0.3710, recall: 0.4249
+
+Epoch 3/10, accuracy: 0.8043
+ * Micro Average: f1: 0.5281, precision: 0.4970, recall: 0.5633
+ * Macro Average: f1: 0.3933, precision: 0.3708, recall: 0.4247
+
+Epoch 4/10, accuracy: 0.8042
+ * Micro Average: f1: 0.5277, precision: 0.4963, recall: 0.5633
+ * Macro Average: f1: 0.3930, precision: 0.3704, recall: 0.4247
+
+Epoch 5/10, accuracy: 0.8044
+ * Micro Average: f1: 0.5282, precision: 0.4968, recall: 0.5639
+ * Macro Average: f1: 0.3934, precision: 0.3709, recall: 0.4251
+
+Epoch 6/10, accuracy: 0.8045
+ * Micro Average: f1: 0.5289, precision: 0.4977, recall: 0.5642
+ * Macro Average: f1: 0.3939, precision: 0.3716, recall: 0.4254
+
+Epoch 7/10, accuracy: 0.8045
+ * Micro Average: f1: 0.5290, precision: 0.4979, recall: 0.5642
+ * Macro Average: f1: 0.3940, precision: 0.3718, recall: 0.4254
+
+Epoch 8/10, accuracy: 0.8046
+ * Micro Average: f1: 0.5290, precision: 0.4978, recall: 0.5642
+ * Macro Average: f1: 0.3940, precision: 0.3716, recall: 0.4254
+
+Epoch 9/10, accuracy: 0.8047
+ * Micro Average: f1: 0.5293, precision: 0.4981, recall: 0.5646
+ * Macro Average: f1: 0.3942, precision: 0.3719, recall: 0.4257
+
+Epoch 10/10, accuracy: 0.8047
+ * Micro Average: f1: 0.5293, precision: 0.4982, recall: 0.5646
+ * Macro Average: f1: 0.3942, precision: 0.3719, recall: 0.4257
+
+Classification Report on test set:
+
+________________________________________
+ LOC:
+  * precision: 0.5594
+  * recall: 0.5990
+  * f1-score: 0.5785
+  * support: 4825.0000
+ ORG:
+  * precision: 0.4295
+  * recall: 0.4081
+  * f1-score: 0.4185
+  * support: 4666.0000
+ PER:
+  * precision: 0.5091
+  * recall: 0.6976
+  * f1-score: 0.5887
+  * support: 4630.0000
+ SEP]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ micro avg:
+  * precision: 0.5031
+  * recall: 0.5682
+  * f1-score: 0.5337
+  * support: 14121.0000
+ macro avg:
+  * precision: 0.3745
+  * recall: 0.4262
+  * f1-score: 0.3964
+  * support: 14121.0000
+ weighted avg:
+  * precision: 0.5000
+  * recall: 0.5682
+  * f1-score: 0.5290
+  * support: 14121.0000
+ accuracy:
+  * 0.8023
+________________________________________
+
+
+====================================================================================================
+
+
+
+
+====================================================================================================
+Training model: xlm-roberta-base
+ * 10 epochs
+ * learning rate is 2e-05
+ * batch size is 256
+ * frozen weights: True
+ * device is on cuda * warmup steps: 50
+ * activation: GELU
+ * languages: en
+----------------------------------------------------------------------------------------------------
+
+Epoch 1/10, accuracy: 0.8051
+ * Micro Average: f1: 0.5302, precision: 0.4990, recall: 0.5656
+ * Macro Average: f1: 0.3949, precision: 0.3726, recall: 0.4264
+
+Epoch 2/10, accuracy: 0.8050
+ * Micro Average: f1: 0.5300, precision: 0.4990, recall: 0.5650
+ * Macro Average: f1: 0.3947, precision: 0.3725, recall: 0.4260
+
+Epoch 3/10, accuracy: 0.8052
+ * Micro Average: f1: 0.5303, precision: 0.4994, recall: 0.5652
+ * Macro Average: f1: 0.3949, precision: 0.3728, recall: 0.4261
+
+Epoch 4/10, accuracy: 0.8050
+ * Micro Average: f1: 0.5282, precision: 0.4972, recall: 0.5633
+ * Macro Average: f1: 0.3934, precision: 0.3711, recall: 0.4247
+
+Epoch 5/10, accuracy: 0.8051
+ * Micro Average: f1: 0.5297, precision: 0.4992, recall: 0.5642
+ * Macro Average: f1: 0.3945, precision: 0.3726, recall: 0.4254
+
+Epoch 6/10, accuracy: 0.8054
+ * Micro Average: f1: 0.5314, precision: 0.5010, recall: 0.5658
+ * Macro Average: f1: 0.3958, precision: 0.3740, recall: 0.4265
+
+Epoch 7/10, accuracy: 0.8055
+ * Micro Average: f1: 0.5311, precision: 0.5004, recall: 0.5658
+ * Macro Average: f1: 0.3955, precision: 0.3735, recall: 0.4265
+
+Epoch 8/10, accuracy: 0.8055
+ * Micro Average: f1: 0.5308, precision: 0.5001, recall: 0.5656
+ * Macro Average: f1: 0.3953, precision: 0.3733, recall: 0.4264
+
+Epoch 9/10, accuracy: 0.8055
+ * Micro Average: f1: 0.5309, precision: 0.5003, recall: 0.5656
+ * Macro Average: f1: 0.3954, precision: 0.3734, recall: 0.4264
+
+Epoch 10/10, accuracy: 0.8055
+ * Micro Average: f1: 0.5308, precision: 0.5002, recall: 0.5654
+ * Macro Average: f1: 0.3953, precision: 0.3733, recall: 0.4263
+
+Classification Report on test set:
+
+________________________________________
+ LOC:
+  * precision: 0.5627
+  * recall: 0.5967
+  * f1-score: 0.5792
+  * support: 4825.0000
+ ORG:
+  * precision: 0.4301
+  * recall: 0.4091
+  * f1-score: 0.4194
+  * support: 4666.0000
+ PER:
+  * precision: 0.5099
+  * recall: 0.6996
+  * f1-score: 0.5899
+  * support: 4630.0000
+ SEP]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ micro avg:
+  * precision: 0.5045
+  * recall: 0.5684
+  * f1-score: 0.5346
+  * support: 14121.0000
+ macro avg:
+  * precision: 0.3757
+  * recall: 0.4263
+  * f1-score: 0.3971
+  * support: 14121.0000
+ weighted avg:
+  * precision: 0.5016
+  * recall: 0.5684
+  * f1-score: 0.5299
+  * support: 14121.0000
+ accuracy:
+  * 0.8026
+________________________________________
+
+
+====================================================================================================
+
+
+
+
+====================================================================================================
+Training model: xlm-roberta-base
+ * 10 epochs
+ * learning rate is 2e-05
+ * batch size is 256
+ * frozen weights: False
+ * device is on cuda * warmup steps: 50
+ * activation: GELU
+ * languages: en
+----------------------------------------------------------------------------------------------------
+
+Epoch 1/10, accuracy: 0.8053
+ * Micro Average: f1: 0.5307, precision: 0.5008, recall: 0.5644
+ * Macro Average: f1: 0.3954, precision: 0.3741, recall: 0.4255
+
+Epoch 2/10, accuracy: 0.8051
+ * Micro Average: f1: 0.5293, precision: 0.4998, recall: 0.5625
+ * Macro Average: f1: 0.3944, precision: 0.3738, recall: 0.4241
+
+Epoch 3/10, accuracy: 0.8052
+ * Micro Average: f1: 0.5290, precision: 0.5006, recall: 0.5608
+ * Macro Average: f1: 0.3943, precision: 0.3749, recall: 0.4228
+
+Epoch 4/10, accuracy: 0.8049
+ * Micro Average: f1: 0.5284, precision: 0.5000, recall: 0.5603
+ * Macro Average: f1: 0.3940, precision: 0.3747, recall: 0.4224
+
+Epoch 5/10, accuracy: 0.8050
+ * Micro Average: f1: 0.5279, precision: 0.4997, recall: 0.5595
+ * Macro Average: f1: 0.3936, precision: 0.3746, recall: 0.4218
+
+Epoch 6/10, accuracy: 0.8053
+ * Micro Average: f1: 0.5281, precision: 0.5003, recall: 0.5593
+ * Macro Average: f1: 0.3938, precision: 0.3752, recall: 0.4217
+
+Epoch 7/10, accuracy: 0.8054
+ * Micro Average: f1: 0.5286, precision: 0.5011, recall: 0.5593
+ * Macro Average: f1: 0.3942, precision: 0.3760, recall: 0.4217
+
+Epoch 8/10, accuracy: 0.8053
+ * Micro Average: f1: 0.5284, precision: 0.5014, recall: 0.5586
+ * Macro Average: f1: 0.3940, precision: 0.3761, recall: 0.4211
+
+Epoch 9/10, accuracy: 0.8052
+ * Micro Average: f1: 0.5281, precision: 0.5014, recall: 0.5578
+ * Macro Average: f1: 0.3937, precision: 0.3761, recall: 0.4206
+
+Epoch 10/10, accuracy: 0.8051
+ * Micro Average: f1: 0.5279, precision: 0.5010, recall: 0.5578
+ * Macro Average: f1: 0.3936, precision: 0.3759, recall: 0.4206
+
+Classification Report on test set:
+
+________________________________________
+ LOC:
+  * precision: 0.5828
+  * recall: 0.5753
+  * f1-score: 0.5791
+  * support: 4825.0000
+ ORG:
+  * precision: 0.4268
+  * recall: 0.4132
+  * f1-score: 0.4199
+  * support: 4666.0000
+ PAD]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ PER:
+  * precision: 0.5060
+  * recall: 0.7039
+  * f1-score: 0.5887
+  * support: 4630.0000
+ SEP]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ micro avg:
+  * precision: 0.5062
+  * recall: 0.5639
+  * f1-score: 0.5335
+  * support: 14121.0000
+ macro avg:
+  * precision: 0.3031
+  * recall: 0.3385
+  * f1-score: 0.3175
+  * support: 14121.0000
+ weighted avg:
+  * precision: 0.5061
+  * recall: 0.5639
+  * f1-score: 0.5296
+  * support: 14121.0000
+ accuracy:
+  * 0.8022
+________________________________________
+
+
+====================================================================================================
+
+
+
+
+====================================================================================================
+Training model: xlm-roberta-base
+ * 10 epochs
+ * learning rate is 2e-05
+ * batch size is 256
+ * frozen weights: True
+ * device is on cuda * warmup steps: 50
+ * activation: GELU
+ * languages: en
+----------------------------------------------------------------------------------------------------
+
+Epoch 1/10, accuracy: 0.8051
+ * Micro Average: f1: 0.5276, precision: 0.5013, recall: 0.5568
+ * Macro Average: f1: 0.3934, precision: 0.3762, recall: 0.4199
+
+Epoch 2/10, accuracy: 0.8049
+ * Micro Average: f1: 0.5264, precision: 0.5001, recall: 0.5557
+ * Macro Average: f1: 0.3926, precision: 0.3754, recall: 0.4190
+
+Epoch 3/10, accuracy: 0.8051
+ * Micro Average: f1: 0.5260, precision: 0.5002, recall: 0.5546
+ * Macro Average: f1: 0.3922, precision: 0.3755, recall: 0.4182
+
+Epoch 4/10, accuracy: 0.8046
+ * Micro Average: f1: 0.5243, precision: 0.4989, recall: 0.5525
+ * Macro Average: f1: 0.3909, precision: 0.3745, recall: 0.4167
+
+Epoch 5/10, accuracy: 0.8044
+ * Micro Average: f1: 0.5238, precision: 0.4986, recall: 0.5517
+ * Macro Average: f1: 0.3906, precision: 0.3744, recall: 0.4161
+
+Epoch 6/10, accuracy: 0.8044
+ * Micro Average: f1: 0.5227, precision: 0.4975, recall: 0.5506
+ * Macro Average: f1: 0.3896, precision: 0.3735, recall: 0.4153
+
+Epoch 7/10, accuracy: 0.8041
+ * Micro Average: f1: 0.5212, precision: 0.4956, recall: 0.5496
+ * Macro Average: f1: 0.3109, precision: 0.2977, recall: 0.3316
+
+Epoch 8/10, accuracy: 0.8041
+ * Micro Average: f1: 0.5211, precision: 0.4957, recall: 0.5493
+ * Macro Average: f1: 0.3108, precision: 0.2977, recall: 0.3314
+
+Epoch 9/10, accuracy: 0.8041
+ * Micro Average: f1: 0.5217, precision: 0.4964, recall: 0.5498
+ * Macro Average: f1: 0.3112, precision: 0.2981, recall: 0.3318
+
+Epoch 10/10, accuracy: 0.8040
+ * Micro Average: f1: 0.5216, precision: 0.4963, recall: 0.5496
+ * Macro Average: f1: 0.3111, precision: 0.2981, recall: 0.3317
+
+Classification Report on test set:
+
+________________________________________
+ LOC:
+  * precision: 0.5945
+  * recall: 0.5602
+  * f1-score: 0.5768
+  * support: 4825.0000
+ ORG:
+  * precision: 0.4234
+  * recall: 0.4072
+  * f1-score: 0.4151
+  * support: 4666.0000
+ PAD]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ PER:
+  * precision: 0.5047
+  * recall: 0.7050
+  * f1-score: 0.5883
+  * support: 4630.0000
+ SEP]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ micro avg:
+  * precision: 0.5067
+  * recall: 0.5571
+  * f1-score: 0.5307
+  * support: 14121.0000
+ macro avg:
+  * precision: 0.3045
+  * recall: 0.3345
+  * f1-score: 0.3160
+  * support: 14121.0000
+ weighted avg:
+  * precision: 0.5085
+  * recall: 0.5571
+  * f1-score: 0.5271
+  * support: 14121.0000
+ accuracy:
+  * 0.8008
+________________________________________
+
+
+====================================================================================================
+
+
+
+Task and CPU usage stats:
+JobID           JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+449759           in5550          4                                             01:31:27      0:0 
+449759.batch      batch          4        1   01:31:06          0   01:31:06   01:31:27      0:0 
+449759.exte+     extern          4        1   00:00:00          0   00:00:00   01:31:27      0:0 
+
+Memory usage stats:
+JobID            MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+449759                                                                           
+449759.batch   1414116K          0   1414116K        0              0          0 
+449759.exte+          0          0          0        0              0          0 
+
+Disk usage stats:
+JobID         MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+449759                                                                                                
+449759.batch     1148.06M               0       1148.06M        0.47M                0          0.47M 
+449759.exte+        0.01M               0          0.01M        0.00M                0          0.00M 
+
+GPU usage stats:
+Error: Unable to retrieve job statistics. Return: Setting not configured.
+
+Job 449759 completed at Fri Mar 8 00:39:14 CET 2024

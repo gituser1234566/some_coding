@@ -1,0 +1,123 @@
+Starting job 460135 on gpu-4 at Wed Mar 13 07:06:39 CET 2024
+
+submission directory: /fp/homes01/u01/ec-eirikeg/mandatory_2
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/fp/projects01/ec30/software/easybuild/software/nlpl-nlptools/01-foss-2022b-Python-3.10.8/lib/python3.10/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: [PAD] seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/fp/projects01/ec30/software/easybuild/software/nlpl-nlptools/01-foss-2022b-Python-3.10.8/lib/python3.10/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: [CLS] seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/fp/projects01/ec30/software/easybuild/software/nlpl-nlptools/01-foss-2022b-Python-3.10.8/lib/python3.10/site-packages/seqeval/metrics/v1.py:57: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/fp/projects01/ec30/software/easybuild/software/nlpl-nlptools/01-foss-2022b-Python-3.10.8/lib/python3.10/site-packages/seqeval/metrics/v1.py:57: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+Data preprocessing...
+TESTING FOR MUTLIPLE PARAMETERS:
+
+
+
+
+====================================================================================================
+Training model: bert-base-multilingual-cased
+ * 4 epochs
+ * learning rate is 2e-05
+ * train language: ru
+ * test language: en
+ * dropout: 0.3
+ * batch size is 32
+ * frozen weights: True
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+____________________________________________________________________________________________________
+
+Epoch 1/4, accuracy: 0.3117, loss: 1.9791
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 2/4, accuracy: 0.2047, loss: 1.5059
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 3/4, accuracy: 0.2065, loss: 1.3623
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 4/4, accuracy: 0.2092, loss: 1.3015
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Finished training in 65.18 seconds
+
+Classification Report on test set:
+
+________________________________________
+ LOC:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 4825.0000
+ ORG:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 4666.0000
+ PAD]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ PER:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 4630.0000
+ micro avg:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 14121.0000
+ macro avg:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 14121.0000
+ weighted avg:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 14121.0000
+ accuracy:
+  * 0.2019
+________________________________________
+
+
+Saving model to /fp/projects01/ec30/eirikeg/models
+Traceback (most recent call last):
+  File "/fp/homes01/u01/ec-eirikeg/mandatory_2/hyperparameter_test_eirik.py", line 248, in <module>
+    torch.save(best_model.state_dict(), f"{path}/{name}")
+AttributeError: 'NoneType' object has no attribute 'state_dict'
+
+Task and CPU usage stats:
+JobID           JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+460135           in5550          4                                             00:01:31      1:0 
+460135.batch      batch          4        1   00:01:18          0   00:01:18   00:01:31      1:0 
+460135.exte+     extern          4        1   00:00:00          0   00:00:00   00:01:31      0:0 
+
+Memory usage stats:
+JobID            MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+460135                                                                           
+460135.batch   1314544K          0   1314544K        0              0          0 
+460135.exte+          0          0          0        0              0          0 
+
+Disk usage stats:
+JobID         MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+460135                                                                                                
+460135.batch      758.65M               0        758.65M        0.47M                0          0.47M 
+460135.exte+        0.01M               0          0.01M        0.00M                0          0.00M 
+
+Job 460135 completed at Wed Mar 13 07:08:10 CET 2024

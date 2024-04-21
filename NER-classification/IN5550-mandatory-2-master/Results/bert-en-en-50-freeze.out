@@ -1,0 +1,104 @@
+Data preprocessing...
+TESTING FOR MUTLIPLE PARAMETERS:
+
+
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+
+
+====================================================================================================
+Training model: bert-base-multilingual-cased
+ * 4 epochs
+ * learning rate is 5e-05
+ * train language: en
+ * test language: en
+ * dropout: 0.3
+ * batch size is 16
+ * frozen weights: True
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+____________________________________________________________________________________________________
+
+Epoch 1/4, accuracy: 0.9047, loss: 0.2655
+ * Micro Average: f1: 0.7678, precision: 0.7478, recall: 0.7890
+ * Macro Average: f1: 0.7694, precision: 0.7492, recall: 0.7910
+
+Epoch 2/4, accuracy: 0.9152, loss: 0.1264
+ * Micro Average: f1: 0.7934, precision: 0.7793, recall: 0.8081
+ * Macro Average: f1: 0.7947, precision: 0.7805, recall: 0.8099
+
+Epoch 3/4, accuracy: 0.9202, loss: 0.1030
+ * Micro Average: f1: 0.8071, precision: 0.7901, recall: 0.8247
+ * Macro Average: f1: 0.8081, precision: 0.7906, recall: 0.8267
+
+Epoch 4/4, accuracy: 0.9233, loss: 0.0874
+ * Micro Average: f1: 0.8160, precision: 0.8027, recall: 0.8297
+ * Macro Average: f1: 0.8166, precision: 0.8025, recall: 0.8316
+
+ time for training and evaluating:451.81082558631897
+Classification Report on test set:
+
+________________________________________
+ LOC:
+  * precision: 0.8334
+  * recall: 0.8690
+  * f1-score: 0.8509
+  * support: 4825.0000
+ ORG:
+  * precision: 0.7490
+  * recall: 0.7407
+  * f1-score: 0.7448
+  * support: 4666.0000
+ PER:
+  * precision: 0.8700
+  * recall: 0.9065
+  * f1-score: 0.8879
+  * support: 4630.0000
+ micro avg:
+  * precision: 0.8187
+  * recall: 0.8389
+  * f1-score: 0.8287
+  * support: 14121.0000
+ macro avg:
+  * precision: 0.8175
+  * recall: 0.8387
+  * f1-score: 0.8279
+  * support: 14121.0000
+ weighted avg:
+  * precision: 0.8175
+  * recall: 0.8389
+  * f1-score: 0.8280
+  * support: 14121.0000
+ accuracy:
+  * 0.9250
+________________________________________
+
+
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Saving model to .
+Model saved!
+
+----------------------------------------------------------------------------------------------------
+
+
+
+====================================================================================================
+BEST MODEL (f1: 0.8287):
+Training model: bert-base-multilingual-cased
+ * 4 epochs
+ * learning rate is 5e-05
+ * train language: en
+ * test language: en
+ * dropout: 0.3
+ * batch size is 16
+ * frozen weights: True
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+
+Saving model to .
+Model saved!
+
+----------------------------------------------------------------------------------------------------

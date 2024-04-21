@@ -1,0 +1,858 @@
+Epoch 1/4, accuracy: 0.8643
+ * Micro Average: f1: 0.7504, precision: 0.7395, recall: 0.7615
+ * Macro Average: f1: 0.7497, precision: 0.7358, recall: 0.7659
+
+Epoch 2/4, accuracy: 0.8800
+ * Micro Average: f1: 0.7778, precision: 0.7801, recall: 0.7756
+ * Macro Average: f1: 0.7786, precision: 0.7810, recall: 0.7763
+
+Epoch 3/4, accuracy: 0.8810
+ * Micro Average: f1: 0.7827, precision: 0.7800, recall: 0.7855
+ * Macro Average: f1: 0.7835, precision: 0.7793, recall: 0.7882
+
+Epoch 4/4, accuracy: 0.8850
+ * Micro Average: f1: 0.7879, precision: 0.7892, recall: 0.7866
+ * Macro Average: f1: 0.7883, precision: 0.7863, recall: 0.7911
+
+Classification Report on test set:
+
+________________________________________
+trainset:train-en-train-it and testset:dev-de:
+
+________________________________________
+ LOC:
+  * precision: 0.5491
+  * recall: 0.6288
+  * f1-score: 0.5863
+  * support: 9029.0000
+ ORG:
+  * precision: 0.4948
+  * recall: 0.5936
+  * f1-score: 0.5397
+  * support: 16073.0000
+ PER:
+  * precision: 0.4682
+  * recall: 0.6710
+  * f1-score: 0.5516
+  * support: 14180.0000
+ micro avg:
+  * precision: 0.4952
+  * recall: 0.6296
+  * f1-score: 0.5544
+  * support: 39282.0000
+ macro avg:
+  * precision: 0.5041
+  * recall: 0.6311
+  * f1-score: 0.5592
+  * support: 39282.0000
+ weighted avg:
+  * precision: 0.4977
+  * recall: 0.6296
+  * f1-score: 0.5547
+  * support: 39282.0000
+ accuracy:
+  * 0.7688
+________________________________________
+
+
+Epoch 1/4, accuracy: 0.8656
+ * Micro Average: f1: 0.7489, precision: 0.7350, recall: 0.7634
+ * Macro Average: f1: 0.7484, precision: 0.7391, recall: 0.7602
+
+Epoch 2/4, accuracy: 0.8810
+ * Micro Average: f1: 0.7768, precision: 0.7845, recall: 0.7692
+ * Macro Average: f1: 0.7763, precision: 0.7819, recall: 0.7720
+
+Epoch 3/4, accuracy: 0.8852
+ * Micro Average: f1: 0.7875, precision: 0.7849, recall: 0.7901
+ * Macro Average: f1: 0.7871, precision: 0.7838, recall: 0.7906
+
+Epoch 4/4, accuracy: 0.8884
+ * Micro Average: f1: 0.7942, precision: 0.7937, recall: 0.7948
+ * Macro Average: f1: 0.7937, precision: 0.7905, recall: 0.7978
+
+Classification Report on test set:
+
+________________________________________
+trainset:train-en-train-it and testset:dev-it:
+
+________________________________________
+ LOC:
+  * precision: 0.7998
+  * recall: 0.8255
+  * f1-score: 0.8125
+  * support: 9249.0000
+ ORG:
+  * precision: 0.7841
+  * recall: 0.8234
+  * f1-score: 0.8033
+  * support: 13373.0000
+ PER:
+  * precision: 0.8423
+  * recall: 0.7993
+  * f1-score: 0.8203
+  * support: 17830.0000
+ micro avg:
+  * precision: 0.8121
+  * recall: 0.8133
+  * f1-score: 0.8127
+  * support: 40452.0000
+ macro avg:
+  * precision: 0.8087
+  * recall: 0.8161
+  * f1-score: 0.8120
+  * support: 40452.0000
+ weighted avg:
+  * precision: 0.8133
+  * recall: 0.8133
+  * f1-score: 0.8129
+  * support: 40452.0000
+ accuracy:
+  * 0.9062
+________________________________________
+
+
+Epoch 1/4, accuracy: 0.8678
+ * Micro Average: f1: 0.7546, precision: 0.7636, recall: 0.7459
+ * Macro Average: f1: 0.7536, precision: 0.7602, recall: 0.7473
+
+Epoch 2/4, accuracy: 0.8839
+ * Micro Average: f1: 0.7835, precision: 0.7825, recall: 0.7846
+ * Macro Average: f1: 0.7834, precision: 0.7801, recall: 0.7870
+
+Epoch 3/4, accuracy: 0.8862
+ * Micro Average: f1: 0.7922, precision: 0.7939, recall: 0.7905
+ * Macro Average: f1: 0.7924, precision: 0.7920, recall: 0.7930
+
+Epoch 4/4, accuracy: 0.8877
+ * Micro Average: f1: 0.7938, precision: 0.7924, recall: 0.7953
+ * Macro Average: f1: 0.7936, precision: 0.7891, recall: 0.7988
+
+Classification Report on test set:
+
+________________________________________
+trainset:train-en-train-it and testset:dev-en:
+
+________________________________________
+ LOC:
+  * precision: 0.7082
+  * recall: 0.7457
+  * f1-score: 0.7265
+  * support: 10611.0000
+ ORG:
+  * precision: 0.7096
+  * recall: 0.7607
+  * f1-score: 0.7343
+  * support: 15268.0000
+ PER:
+  * precision: 0.7408
+  * recall: 0.7115
+  * f1-score: 0.7258
+  * support: 20649.0000
+ micro avg:
+  * precision: 0.7223
+  * recall: 0.7354
+  * f1-score: 0.7288
+  * support: 46528.0000
+ macro avg:
+  * precision: 0.7195
+  * recall: 0.7393
+  * f1-score: 0.7289
+  * support: 46528.0000
+ weighted avg:
+  * precision: 0.7231
+  * recall: 0.7354
+  * f1-score: 0.7288
+  * support: 46528.0000
+ accuracy:
+  * 0.8409
+________________________________________
+
+
+Epoch 1/4, accuracy: 0.8701
+ * Micro Average: f1: 0.7563, precision: 0.7455, recall: 0.7674
+ * Macro Average: f1: 0.7545, precision: 0.7474, recall: 0.7627
+
+Epoch 2/4, accuracy: 0.8823
+ * Micro Average: f1: 0.7814, precision: 0.7777, recall: 0.7852
+ * Macro Average: f1: 0.7801, precision: 0.7736, recall: 0.7879
+
+Epoch 3/4, accuracy: 0.8872
+ * Micro Average: f1: 0.7908, precision: 0.7942, recall: 0.7874
+ * Macro Average: f1: 0.7908, precision: 0.7901, recall: 0.7936
+
+Epoch 4/4, accuracy: 0.8891
+ * Micro Average: f1: 0.7960, precision: 0.7976, recall: 0.7944
+ * Macro Average: f1: 0.7959, precision: 0.7954, recall: 0.7970
+
+Classification Report on test set:
+
+________________________________________
+trainset:train-en-train-it and testset:dev-sw:
+
+________________________________________
+ LOC:
+  * precision: 0.3908
+  * recall: 0.4852
+  * f1-score: 0.4329
+  * support: 948.0000
+ ORG:
+  * precision: 0.4086
+  * recall: 0.4602
+  * f1-score: 0.4328
+  * support: 1306.0000
+ PER:
+  * precision: 0.3917
+  * recall: 0.4627
+  * f1-score: 0.4242
+  * support: 1567.0000
+ micro avg:
+  * precision: 0.3970
+  * recall: 0.4674
+  * f1-score: 0.4293
+  * support: 3821.0000
+ macro avg:
+  * precision: 0.3970
+  * recall: 0.4694
+  * f1-score: 0.4300
+  * support: 3821.0000
+ weighted avg:
+  * precision: 0.3972
+  * recall: 0.4674
+  * f1-score: 0.4293
+  * support: 3821.0000
+ accuracy:
+  * 0.5536
+________________________________________
+
+
+Epoch 1/4, accuracy: 0.8630
+ * Micro Average: f1: 0.7436, precision: 0.7371, recall: 0.7502
+ * Macro Average: f1: 0.7418, precision: 0.7326, recall: 0.7517
+
+Epoch 2/4, accuracy: 0.8770
+ * Micro Average: f1: 0.7735, precision: 0.7648, recall: 0.7823
+ * Macro Average: f1: 0.7736, precision: 0.7649, recall: 0.7839
+
+Epoch 3/4, accuracy: 0.8813
+ * Micro Average: f1: 0.7807, precision: 0.7773, recall: 0.7841
+ * Macro Average: f1: 0.7808, precision: 0.7752, recall: 0.7874
+
+Epoch 4/4, accuracy: 0.8835
+ * Micro Average: f1: 0.7862, precision: 0.7836, recall: 0.7888
+ * Macro Average: f1: 0.7866, precision: 0.7824, recall: 0.7910
+
+Classification Report on test set:
+
+________________________________________
+trainset:train-en-train-it and testset:dev-af:
+
+________________________________________
+ LOC:
+  * precision: 0.3659
+  * recall: 0.6027
+  * f1-score: 0.4554
+  * support: 745.0000
+ ORG:
+  * precision: 0.4388
+  * recall: 0.4972
+  * f1-score: 0.4662
+  * support: 1981.0000
+ PER:
+  * precision: 0.3804
+  * recall: 0.6040
+  * f1-score: 0.4668
+  * support: 2174.0000
+ micro avg:
+  * precision: 0.3967
+  * recall: 0.5606
+  * f1-score: 0.4646
+  * support: 4900.0000
+ macro avg:
+  * precision: 0.3950
+  * recall: 0.5680
+  * f1-score: 0.4628
+  * support: 4900.0000
+ weighted avg:
+  * precision: 0.4018
+  * recall: 0.5606
+  * f1-score: 0.4648
+  * support: 4900.0000
+ accuracy:
+  * 0.6854
+________________________________________
+
+
+Iteration  1, Inner iteration  5: 969.3841 seconds for train language combination:train-en-train-it 
+Epoch 1/4, accuracy: 0.8722
+ * Micro Average: f1: 0.7355, precision: 0.7352, recall: 0.7358
+ * Macro Average: f1: 0.7368, precision: 0.7366, recall: 0.7380
+
+Epoch 2/4, accuracy: 0.8855
+ * Micro Average: f1: 0.7631, precision: 0.7691, recall: 0.7571
+ * Macro Average: f1: 0.7643, precision: 0.7680, recall: 0.7611
+
+Epoch 3/4, accuracy: 0.8880
+ * Micro Average: f1: 0.7739, precision: 0.7717, recall: 0.7762
+ * Macro Average: f1: 0.7756, precision: 0.7738, recall: 0.7777
+
+Epoch 4/4, accuracy: 0.8893
+ * Micro Average: f1: 0.7765, precision: 0.7765, recall: 0.7765
+ * Macro Average: f1: 0.7779, precision: 0.7763, recall: 0.7807
+
+Classification Report on test set:
+
+________________________________________
+trainset:train-en-train-de and testset:dev-de:
+
+________________________________________
+ LOC:
+  * precision: 0.7764
+  * recall: 0.7606
+  * f1-score: 0.7684
+  * support: 9042.0000
+ ORG:
+  * precision: 0.7465
+  * recall: 0.7963
+  * f1-score: 0.7706
+  * support: 16067.0000
+ PER:
+  * precision: 0.8049
+  * recall: 0.7608
+  * f1-score: 0.7822
+  * support: 14187.0000
+ micro avg:
+  * precision: 0.7731
+  * recall: 0.7752
+  * f1-score: 0.7742
+  * support: 39296.0000
+ macro avg:
+  * precision: 0.7759
+  * recall: 0.7725
+  * f1-score: 0.7737
+  * support: 39296.0000
+ weighted avg:
+  * precision: 0.7745
+  * recall: 0.7752
+  * f1-score: 0.7743
+  * support: 39296.0000
+ accuracy:
+  * 0.9033
+________________________________________
+
+
+Epoch 1/4, accuracy: 0.8673
+ * Micro Average: f1: 0.7292, precision: 0.7403, recall: 0.7183
+ * Macro Average: f1: 0.7292, precision: 0.7409, recall: 0.7184
+
+Epoch 2/4, accuracy: 0.8841
+ * Micro Average: f1: 0.7635, precision: 0.7658, recall: 0.7612
+ * Macro Average: f1: 0.7630, precision: 0.7665, recall: 0.7610
+
+Epoch 3/4, accuracy: 0.8859
+ * Micro Average: f1: 0.7695, precision: 0.7623, recall: 0.7769
+ * Macro Average: f1: 0.7693, precision: 0.7595, recall: 0.7803
+
+Epoch 4/4, accuracy: 0.8890
+ * Micro Average: f1: 0.7758, precision: 0.7734, recall: 0.7782
+ * Macro Average: f1: 0.7763, precision: 0.7737, recall: 0.7802
+
+Classification Report on test set:
+
+________________________________________
+trainset:train-en-train-de and testset:dev-it:
+
+________________________________________
+ LOC:
+  * precision: 0.6226
+  * recall: 0.6922
+  * f1-score: 0.6556
+  * support: 9242.0000
+ ORG:
+  * precision: 0.5690
+  * recall: 0.6251
+  * f1-score: 0.5957
+  * support: 13357.0000
+ PER:
+  * precision: 0.6376
+  * recall: 0.6869
+  * f1-score: 0.6613
+  * support: 17837.0000
+ micro avg:
+  * precision: 0.6113
+  * recall: 0.6677
+  * f1-score: 0.6383
+  * support: 40436.0000
+ macro avg:
+  * precision: 0.6097
+  * recall: 0.6681
+  * f1-score: 0.6375
+  * support: 40436.0000
+ weighted avg:
+  * precision: 0.6115
+  * recall: 0.6677
+  * f1-score: 0.6383
+  * support: 40436.0000
+ accuracy:
+  * 0.7903
+________________________________________
+
+
+Epoch 1/4, accuracy: 0.8711
+ * Micro Average: f1: 0.7381, precision: 0.7219, recall: 0.7550
+ * Macro Average: f1: 0.7397, precision: 0.7255, recall: 0.7554
+
+Epoch 2/4, accuracy: 0.8843
+ * Micro Average: f1: 0.7668, precision: 0.7679, recall: 0.7657
+ * Macro Average: f1: 0.7682, precision: 0.7707, recall: 0.7659
+
+Epoch 3/4, accuracy: 0.8871
+ * Micro Average: f1: 0.7755, precision: 0.7701, recall: 0.7809
+ * Macro Average: f1: 0.7767, precision: 0.7696, recall: 0.7846
+
+Epoch 4/4, accuracy: 0.8897
+ * Micro Average: f1: 0.7799, precision: 0.7778, recall: 0.7822
+ * Macro Average: f1: 0.7813, precision: 0.7770, recall: 0.7862
+
+Classification Report on test set:
+
+________________________________________
+trainset:train-en-train-de and testset:dev-en:
+
+________________________________________
+ LOC:
+  * precision: 0.7085
+  * recall: 0.7334
+  * f1-score: 0.7207
+  * support: 10623.0000
+ ORG:
+  * precision: 0.7109
+  * recall: 0.7453
+  * f1-score: 0.7277
+  * support: 15281.0000
+ PER:
+  * precision: 0.7349
+  * recall: 0.7139
+  * f1-score: 0.7243
+  * support: 20666.0000
+ micro avg:
+  * precision: 0.7206
+  * recall: 0.7287
+  * f1-score: 0.7246
+  * support: 46570.0000
+ macro avg:
+  * precision: 0.7181
+  * recall: 0.7309
+  * f1-score: 0.7242
+  * support: 46570.0000
+ weighted avg:
+  * precision: 0.7210
+  * recall: 0.7287
+  * f1-score: 0.7246
+  * support: 46570.0000
+ accuracy:
+  * 0.8376
+________________________________________
+
+
+Epoch 1/4, accuracy: 0.8721
+ * Micro Average: f1: 0.7346, precision: 0.7265, recall: 0.7428
+ * Macro Average: f1: 0.7338, precision: 0.7231, recall: 0.7456
+
+Epoch 2/4, accuracy: 0.8866
+ * Micro Average: f1: 0.7651, precision: 0.7764, recall: 0.7542
+ * Macro Average: f1: 0.7654, precision: 0.7750, recall: 0.7563
+
+Epoch 3/4, accuracy: 0.8886
+ * Micro Average: f1: 0.7743, precision: 0.7700, recall: 0.7786
+ * Macro Average: f1: 0.7740, precision: 0.7675, recall: 0.7818
+
+Epoch 4/4, accuracy: 0.8905
+ * Micro Average: f1: 0.7795, precision: 0.7738, recall: 0.7853
+ * Macro Average: f1: 0.7801, precision: 0.7734, recall: 0.7877
+
+Classification Report on test set:
+
+________________________________________
+trainset:train-en-train-de and testset:dev-sw:
+
+________________________________________
+ LOC:
+  * precision: 0.3366
+  * recall: 0.4695
+  * f1-score: 0.3921
+  * support: 950.0000
+ ORG:
+  * precision: 0.3871
+  * recall: 0.4862
+  * f1-score: 0.4310
+  * support: 1308.0000
+ PER:
+  * precision: 0.3667
+  * recall: 0.4055
+  * f1-score: 0.3851
+  * support: 1571.0000
+ micro avg:
+  * precision: 0.3654
+  * recall: 0.4489
+  * f1-score: 0.4029
+  * support: 3829.0000
+ macro avg:
+  * precision: 0.3635
+  * recall: 0.4537
+  * f1-score: 0.4028
+  * support: 3829.0000
+ weighted avg:
+  * precision: 0.3662
+  * recall: 0.4489
+  * f1-score: 0.4025
+  * support: 3829.0000
+ accuracy:
+  * 0.5193
+________________________________________
+
+
+Epoch 1/4, accuracy: 0.8705
+ * Micro Average: f1: 0.7329, precision: 0.7314, recall: 0.7344
+ * Macro Average: f1: 0.7331, precision: 0.7338, recall: 0.7325
+
+Epoch 2/4, accuracy: 0.8855
+ * Micro Average: f1: 0.7679, precision: 0.7754, recall: 0.7606
+ * Macro Average: f1: 0.7691, precision: 0.7762, recall: 0.7621
+
+Epoch 3/4, accuracy: 0.8870
+ * Micro Average: f1: 0.7694, precision: 0.7721, recall: 0.7668
+ * Macro Average: f1: 0.7708, precision: 0.7731, recall: 0.7686
+
+Epoch 4/4, accuracy: 0.8901
+ * Micro Average: f1: 0.7753, precision: 0.7779, recall: 0.7727
+ * Macro Average: f1: 0.7765, precision: 0.7768, recall: 0.7767
+
+Classification Report on test set:
+
+________________________________________
+trainset:train-en-train-de and testset:dev-af:
+
+________________________________________
+ LOC:
+  * precision: 0.4022
+  * recall: 0.6457
+  * f1-score: 0.4956
+  * support: 748.0000
+ ORG:
+  * precision: 0.4682
+  * recall: 0.5687
+  * f1-score: 0.5136
+  * support: 1966.0000
+ PER:
+  * precision: 0.5129
+  * recall: 0.6334
+  * f1-score: 0.5668
+  * support: 2163.0000
+ micro avg:
+  * precision: 0.4746
+  * recall: 0.6092
+  * f1-score: 0.5335
+  * support: 4877.0000
+ macro avg:
+  * precision: 0.4611
+  * recall: 0.6159
+  * f1-score: 0.5253
+  * support: 4877.0000
+ weighted avg:
+  * precision: 0.4779
+  * recall: 0.6092
+  * f1-score: 0.5344
+  * support: 4877.0000
+ accuracy:
+  * 0.7399
+________________________________________
+
+
+Iteration  2, Inner iteration  5: 981.0716 seconds for train language combination:train-en-train-de 
+Epoch 1/4, accuracy: 0.8785
+ * Micro Average: f1: 0.7572, precision: 0.7802, recall: 0.7355
+ * Macro Average: f1: 0.7585, precision: 0.7894, recall: 0.7337
+
+Epoch 2/4, accuracy: 0.8955
+ * Micro Average: f1: 0.7918, precision: 0.7950, recall: 0.7885
+ * Macro Average: f1: 0.7922, precision: 0.7924, recall: 0.7929
+
+Epoch 3/4, accuracy: 0.9017
+ * Micro Average: f1: 0.8044, precision: 0.8095, recall: 0.7993
+ * Macro Average: f1: 0.8054, precision: 0.8097, recall: 0.8014
+
+Epoch 4/4, accuracy: 0.9017
+ * Micro Average: f1: 0.8054, precision: 0.8048, recall: 0.8061
+ * Macro Average: f1: 0.8063, precision: 0.8049, recall: 0.8082
+
+Classification Report on test set:
+
+________________________________________
+trainset:train-en-train-it-train-de and testset:dev-de:
+
+________________________________________
+ LOC:
+  * precision: 0.7824
+  * recall: 0.7867
+  * f1-score: 0.7846
+  * support: 9041.0000
+ ORG:
+  * precision: 0.7526
+  * recall: 0.7992
+  * f1-score: 0.7752
+  * support: 16092.0000
+ PER:
+  * precision: 0.8113
+  * recall: 0.7722
+  * f1-score: 0.7913
+  * support: 14194.0000
+ micro avg:
+  * precision: 0.7794
+  * recall: 0.7866
+  * f1-score: 0.7830
+  * support: 39327.0000
+ macro avg:
+  * precision: 0.7821
+  * recall: 0.7860
+  * f1-score: 0.7837
+  * support: 39327.0000
+ weighted avg:
+  * precision: 0.7807
+  * recall: 0.7866
+  * f1-score: 0.7832
+  * support: 39327.0000
+ accuracy:
+  * 0.9071
+________________________________________
+
+
+Epoch 1/4, accuracy: 0.8761
+ * Micro Average: f1: 0.7477, precision: 0.7324, recall: 0.7637
+ * Macro Average: f1: 0.7454, precision: 0.7263, recall: 0.7690
+
+Epoch 2/4, accuracy: 0.8943
+ * Micro Average: f1: 0.7869, precision: 0.7838, recall: 0.7900
+ * Macro Average: f1: 0.7864, precision: 0.7828, recall: 0.7911
+
+Epoch 3/4, accuracy: 0.8994
+ * Micro Average: f1: 0.7988, precision: 0.8006, recall: 0.7971
+ * Macro Average: f1: 0.7996, precision: 0.8002, recall: 0.7993
+
+Epoch 4/4, accuracy: 0.9003
+ * Micro Average: f1: 0.7996, precision: 0.8035, recall: 0.7957
+ * Macro Average: f1: 0.8002, precision: 0.8027, recall: 0.7981
+
+Classification Report on test set:
+
+________________________________________
+trainset:train-en-train-it-train-de and testset:dev-it:
+
+________________________________________
+ LOC:
+  * precision: 0.8174
+  * recall: 0.8257
+  * f1-score: 0.8215
+  * support: 9242.0000
+ ORG:
+  * precision: 0.7968
+  * recall: 0.8211
+  * f1-score: 0.8088
+  * support: 13370.0000
+ PER:
+  * precision: 0.8332
+  * recall: 0.8071
+  * f1-score: 0.8199
+  * support: 17844.0000
+ micro avg:
+  * precision: 0.8171
+  * recall: 0.8160
+  * f1-score: 0.8165
+  * support: 40456.0000
+ macro avg:
+  * precision: 0.8158
+  * recall: 0.8180
+  * f1-score: 0.8167
+  * support: 40456.0000
+ weighted avg:
+  * precision: 0.8175
+  * recall: 0.8160
+  * f1-score: 0.8166
+  * support: 40456.0000
+ accuracy:
+  * 0.9072
+________________________________________
+
+
+Epoch 1/4, accuracy: 0.8831
+ * Micro Average: f1: 0.7639, precision: 0.7641, recall: 0.7637
+ * Macro Average: f1: 0.7643, precision: 0.7654, recall: 0.7633
+
+Epoch 2/4, accuracy: 0.8974
+ * Micro Average: f1: 0.7939, precision: 0.7873, recall: 0.8006
+ * Macro Average: f1: 0.7951, precision: 0.7908, recall: 0.7998
+
+Epoch 3/4, accuracy: 0.9009
+ * Micro Average: f1: 0.7998, precision: 0.7997, recall: 0.7999
+ * Macro Average: f1: 0.8005, precision: 0.7983, recall: 0.8031
+
+Epoch 4/4, accuracy: 0.9011
+ * Micro Average: f1: 0.8006, precision: 0.7993, recall: 0.8019
+ * Macro Average: f1: 0.8012, precision: 0.7976, recall: 0.8053
+
+Classification Report on test set:
+
+________________________________________
+trainset:train-en-train-it-train-de and testset:dev-en:
+
+________________________________________
+ LOC:
+  * precision: 0.7164
+  * recall: 0.7504
+  * f1-score: 0.7330
+  * support: 10613.0000
+ ORG:
+  * precision: 0.7229
+  * recall: 0.7491
+  * f1-score: 0.7357
+  * support: 15282.0000
+ PER:
+  * precision: 0.7427
+  * recall: 0.7180
+  * f1-score: 0.7301
+  * support: 20655.0000
+ micro avg:
+  * precision: 0.7298
+  * recall: 0.7356
+  * f1-score: 0.7327
+  * support: 46550.0000
+ macro avg:
+  * precision: 0.7273
+  * recall: 0.7392
+  * f1-score: 0.7330
+  * support: 46550.0000
+ weighted avg:
+  * precision: 0.7302
+  * recall: 0.7356
+  * f1-score: 0.7326
+  * support: 46550.0000
+ accuracy:
+  * 0.8428
+________________________________________
+
+
+Epoch 1/4, accuracy: 0.8847
+ * Micro Average: f1: 0.7673, precision: 0.7728, recall: 0.7620
+ * Macro Average: f1: 0.7683, precision: 0.7732, recall: 0.7637
+
+Epoch 2/4, accuracy: 0.8961
+ * Micro Average: f1: 0.7911, precision: 0.7946, recall: 0.7876
+ * Macro Average: f1: 0.7914, precision: 0.7920, recall: 0.7913
+
+Epoch 3/4, accuracy: 0.8993
+ * Micro Average: f1: 0.7996, precision: 0.7938, recall: 0.8055
+ * Macro Average: f1: 0.8005, precision: 0.7939, recall: 0.8079
+
+Epoch 4/4, accuracy: 0.9009
+ * Micro Average: f1: 0.8025, precision: 0.8008, recall: 0.8042
+ * Macro Average: f1: 0.8030, precision: 0.7994, recall: 0.8072
+
+Classification Report on test set:
+
+________________________________________
+trainset:train-en-train-it-train-de and testset:dev-sw:
+
+________________________________________
+ LOC:
+  * precision: 0.3225
+  * recall: 0.4308
+  * f1-score: 0.3689
+  * support: 947.0000
+ ORG:
+  * precision: 0.4517
+  * recall: 0.5030
+  * f1-score: 0.4760
+  * support: 1312.0000
+ PER:
+  * precision: 0.3660
+  * recall: 0.4288
+  * f1-score: 0.3949
+  * support: 1560.0000
+ micro avg:
+  * precision: 0.3814
+  * recall: 0.4548
+  * f1-score: 0.4149
+  * support: 3819.0000
+ macro avg:
+  * precision: 0.3801
+  * recall: 0.4542
+  * f1-score: 0.4133
+  * support: 3819.0000
+ weighted avg:
+  * precision: 0.3847
+  * recall: 0.4548
+  * f1-score: 0.4163
+  * support: 3819.0000
+ accuracy:
+  * 0.5453
+________________________________________
+
+
+Epoch 1/4, accuracy: 0.8811
+ * Micro Average: f1: 0.7650, precision: 0.7488, recall: 0.7819
+ * Macro Average: f1: 0.7641, precision: 0.7543, recall: 0.7757
+
+Epoch 2/4, accuracy: 0.8944
+ * Micro Average: f1: 0.7900, precision: 0.7805, recall: 0.7997
+ * Macro Average: f1: 0.7899, precision: 0.7818, recall: 0.7989
+
+Epoch 3/4, accuracy: 0.8995
+ * Micro Average: f1: 0.8000, precision: 0.7963, recall: 0.8038
+ * Macro Average: f1: 0.7997, precision: 0.7942, recall: 0.8062
+
+Epoch 4/4, accuracy: 0.9011
+ * Micro Average: f1: 0.8032, precision: 0.8019, recall: 0.8045
+ * Macro Average: f1: 0.8030, precision: 0.8004, recall: 0.8063
+
+Classification Report on test set:
+
+________________________________________
+trainset:train-en-train-it-train-de and testset:dev-af:
+
+________________________________________
+ LOC:
+  * precision: 0.4192
+  * recall: 0.6417
+  * f1-score: 0.5071
+  * support: 748.0000
+ ORG:
+  * precision: 0.4913
+  * recall: 0.6002
+  * f1-score: 0.5403
+  * support: 1981.0000
+ PER:
+  * precision: 0.5205
+  * recall: 0.6540
+  * f1-score: 0.5796
+  * support: 2179.0000
+ micro avg:
+  * precision: 0.4909
+  * recall: 0.6304
+  * f1-score: 0.5520
+  * support: 4908.0000
+ macro avg:
+  * precision: 0.4770
+  * recall: 0.6320
+  * f1-score: 0.5424
+  * support: 4908.0000
+ weighted avg:
+  * precision: 0.4933
+  * recall: 0.6304
+  * f1-score: 0.5527
+  * support: 4908.0000
+ accuracy:
+  * 0.7492
+________________________________________
+
+
+Iteration  3, Inner iteration  5: 1493.8682 seconds for train language combination:train-en-train-it-train-de 

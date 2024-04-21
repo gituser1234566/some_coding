@@ -1,0 +1,160 @@
+Starting job 460094 on c1-27 at Wed Mar 13 14:33:47 CET 2024
+
+submission directory: /fp/homes01/u01/ec-eirikeg/mandatory_2
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/fp/projects01/ec30/software/easybuild/software/nlpl-nlptools/01-foss-2022b-Python-3.10.8/lib/python3.10/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: [PAD] seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/fp/projects01/ec30/software/easybuild/software/nlpl-nlptools/01-foss-2022b-Python-3.10.8/lib/python3.10/site-packages/seqeval/metrics/v1.py:57: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/fp/projects01/ec30/software/easybuild/software/nlpl-nlptools/01-foss-2022b-Python-3.10.8/lib/python3.10/site-packages/seqeval/metrics/v1.py:57: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/fp/projects01/ec30/software/easybuild/software/nlpl-nlptools/01-foss-2022b-Python-3.10.8/lib/python3.10/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: [SEP] seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/fp/projects01/ec30/software/easybuild/software/nlpl-nlptools/01-foss-2022b-Python-3.10.8/lib/python3.10/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: [CLS] seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+
+Data preprocessing...
+TESTING FOR MUTLIPLE PARAMETERS:
+
+
+
+
+====================================================================================================
+Training model: bert-base-multilingual-cased
+ * 5 epochs
+ * learning rate is 2e-05
+ * train language: en-it-de
+ * test language: en
+ * dropout: 0.3
+ * batch size is 16
+ * frozen weights: True
+ * activation: GELU
+ * device is on cpu
+ * warmup steps: 50
+____________________________________________________________________________________________________
+
+Epoch 1/5, accuracy: 0.3169, loss: 1.4894
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 2/5, accuracy: 0.3929, loss: 1.1157
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 3/5, accuracy: 0.4483, loss: 0.9887
+ * Micro Average: f1: 0.0030, precision: 0.0026, recall: 0.0036
+ * Macro Average: f1: 0.0032, precision: 0.0062, recall: 0.0022
+
+Epoch 4/5, accuracy: 0.4836, loss: 0.9251
+ * Micro Average: f1: 0.0087, precision: 0.0071, recall: 0.0111
+ * Macro Average: f1: 0.0087, precision: 0.0129, recall: 0.0066
+
+Epoch 5/5, accuracy: 0.4981, loss: 0.9002
+ * Micro Average: f1: 0.0109, precision: 0.0088, recall: 0.0142
+ * Macro Average: f1: 0.0107, precision: 0.0150, recall: 0.0085
+
+Finished training in 7318.15 seconds
+
+Classification Report on test set:
+
+________________________________________
+ CLS]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ LOC:
+  * precision: 0.0213
+  * recall: 0.0070
+  * f1-score: 0.0106
+  * support: 4825.0000
+ ORG:
+  * precision: 0.0312
+  * recall: 0.0204
+  * f1-score: 0.0246
+  * support: 4666.0000
+ PAD]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ PER:
+  * precision: 0.0261
+  * recall: 0.0173
+  * f1-score: 0.0208
+  * support: 4630.0000
+ SEP]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ micro avg:
+  * precision: 0.0094
+  * recall: 0.0148
+  * f1-score: 0.0115
+  * support: 14121.0000
+ macro avg:
+  * precision: 0.0131
+  * recall: 0.0074
+  * f1-score: 0.0093
+  * support: 14121.0000
+ weighted avg:
+  * precision: 0.0261
+  * recall: 0.0148
+  * f1-score: 0.0186
+  * support: 14121.0000
+ accuracy:
+  * 0.4980
+________________________________________
+
+
+Saving model to /fp/projects01/ec30/eirikeg/models
+Model saved!
+
+----------------------------------------------------------------------------------------------------
+
+
+
+====================================================================================================
+BEST MODEL (f1: 0.01146):
+Training model: bert-base-multilingual-cased
+ * 5 epochs
+ * learning rate is 2e-05
+ * train language: en-it-de
+ * test language: en
+ * dropout: 0.3
+ * batch size is 16
+ * frozen weights: True
+ * activation: GELU
+ * device is on cpu
+ * warmup steps: 50
+
+Saving model to /fp/projects01/ec30/eirikeg/models
+Model saved!
+
+----------------------------------------------------------------------------------------------------
+
+
+Task and CPU usage stats:
+JobID           JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+460094           in5550          4                                             02:02:31      0:0 
+460094.batch      batch          4        1   07:54:41          0   07:54:41   02:02:31      0:0 
+460094.exte+     extern          4        1   00:00:00          0   00:00:00   02:02:31      0:0 
+
+Memory usage stats:
+JobID            MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+460094                                                                           
+460094.batch   2824772K          0   2824772K        2              0          2 
+460094.exte+          0          0          0        0              0          0 
+
+Disk usage stats:
+JobID         MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+460094                                                                                                
+460094.batch      758.70M               0        758.70M     1353.11M                0       1353.11M 
+460094.exte+        0.01M               0          0.01M        0.00M                0          0.00M 
+
+Job 460094 completed at Wed Mar 13 16:36:18 CET 2024

@@ -1,0 +1,249 @@
+Testing model /itf-fi-ml/home/eirikeg/IN5550-mandatory-2/bert-base-multilingual-cased_(en-en)_f1_0.8222.pth on language en
+Classification Report on en test set:
+
+________________________________________
+ LOC:
+  * precision: 0.8199
+  * recall: 0.8724
+  * f1-score: 0.8453
+  * support: 4834.0000
+ ORG:
+  * precision: 0.7276
+  * recall: 0.7346
+  * f1-score: 0.7311
+  * support: 4676.0000
+ PER:
+  * precision: 0.8739
+  * recall: 0.9029
+  * f1-score: 0.8882
+  * support: 4635.0000
+ micro avg:
+  * precision: 0.8078
+  * recall: 0.8368
+  * f1-score: 0.8221
+  * support: 14145.0000
+ macro avg:
+  * precision: 0.8071
+  * recall: 0.8366
+  * f1-score: 0.8215
+  * support: 14145.0000
+ weighted avg:
+  * precision: 0.8071
+  * recall: 0.8368
+  * f1-score: 0.8216
+  * support: 14145.0000
+ accuracy:
+  * 0.9221
+________________________________________
+
+
+Testing model /itf-fi-ml/home/eirikeg/IN5550-mandatory-2/bert-base-multilingual-cased_(en-en)_f1_0.8222.pth on language it
+Classification Report on it test set:
+
+________________________________________
+ LOC:
+  * precision: 0.7541
+  * recall: 0.7786
+  * f1-score: 0.7662
+  * support: 4599.0000
+ ORG:
+  * precision: 0.6418
+  * recall: 0.7196
+  * f1-score: 0.6785
+  * support: 4116.0000
+ PER:
+  * precision: 0.8874
+  * recall: 0.9369
+  * f1-score: 0.9115
+  * support: 4911.0000
+ micro avg:
+  * precision: 0.7660
+  * recall: 0.8178
+  * f1-score: 0.7911
+  * support: 13626.0000
+ macro avg:
+  * precision: 0.7611
+  * recall: 0.8117
+  * f1-score: 0.7854
+  * support: 13626.0000
+ weighted avg:
+  * precision: 0.7682
+  * recall: 0.8178
+  * f1-score: 0.7920
+  * support: 13626.0000
+ accuracy:
+  * 0.9118
+________________________________________
+
+
+Testing model /itf-fi-ml/home/eirikeg/IN5550-mandatory-2/bert-base-multilingual-cased_(en-en)_f1_0.8222.pth on language de
+/itf-fi-ml/home/eirikeg/.local/lib/python3.9/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: [SEP] seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/itf-fi-ml/home/eirikeg/.local/lib/python3.9/site-packages/seqeval/metrics/v1.py:57: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Classification Report on de test set:
+
+________________________________________
+ LOC:
+  * precision: 0.7241
+  * recall: 0.8448
+  * f1-score: 0.7798
+  * support: 4967.0000
+ ORG:
+  * precision: 0.5124
+  * recall: 0.7122
+  * f1-score: 0.5960
+  * support: 4281.0000
+ PER:
+  * precision: 0.8725
+  * recall: 0.8792
+  * f1-score: 0.8758
+  * support: 4569.0000
+ SEP]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ micro avg:
+  * precision: 0.6880
+  * recall: 0.8151
+  * f1-score: 0.7461
+  * support: 13817.0000
+ macro avg:
+  * precision: 0.5273
+  * recall: 0.6090
+  * f1-score: 0.5629
+  * support: 13817.0000
+ weighted avg:
+  * precision: 0.7076
+  * recall: 0.8151
+  * f1-score: 0.7546
+  * support: 13817.0000
+ accuracy:
+  * 0.9003
+________________________________________
+
+
+Testing model /itf-fi-ml/home/eirikeg/IN5550-mandatory-2/bert-base-multilingual-cased_(en-en)_f1_0.8222.pth on language sw
+Classification Report on sw test set:
+
+________________________________________
+ LOC:
+  * precision: 0.5770
+  * recall: 0.8119
+  * f1-score: 0.6746
+  * support: 452.0000
+ ORG:
+  * precision: 0.4664
+  * recall: 0.3541
+  * f1-score: 0.4026
+  * support: 353.0000
+ PER:
+  * precision: 0.8275
+  * recall: 0.8809
+  * f1-score: 0.8534
+  * support: 403.0000
+ micro avg:
+  * precision: 0.6354
+  * recall: 0.7012
+  * f1-score: 0.6667
+  * support: 1208.0000
+ macro avg:
+  * precision: 0.6237
+  * recall: 0.6823
+  * f1-score: 0.6435
+  * support: 1208.0000
+ weighted avg:
+  * precision: 0.6283
+  * recall: 0.7012
+  * f1-score: 0.6548
+  * support: 1208.0000
+ accuracy:
+  * 0.8126
+________________________________________
+
+
+Testing model /itf-fi-ml/home/eirikeg/IN5550-mandatory-2/bert-base-multilingual-cased_(en-en)_f1_0.8222.pth on language af
+Classification Report on af test set:
+
+________________________________________
+ LOC:
+  * precision: 0.6972
+  * recall: 0.8504
+  * f1-score: 0.7662
+  * support: 528.0000
+ ORG:
+  * precision: 0.5176
+  * recall: 0.7307
+  * f1-score: 0.6060
+  * support: 583.0000
+ PER:
+  * precision: 0.8122
+  * recall: 0.9351
+  * f1-score: 0.8693
+  * support: 370.0000
+ SEP]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ micro avg:
+  * precision: 0.6447
+  * recall: 0.8244
+  * f1-score: 0.7236
+  * support: 1481.0000
+ macro avg:
+  * precision: 0.5068
+  * recall: 0.6291
+  * f1-score: 0.5604
+  * support: 1481.0000
+ weighted avg:
+  * precision: 0.6552
+  * recall: 0.8244
+  * f1-score: 0.7289
+  * support: 1481.0000
+ accuracy:
+  * 0.8732
+________________________________________
+
+
+Testing model /itf-fi-ml/home/eirikeg/IN5550-mandatory-2/bert-base-multilingual-cased_(en-en)_f1_0.8222.pth on language sw
+Classification Report on sw test set:
+
+________________________________________
+ LOC:
+  * precision: 0.5770
+  * recall: 0.8119
+  * f1-score: 0.6746
+  * support: 452.0000
+ ORG:
+  * precision: 0.4664
+  * recall: 0.3541
+  * f1-score: 0.4026
+  * support: 353.0000
+ PER:
+  * precision: 0.8275
+  * recall: 0.8809
+  * f1-score: 0.8534
+  * support: 403.0000
+ micro avg:
+  * precision: 0.6354
+  * recall: 0.7012
+  * f1-score: 0.6667
+  * support: 1208.0000
+ macro avg:
+  * precision: 0.6237
+  * recall: 0.6823
+  * f1-score: 0.6435
+  * support: 1208.0000
+ weighted avg:
+  * precision: 0.6283
+  * recall: 0.7012
+  * f1-score: 0.6548
+  * support: 1208.0000
+ accuracy:
+  * 0.8126
+________________________________________
+
+
+bash-4.4$ 

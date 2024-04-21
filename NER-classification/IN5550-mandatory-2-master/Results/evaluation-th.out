@@ -1,0 +1,345 @@
+Testing model /itf-fi-ml/home/eirikeg/models/bert-base-multilingual-cased_(th-en)_f1_0.0800.pth on language en
+Classification Report on en test set:
+
+________________________________________
+ CLS]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+pred: B-LOC
+lab: B-ORG
+ LOC:
+  * precision: 0.1279
+  * recall: 0.2921
+  * f1-score: 0.1779
+  * support: 4834.0000
+pred: B-LOC
+lab: B-ORG
+ ORG:
+  * precision: 0.0719
+  * recall: 0.1559
+  * f1-score: 0.0984
+  * support: 4676.0000
+pred: B-LOC
+lab: B-ORG
+ PAD]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+pred: B-LOC
+lab: B-ORG
+ PER:
+  * precision: 0.0335
+  * recall: 0.0013
+  * f1-score: 0.0025
+  * support: 4635.0000
+pred: B-LOC
+lab: B-ORG
+ SEP]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+pred: B-LOC
+lab: B-ORG
+ micro avg:
+  * precision: 0.0908
+  * recall: 0.1518
+  * f1-score: 0.1136
+  * support: 14145.0000
+pred: B-LOC
+lab: B-ORG
+ macro avg:
+  * precision: 0.0389
+  * recall: 0.0749
+  * f1-score: 0.0465
+  * support: 14145.0000
+pred: B-LOC
+lab: B-ORG
+ weighted avg:
+  * precision: 0.0785
+  * recall: 0.1518
+  * f1-score: 0.0941
+  * support: 14145.0000
+pred: B-LOC
+lab: B-ORG
+ accuracy:
+  * 0.4925
+________________________________________
+
+
+Testing model /itf-fi-ml/home/eirikeg/models/bert-base-multilingual-cased_(th-en)_f1_0.0800.pth on language it
+Classification Report on it test set:
+
+________________________________________
+ CLS]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+pred: B-LOC
+lab: B-LOC
+ LOC:
+  * precision: 0.0906
+  * recall: 0.2174
+  * f1-score: 0.1279
+  * support: 4599.0000
+pred: B-LOC
+lab: B-LOC
+ ORG:
+  * precision: 0.0713
+  * recall: 0.2140
+  * f1-score: 0.1070
+  * support: 4116.0000
+pred: B-LOC
+lab: B-LOC
+ PAD]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+pred: B-LOC
+lab: B-LOC
+ PER:
+  * precision: 0.0048
+  * recall: 0.0006
+  * f1-score: 0.0011
+  * support: 4911.0000
+pred: B-LOC
+lab: B-LOC
+ SEP]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+pred: B-LOC
+lab: B-LOC
+ micro avg:
+  * precision: 0.0725
+  * recall: 0.1383
+  * f1-score: 0.0951
+  * support: 13626.0000
+pred: B-LOC
+lab: B-LOC
+ macro avg:
+  * precision: 0.0278
+  * recall: 0.0720
+  * f1-score: 0.0393
+  * support: 13626.0000
+pred: B-LOC
+lab: B-LOC
+ weighted avg:
+  * precision: 0.0539
+  * recall: 0.1383
+  * f1-score: 0.0759
+  * support: 13626.0000
+pred: B-LOC
+lab: B-LOC
+ accuracy:
+  * 0.5124
+________________________________________
+
+
+Testing model /itf-fi-ml/home/eirikeg/models/bert-base-multilingual-cased_(th-en)_f1_0.0800.pth on language de
+Classification Report on de test set:
+
+________________________________________
+ CLS]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+pred: B-LOC
+lab: B-PER
+ LOC:
+  * precision: 0.0596
+  * recall: 0.1707
+  * f1-score: 0.0884
+  * support: 4967.0000
+pred: B-LOC
+lab: B-PER
+ ORG:
+  * precision: 0.0367
+  * recall: 0.1313
+  * f1-score: 0.0574
+  * support: 4281.0000
+pred: B-LOC
+lab: B-PER
+ PAD]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+pred: B-LOC
+lab: B-PER
+ PER:
+  * precision: 0.0087
+  * recall: 0.0015
+  * f1-score: 0.0026
+  * support: 4569.0000
+pred: B-LOC
+lab: B-PER
+ SEP]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+pred: B-LOC
+lab: B-PER
+ micro avg:
+  * precision: 0.0400
+  * recall: 0.1026
+  * f1-score: 0.0576
+  * support: 13817.0000
+pred: B-LOC
+lab: B-PER
+ macro avg:
+  * precision: 0.0175
+  * recall: 0.0506
+  * f1-score: 0.0247
+  * support: 13817.0000
+pred: B-LOC
+lab: B-PER
+ weighted avg:
+  * precision: 0.0357
+  * recall: 0.1026
+  * f1-score: 0.0504
+  * support: 13817.0000
+pred: B-LOC
+lab: B-PER
+ accuracy:
+  * 0.3856
+________________________________________
+
+
+Testing model /itf-fi-ml/home/eirikeg/models/bert-base-multilingual-cased_(th-en)_f1_0.0800.pth on language af
+Classification Report on af test set:
+
+________________________________________
+ LOC:
+  * precision: 0.0579
+  * recall: 0.1723
+  * f1-score: 0.0866
+  * support: 528.0000
+pred: B-LOC
+lab: O
+ ORG:
+  * precision: 0.0295
+  * recall: 0.0738
+  * f1-score: 0.0422
+  * support: 583.0000
+pred: B-LOC
+lab: O
+ PAD]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+pred: B-LOC
+lab: O
+ PER:
+  * precision: 0.0059
+  * recall: 0.0027
+  * f1-score: 0.0037
+  * support: 370.0000
+pred: B-LOC
+lab: O
+ SEP]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+pred: B-LOC
+lab: O
+ micro avg:
+  * precision: 0.0363
+  * recall: 0.0912
+  * f1-score: 0.0520
+  * support: 1481.0000
+pred: B-LOC
+lab: O
+ macro avg:
+  * precision: 0.0187
+  * recall: 0.0498
+  * f1-score: 0.0265
+  * support: 1481.0000
+pred: B-LOC
+lab: O
+ weighted avg:
+  * precision: 0.0337
+  * recall: 0.0912
+  * f1-score: 0.0484
+  * support: 1481.0000
+pred: B-LOC
+lab: O
+ accuracy:
+  * 0.5267
+________________________________________
+
+
+Testing model /itf-fi-ml/home/eirikeg/models/bert-base-multilingual-cased_(th-en)_f1_0.0800.pth on language sw
+Classification Report on sw test set:
+
+________________________________________
+ LOC:
+  * precision: 0.1172
+  * recall: 0.2920
+  * f1-score: 0.1673
+  * support: 452.0000
+pred: B-LOC
+lab: B-LOC
+ ORG:
+  * precision: 0.1162
+  * recall: 0.3286
+  * f1-score: 0.1717
+  * support: 353.0000
+pred: B-LOC
+lab: B-LOC
+ PER:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 403.0000
+pred: B-LOC
+lab: B-LOC
+ SEP]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+pred: B-LOC
+lab: B-LOC
+ micro avg:
+  * precision: 0.1009
+  * recall: 0.2053
+  * f1-score: 0.1353
+  * support: 1208.0000
+pred: B-LOC
+lab: B-LOC
+ macro avg:
+  * precision: 0.0584
+  * recall: 0.1552
+  * f1-score: 0.0848
+  * support: 1208.0000
+pred: B-LOC
+lab: B-LOC
+ weighted avg:
+  * precision: 0.0778
+  * recall: 0.2053
+  * f1-score: 0.1128
+  * support: 1208.0000
+pred: B-LOC
+lab: B-LOC
+ accuracy:
+  * 0.4068
+________________________________________
+
+
+
+ * Average language f1: 0.0444
+
+========================================
+
+

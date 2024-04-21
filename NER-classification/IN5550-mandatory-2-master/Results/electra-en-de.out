@@ -1,0 +1,106 @@
+
+Data preprocessing...
+TESTING FOR MUTLIPLE PARAMETERS:
+
+
+
+
+====================================================================================================
+Training model: google/electra-base-discriminator
+ * 5 epochs
+ * learning rate is 2e-05
+ * train language: en
+ * test language: en
+ * dropout: 0.3
+ * batch size is 64
+ * frozen weights: False
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+____________________________________________________________________________________________________
+
+Epoch 1/5, accuracy: 0.7052, loss: 0.7475
+ * Micro Average: f1: 0.3242, precision: 0.2933, recall: 0.3624
+ * Macro Average: f1: 0.2392, precision: 0.2148, recall: 0.2740
+
+Epoch 2/5, accuracy: 0.8332, loss: 0.3008
+ * Micro Average: f1: 0.5470, precision: 0.4992, recall: 0.6049
+ * Macro Average: f1: 0.5495, precision: 0.5023, recall: 0.6088
+
+Epoch 3/5, accuracy: 0.8602, loss: 0.2276
+ * Micro Average: f1: 0.6354, precision: 0.5997, recall: 0.6757
+ * Macro Average: f1: 0.6386, precision: 0.6041, recall: 0.6784
+
+Epoch 4/5, accuracy: 0.8699, loss: 0.2041
+ * Micro Average: f1: 0.6595, precision: 0.6251, recall: 0.6979
+ * Macro Average: f1: 0.6621, precision: 0.6277, recall: 0.7005
+
+Epoch 5/5, accuracy: 0.8719, loss: 0.2021
+ * Micro Average: f1: 0.6657, precision: 0.6325, recall: 0.7025
+ * Macro Average: f1: 0.6673, precision: 0.6332, recall: 0.7052
+
+Classification Report on test set:
+
+________________________________________
+ LOC:
+  * precision: 0.6482
+  * recall: 0.7057
+  * f1-score: 0.6757
+  * support: 4825.0000
+ ORG:
+  * precision: 0.5258
+  * recall: 0.5780
+  * f1-score: 0.5507
+  * support: 4666.0000
+ PAD]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ PER:
+  * precision: 0.7644
+  * recall: 0.8495
+  * f1-score: 0.8047
+  * support: 4630.0000
+ micro avg:
+  * precision: 0.6462
+  * recall: 0.7106
+  * f1-score: 0.6769
+  * support: 14121.0000
+ macro avg:
+  * precision: 0.4846
+  * recall: 0.5333
+  * f1-score: 0.5078
+  * support: 14121.0000
+ weighted avg:
+  * precision: 0.6459
+  * recall: 0.7106
+  * f1-score: 0.6767
+  * support: 14121.0000
+ accuracy:
+  * 0.8735
+________________________________________
+
+
+Saving model to .
+Model saved!
+
+----------------------------------------------------------------------------------------------------
+
+
+
+====================================================================================================
+BEST MODEL (f1: 0.6769):
+Training model: google/electra-base-discriminator
+ * 5 epochs
+ * learning rate is 2e-05
+ * train language: en
+ * test language: en
+ * dropout: 0.3
+ * batch size is 64
+ * frozen weights: False
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+
+Saving model to .

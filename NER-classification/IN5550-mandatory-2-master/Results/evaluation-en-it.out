@@ -1,0 +1,282 @@
+Testing model /itf-fi-ml/home/eirikeg/IN5550-mandatory-2/bert-base-multilingual-cased_(en-it-en)_f1_0.8251.pth on language en
+Classification Report on en test set:
+
+________________________________________
+ LOC:
+  * precision: 0.8225
+  * recall: 0.8726
+  * f1-score: 0.8468
+  * support: 4834.0000
+pred: B-ORG
+lab: B-ORG
+ ORG:
+  * precision: 0.7354
+  * recall: 0.7348
+  * f1-score: 0.7351
+  * support: 4676.0000
+pred: B-ORG
+lab: B-ORG
+ PER:
+  * precision: 0.8721
+  * recall: 0.9092
+  * f1-score: 0.8903
+  * support: 4635.0000
+pred: B-ORG
+lab: B-ORG
+ micro avg:
+  * precision: 0.8111
+  * recall: 0.8390
+  * f1-score: 0.8248
+  * support: 14145.0000
+pred: B-ORG
+lab: B-ORG
+ macro avg:
+  * precision: 0.8100
+  * recall: 0.8389
+  * f1-score: 0.8241
+  * support: 14145.0000
+pred: B-ORG
+lab: B-ORG
+ weighted avg:
+  * precision: 0.8100
+  * recall: 0.8390
+  * f1-score: 0.8241
+  * support: 14145.0000
+pred: B-ORG
+lab: B-ORG
+ accuracy:
+  * 0.9232
+________________________________________
+
+
+Testing model /itf-fi-ml/home/eirikeg/IN5550-mandatory-2/bert-base-multilingual-cased_(en-it-en)_f1_0.8251.pth on language it
+Classification Report on it test set:
+
+________________________________________
+ LOC:
+  * precision: 0.8264
+  * recall: 0.8745
+  * f1-score: 0.8498
+  * support: 4599.0000
+pred: B-ORG
+lab: B-LOC
+ ORG:
+  * precision: 0.7969
+  * recall: 0.8115
+  * f1-score: 0.8041
+  * support: 4116.0000
+pred: B-ORG
+lab: B-LOC
+ PER:
+  * precision: 0.9362
+  * recall: 0.9566
+  * f1-score: 0.9463
+  * support: 4911.0000
+pred: B-ORG
+lab: B-LOC
+ micro avg:
+  * precision: 0.8568
+  * recall: 0.8851
+  * f1-score: 0.8707
+  * support: 13626.0000
+pred: B-ORG
+lab: B-LOC
+ macro avg:
+  * precision: 0.8532
+  * recall: 0.8809
+  * f1-score: 0.8667
+  * support: 13626.0000
+pred: B-ORG
+lab: B-LOC
+ weighted avg:
+  * precision: 0.8571
+  * recall: 0.8851
+  * f1-score: 0.8708
+  * support: 13626.0000
+pred: B-ORG
+lab: B-LOC
+ accuracy:
+  * 0.9486
+________________________________________
+
+
+Testing model /itf-fi-ml/home/eirikeg/IN5550-mandatory-2/bert-base-multilingual-cased_(en-it-en)_f1_0.8251.pth on language de
+Classification Report on de test set:
+
+________________________________________
+ LOC:
+  * precision: 0.7445
+  * recall: 0.8607
+  * f1-score: 0.7984
+  * support: 4967.0000
+pred: B-PER
+lab: B-PER
+ ORG:
+  * precision: 0.5705
+  * recall: 0.7085
+  * f1-score: 0.6321
+  * support: 4281.0000
+pred: B-PER
+lab: B-PER
+ PAD]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+pred: B-PER
+lab: B-PER
+ PER:
+  * precision: 0.8833
+  * recall: 0.8849
+  * f1-score: 0.8841
+  * support: 4569.0000
+pred: B-PER
+lab: B-PER
+ SEP]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+pred: B-PER
+lab: B-PER
+ micro avg:
+  * precision: 0.7255
+  * recall: 0.8215
+  * f1-score: 0.7705
+  * support: 13817.0000
+pred: B-PER
+lab: B-PER
+ macro avg:
+  * precision: 0.4397
+  * recall: 0.4908
+  * f1-score: 0.4629
+  * support: 13817.0000
+pred: B-PER
+lab: B-PER
+ weighted avg:
+  * precision: 0.7365
+  * recall: 0.8215
+  * f1-score: 0.7752
+  * support: 13817.0000
+pred: B-PER
+lab: B-PER
+ accuracy:
+  * 0.9180
+________________________________________
+
+
+Testing model /itf-fi-ml/home/eirikeg/IN5550-mandatory-2/bert-base-multilingual-cased_(en-it-en)_f1_0.8251.pth on language af
+Classification Report on af test set:
+
+________________________________________
+ LOC:
+  * precision: 0.7421
+  * recall: 0.8883
+  * f1-score: 0.8086
+  * support: 528.0000
+pred: O
+lab: O
+ ORG:
+  * precision: 0.6361
+  * recall: 0.7856
+  * f1-score: 0.7030
+  * support: 583.0000
+pred: O
+lab: O
+ PER:
+  * precision: 0.8425
+  * recall: 0.9541
+  * f1-score: 0.8948
+  * support: 370.0000
+pred: O
+lab: O
+ SEP]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+pred: O
+lab: O
+ micro avg:
+  * precision: 0.7195
+  * recall: 0.8643
+  * f1-score: 0.7853
+  * support: 1481.0000
+pred: O
+lab: O
+ macro avg:
+  * precision: 0.5552
+  * recall: 0.6570
+  * f1-score: 0.6016
+  * support: 1481.0000
+pred: O
+lab: O
+ weighted avg:
+  * precision: 0.7255
+  * recall: 0.8643
+  * f1-score: 0.7886
+  * support: 1481.0000
+pred: O
+lab: O
+ accuracy:
+  * 0.9116
+________________________________________
+
+
+Testing model /itf-fi-ml/home/eirikeg/IN5550-mandatory-2/bert-base-multilingual-cased_(en-it-en)_f1_0.8251.pth on language sw
+Classification Report on sw test set:
+
+________________________________________
+ LOC:
+  * precision: 0.5983
+  * recall: 0.7876
+  * f1-score: 0.6800
+  * support: 452.0000
+pred: B-LOC
+lab: B-LOC
+ ORG:
+  * precision: 0.4945
+  * recall: 0.3824
+  * f1-score: 0.4313
+  * support: 353.0000
+pred: B-LOC
+lab: B-LOC
+ PER:
+  * precision: 0.8544
+  * recall: 0.8883
+  * f1-score: 0.8710
+  * support: 403.0000
+pred: B-LOC
+lab: B-LOC
+ micro avg:
+  * precision: 0.6597
+  * recall: 0.7028
+  * f1-score: 0.6806
+  * support: 1208.0000
+pred: B-LOC
+lab: B-LOC
+ macro avg:
+  * precision: 0.6491
+  * recall: 0.6861
+  * f1-score: 0.6608
+  * support: 1208.0000
+pred: B-LOC
+lab: B-LOC
+ weighted avg:
+  * precision: 0.6534
+  * recall: 0.7028
+  * f1-score: 0.6711
+  * support: 1208.0000
+pred: B-LOC
+lab: B-LOC
+ accuracy:
+  * 0.8099
+________________________________________
+
+
+
+ * Average language f1: 0.6832
+
+========================================
+
+

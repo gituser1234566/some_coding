@@ -1,0 +1,200 @@
+Starting job 460129 on gpu-4 at Wed Mar 13 04:25:22 CET 2024
+
+submission directory: /fp/homes01/u01/ec-eirikeg/mandatory_2
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/fp/projects01/ec30/software/easybuild/software/nlpl-nlptools/01-foss-2022b-Python-3.10.8/lib/python3.10/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: [PAD] seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/fp/projects01/ec30/software/easybuild/software/nlpl-nlptools/01-foss-2022b-Python-3.10.8/lib/python3.10/site-packages/seqeval/metrics/v1.py:57: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/fp/projects01/ec30/software/easybuild/software/nlpl-nlptools/01-foss-2022b-Python-3.10.8/lib/python3.10/site-packages/seqeval/metrics/v1.py:57: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/fp/projects01/ec30/software/easybuild/software/nlpl-nlptools/01-foss-2022b-Python-3.10.8/lib/python3.10/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: [SEP] seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/fp/projects01/ec30/software/easybuild/software/nlpl-nlptools/01-foss-2022b-Python-3.10.8/lib/python3.10/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: [CLS] seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+
+Data preprocessing...
+TESTING FOR MUTLIPLE PARAMETERS:
+
+
+
+
+====================================================================================================
+Training model: bert-base-multilingual-cased
+ * 15 epochs
+ * learning rate is 2e-05
+ * train language: en-it
+ * test language: en
+ * dropout: 0.3
+ * batch size is 32
+ * frozen weights: True
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+____________________________________________________________________________________________________
+
+Epoch 1/15, accuracy: 0.0938, loss: 1.8594
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 2/15, accuracy: 0.1295, loss: 1.3869
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 3/15, accuracy: 0.2315, loss: 1.2313
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 4/15, accuracy: 0.3020, loss: 1.1484
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 5/15, accuracy: 0.3432, loss: 1.0809
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 6/15, accuracy: 0.3732, loss: 1.0333
+ * Micro Average: f1: 0.0002, precision: 0.0002, recall: 0.0002
+ * Macro Average: f1: 0.0002, precision: 0.0021, recall: 0.0001
+
+Epoch 7/15, accuracy: 0.3995, loss: 0.9897
+ * Micro Average: f1: 0.0006, precision: 0.0006, recall: 0.0007
+ * Macro Average: f1: 0.0008, precision: 0.0033, recall: 0.0004
+
+Epoch 8/15, accuracy: 0.4192, loss: 0.9555
+ * Micro Average: f1: 0.0017, precision: 0.0014, recall: 0.0020
+ * Macro Average: f1: 0.0020, precision: 0.0056, recall: 0.0012
+
+Epoch 9/15, accuracy: 0.4417, loss: 0.9279
+ * Micro Average: f1: 0.0026, precision: 0.0022, recall: 0.0033
+ * Macro Average: f1: 0.0030, precision: 0.0068, recall: 0.0020
+
+Epoch 10/15, accuracy: 0.4587, loss: 0.9057
+ * Micro Average: f1: 0.0048, precision: 0.0039, recall: 0.0062
+ * Macro Average: f1: 0.0054, precision: 0.0102, recall: 0.0037
+
+Epoch 11/15, accuracy: 0.4745, loss: 0.8922
+ * Micro Average: f1: 0.0061, precision: 0.0049, recall: 0.0080
+ * Macro Average: f1: 0.0066, precision: 0.0109, recall: 0.0048
+
+Epoch 12/15, accuracy: 0.4877, loss: 0.8818
+ * Micro Average: f1: 0.0088, precision: 0.0070, recall: 0.0119
+ * Macro Average: f1: 0.0093, precision: 0.0142, recall: 0.0071
+
+Epoch 13/15, accuracy: 0.4938, loss: 0.8651
+ * Micro Average: f1: 0.0101, precision: 0.0080, recall: 0.0137
+ * Macro Average: f1: 0.0106, precision: 0.0158, recall: 0.0082
+
+Epoch 14/15, accuracy: 0.4986, loss: 0.8627
+ * Micro Average: f1: 0.0107, precision: 0.0085, recall: 0.0146
+ * Macro Average: f1: 0.0112, precision: 0.0162, recall: 0.0087
+
+Epoch 15/15, accuracy: 0.4999, loss: 0.8579
+ * Micro Average: f1: 0.0112, precision: 0.0089, recall: 0.0153
+ * Macro Average: f1: 0.0117, precision: 0.0168, recall: 0.0091
+
+Finished training in 239.98 seconds
+
+Classification Report on test set:
+
+________________________________________
+ CLS]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ LOC:
+  * precision: 0.0298
+  * recall: 0.0116
+  * f1-score: 0.0167
+  * support: 4825.0000
+ ORG:
+  * precision: 0.0392
+  * recall: 0.0279
+  * f1-score: 0.0326
+  * support: 4666.0000
+ PAD]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ PER:
+  * precision: 0.0139
+  * recall: 0.0080
+  * f1-score: 0.0102
+  * support: 4630.0000
+ SEP]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ micro avg:
+  * precision: 0.0093
+  * recall: 0.0158
+  * f1-score: 0.0117
+  * support: 14121.0000
+ macro avg:
+  * precision: 0.0138
+  * recall: 0.0079
+  * f1-score: 0.0099
+  * support: 14121.0000
+ weighted avg:
+  * precision: 0.0277
+  * recall: 0.0158
+  * f1-score: 0.0198
+  * support: 14121.0000
+ accuracy:
+  * 0.4988
+________________________________________
+
+
+Saving model to /fp/projects01/ec30/eirikeg/models
+Model saved!
+
+----------------------------------------------------------------------------------------------------
+
+
+
+====================================================================================================
+BEST MODEL (f1: 0.01174):
+Training model: bert-base-multilingual-cased
+ * 15 epochs
+ * learning rate is 2e-05
+ * train language: en-it
+ * test language: en
+ * dropout: 0.3
+ * batch size is 32
+ * frozen weights: True
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+
+Saving model to /fp/projects01/ec30/eirikeg/models
+Model saved!
+
+----------------------------------------------------------------------------------------------------
+
+
+Task and CPU usage stats:
+JobID           JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+460129           in5550          4                                             00:04:21      0:0 
+460129.batch      batch          4        1   00:04:14          0   00:04:14   00:04:21      0:0 
+460129.exte+     extern          4        1   00:00:00          0   00:00:00   00:04:21      0:0 
+
+Memory usage stats:
+JobID            MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+460129                                                                           
+460129.batch   1326924K          0   1326924K        0              0          0 
+460129.exte+          0          0          0        0              0          0 
+
+Disk usage stats:
+JobID         MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+460129                                                                                                
+460129.batch      758.61M               0        758.61M        0.47M                0          0.47M 
+460129.exte+        0.01M               0          0.01M        0.00M                0          0.00M 
+
+Job 460129 completed at Wed Mar 13 04:29:43 CET 2024

@@ -1,0 +1,341 @@
+train-en-train-it-train-de-train-ja-train-eu
+train-en-train-it-train-de-train-ja-train-eu
+('train-en.tsv.gz', 'train-it.tsv.gz', 'train-de.tsv.gz', 'train-ja.tsv.gz', 'train-eu.tsv.gz')
+('train-en.tsv.gz', 'train-it.tsv.gz', 'train-de.tsv.gz', 'train-ja.tsv.gz', 'train-eu.tsv.gz')
+train-en-train-it-train-de-train-ja-train-eu
+('train-en.tsv.gz', 'train-it.tsv.gz', 'train-de.tsv.gz')
+train-en-train-it-train-de-train-ja-train-eu
+('train-en.tsv.gz', 'train-it.tsv.gz', 'train-de.tsv.gz', 'train-ur.tsv.gz', 'train-eu.tsv.gz')
+train-en-train-it-train-de-train-ja-train-eu
+('train-en.tsv.gz', 'train-it.tsv.gz', 'train-de.tsv.gz', 'train-ru.tsv.gz', 'train-eu.tsv.gz')
+train-en-train-it-train-de-train-ru-train-eu
+Epoch 1/4, accuracy: 0.9241
+ * Micro Average: f1: 0.8568, precision: 0.8547, recall: 0.8589
+ * Macro Average: f1: 0.8585, precision: 0.8583, recall: 0.8588
+
+Epoch 2/4, accuracy: 0.9279
+ * Micro Average: f1: 0.8668, precision: 0.8556, recall: 0.8783
+ * Macro Average: f1: 0.8691, precision: 0.8586, recall: 0.8804
+
+Epoch 3/4, accuracy: 0.9372
+ * Micro Average: f1: 0.8825, precision: 0.8769, recall: 0.8882
+ * Macro Average: f1: 0.8842, precision: 0.8787, recall: 0.8899
+
+Epoch 4/4, accuracy: 0.9398
+ * Micro Average: f1: 0.8879, precision: 0.8830, recall: 0.8929
+ * Macro Average: f1: 0.8896, precision: 0.8851, recall: 0.8942
+
+Classification Report on test set:
+
+________________________________________
+trainset:train-en-train-it-train-de-train-ru-train-eu and testset:dev-de:
+
+________________________________________
+ LOC:
+  * precision: 0.8773
+  * recall: 0.8662
+  * f1-score: 0.8717
+  * support: 9029.0000
+ ORG:
+  * precision: 0.8465
+  * recall: 0.8723
+  * f1-score: 0.8592
+  * support: 16073.0000
+ PER:
+  * precision: 0.8703
+  * recall: 0.8704
+  * f1-score: 0.8704
+  * support: 14180.0000
+ micro avg:
+  * precision: 0.8619
+  * recall: 0.8702
+  * f1-score: 0.8661
+  * support: 39282.0000
+ macro avg:
+  * precision: 0.8647
+  * recall: 0.8696
+  * f1-score: 0.8671
+  * support: 39282.0000
+ weighted avg:
+  * precision: 0.8622
+  * recall: 0.8702
+  * f1-score: 0.8661
+  * support: 39282.0000
+ accuracy:
+  * 0.9393
+________________________________________
+
+
+('train-en.tsv.gz', 'train-it.tsv.gz', 'train-de.tsv.gz', 'train-ru.tsv.gz', 'train-eu.tsv.gz')
+train-en-train-it-train-de-train-ru-train-eu
+Epoch 1/4, accuracy: 0.9227
+ * Micro Average: f1: 0.8548, precision: 0.8529, recall: 0.8568
+ * Macro Average: f1: 0.8567, precision: 0.8556, recall: 0.8589
+
+Epoch 2/4, accuracy: 0.9317
+ * Micro Average: f1: 0.8715, precision: 0.8692, recall: 0.8737
+ * Macro Average: f1: 0.8727, precision: 0.8694, recall: 0.8761
+
+Epoch 3/4, accuracy: 0.9380
+ * Micro Average: f1: 0.8824, precision: 0.8831, recall: 0.8816
+ * Macro Average: f1: 0.8833, precision: 0.8820, recall: 0.8853
+
+Epoch 4/4, accuracy: 0.9406
+ * Micro Average: f1: 0.8884, precision: 0.8855, recall: 0.8913
+ * Macro Average: f1: 0.8900, precision: 0.8869, recall: 0.8932
+
+Classification Report on test set:
+
+________________________________________
+trainset:train-en-train-it-train-de-train-ru-train-eu and testset:dev-it:
+
+________________________________________
+ LOC:
+  * precision: 0.8959
+  * recall: 0.8938
+  * f1-score: 0.8948
+  * support: 9249.0000
+ ORG:
+  * precision: 0.8782
+  * recall: 0.9006
+  * f1-score: 0.8893
+  * support: 13373.0000
+ PER:
+  * precision: 0.8980
+  * recall: 0.8889
+  * f1-score: 0.8934
+  * support: 17830.0000
+ micro avg:
+  * precision: 0.8908
+  * recall: 0.8939
+  * f1-score: 0.8924
+  * support: 40452.0000
+ macro avg:
+  * precision: 0.8907
+  * recall: 0.8944
+  * f1-score: 0.8925
+  * support: 40452.0000
+ weighted avg:
+  * precision: 0.8910
+  * recall: 0.8939
+  * f1-score: 0.8924
+  * support: 40452.0000
+ accuracy:
+  * 0.9426
+________________________________________
+
+
+('train-en.tsv.gz', 'train-it.tsv.gz', 'train-de.tsv.gz', 'train-ru.tsv.gz', 'train-eu.tsv.gz')
+train-en-train-it-train-de-train-ru-train-eu
+Epoch 1/4, accuracy: 0.9201
+ * Micro Average: f1: 0.8518, precision: 0.8727, recall: 0.8319
+ * Macro Average: f1: 0.8537, precision: 0.8723, recall: 0.8385
+
+Epoch 2/4, accuracy: 0.9316
+ * Micro Average: f1: 0.8728, precision: 0.8710, recall: 0.8747
+ * Macro Average: f1: 0.8746, precision: 0.8717, recall: 0.8780
+
+Epoch 3/4, accuracy: 0.9357
+ * Micro Average: f1: 0.8820, precision: 0.8866, recall: 0.8774
+ * Macro Average: f1: 0.8836, precision: 0.8869, recall: 0.8804
+
+Epoch 4/4, accuracy: 0.9389
+ * Micro Average: f1: 0.8875, precision: 0.8868, recall: 0.8882
+ * Macro Average: f1: 0.8889, precision: 0.8869, recall: 0.8909
+
+Classification Report on test set:
+
+________________________________________
+trainset:train-en-train-it-train-de-train-ru-train-eu and testset:dev-en:
+
+________________________________________
+ LOC:
+  * precision: 0.8267
+  * recall: 0.8429
+  * f1-score: 0.8347
+  * support: 10611.0000
+ ORG:
+  * precision: 0.8393
+  * recall: 0.8451
+  * f1-score: 0.8422
+  * support: 15268.0000
+ PER:
+  * precision: 0.8226
+  * recall: 0.8118
+  * f1-score: 0.8171
+  * support: 20649.0000
+ micro avg:
+  * precision: 0.8291
+  * recall: 0.8298
+  * f1-score: 0.8294
+  * support: 46528.0000
+ macro avg:
+  * precision: 0.8295
+  * recall: 0.8333
+  * f1-score: 0.8313
+  * support: 46528.0000
+ weighted avg:
+  * precision: 0.8290
+  * recall: 0.8298
+  * f1-score: 0.8294
+  * support: 46528.0000
+ accuracy:
+  * 0.8957
+________________________________________
+
+
+('train-en.tsv.gz', 'train-it.tsv.gz', 'train-de.tsv.gz', 'train-ru.tsv.gz', 'train-eu.tsv.gz')
+train-en-train-it-train-de-train-ru-train-eu
+Epoch 1/4, accuracy: 0.9220
+ * Micro Average: f1: 0.8539, precision: 0.8569, recall: 0.8510
+ * Macro Average: f1: 0.8555, precision: 0.8566, recall: 0.8554
+
+Epoch 2/4, accuracy: 0.9312
+ * Micro Average: f1: 0.8733, precision: 0.8705, recall: 0.8761
+ * Macro Average: f1: 0.8750, precision: 0.8727, recall: 0.8774
+
+Epoch 3/4, accuracy: 0.9375
+ * Micro Average: f1: 0.8839, precision: 0.8819, recall: 0.8860
+ * Macro Average: f1: 0.8854, precision: 0.8828, recall: 0.8880
+
+Epoch 4/4, accuracy: 0.9394
+ * Micro Average: f1: 0.8887, precision: 0.8871, recall: 0.8902
+ * Macro Average: f1: 0.8901, precision: 0.8889, recall: 0.8913
+
+Classification Report on test set:
+
+________________________________________
+trainset:train-en-train-it-train-de-train-ru-train-eu and testset:dev-sw:
+
+________________________________________
+ LOC:
+  * precision: 0.6147
+  * recall: 0.6698
+  * f1-score: 0.6411
+  * support: 948.0000
+ ORG:
+  * precision: 0.5977
+  * recall: 0.6041
+  * f1-score: 0.6009
+  * support: 1306.0000
+ PER:
+  * precision: 0.5812
+  * recall: 0.7511
+  * f1-score: 0.6553
+  * support: 1567.0000
+ micro avg:
+  * precision: 0.5941
+  * recall: 0.6807
+  * f1-score: 0.6345
+  * support: 3821.0000
+ macro avg:
+  * precision: 0.5979
+  * recall: 0.6750
+  * f1-score: 0.6324
+  * support: 3821.0000
+ weighted avg:
+  * precision: 0.5952
+  * recall: 0.6807
+  * f1-score: 0.6332
+  * support: 3821.0000
+ accuracy:
+  * 0.7299
+________________________________________
+
+
+('train-en.tsv.gz', 'train-it.tsv.gz', 'train-de.tsv.gz', 'train-ru.tsv.gz', 'train-eu.tsv.gz')
+train-en-train-it-train-de-train-ru-train-eu
+Epoch 1/4, accuracy: 0.9237
+ * Micro Average: f1: 0.8586, precision: 0.8615, recall: 0.8558
+ * Macro Average: f1: 0.8604, precision: 0.8613, recall: 0.8597
+
+Epoch 2/4, accuracy: 0.9297
+ * Micro Average: f1: 0.8716, precision: 0.8800, recall: 0.8633
+ * Macro Average: f1: 0.8729, precision: 0.8811, recall: 0.8649
+
+Epoch 3/4, accuracy: 0.9361
+ * Micro Average: f1: 0.8815, precision: 0.8832, recall: 0.8799
+ * Macro Average: f1: 0.8832, precision: 0.8838, recall: 0.8828
+
+Epoch 4/4, accuracy: 0.9390
+ * Micro Average: f1: 0.8863, precision: 0.8868, recall: 0.8859
+ * Macro Average: f1: 0.8879, precision: 0.8880, recall: 0.8879
+
+Classification Report on test set:
+
+________________________________________
+trainset:train-en-train-it-train-de-train-ru-train-eu and testset:dev-af:
+
+________________________________________
+ LOC:
+  * precision: 0.7557
+  * recall: 0.8389
+  * f1-score: 0.7952
+  * support: 745.0000
+ ORG:
+  * precision: 0.7450
+  * recall: 0.8390
+  * f1-score: 0.7892
+  * support: 1981.0000
+ PER:
+  * precision: 0.8143
+  * recall: 0.8675
+  * f1-score: 0.8401
+  * support: 2174.0000
+ micro avg:
+  * precision: 0.7765
+  * recall: 0.8516
+  * f1-score: 0.8123
+  * support: 4900.0000
+ macro avg:
+  * precision: 0.7717
+  * recall: 0.8485
+  * f1-score: 0.8081
+  * support: 4900.0000
+ weighted avg:
+  * precision: 0.7774
+  * recall: 0.8516
+  * f1-score: 0.8127
+  * support: 4900.0000
+ accuracy:
+  * 0.9054
+________________________________________
+
+
+Best model for simulation had the following  training config :train-en-train-it-train-de-train-ru-train-eu 
+ LOC:
+  * precision: 0.7575
+  * recall: 0.8351
+  * f1-score: 0.7944
+  * support: 752.0000
+ ORG:
+  * precision: 0.7414
+  * recall: 0.8384
+  * f1-score: 0.7870
+  * support: 1987.0000
+ PER:
+  * precision: 0.8119
+  * recall: 0.8666
+  * f1-score: 0.8383
+  * support: 2166.0000
+ micro avg:
+  * precision: 0.7741
+  * recall: 0.8504
+  * f1-score: 0.8105
+  * support: 4905.0000
+ macro avg:
+  * precision: 0.7703
+  * recall: 0.8467
+  * f1-score: 0.8066
+  * support: 4905.0000
+ weighted avg:
+  * precision: 0.7750
+  * recall: 0.8504
+  * f1-score: 0.8108
+  * support: 4905.0000
+ accuracy:
+  * 0.9047
+________________________________________
+
+
+Iteration  1, Inner iteration  5: 3912.9157 seconds for train language combination:train-en-train-it-train-de-train-ru-train-eu 

@@ -1,0 +1,106 @@
+bash-4.4$ python3 hyperparameter_test_eirik.py --batch_size "16" --dropout "0.3"  --lr "2e-05" --epochs 5 --train_language "en-it" --test_language "en"
+
+Data preprocessing...
+TESTING FOR MUTLIPLE PARAMETERS:
+
+
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+
+
+====================================================================================================
+Training model: bert-base-multilingual-cased
+ * 5 epochs
+ * learning rate is 2e-05
+ * train language: en-it
+ * test language: en
+ * dropout: 0.3
+ * batch size is 16
+ * frozen weights: False
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+____________________________________________________________________________________________________
+
+/itf-fi-ml/home/eirikeg/.local/lib/python3.9/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: [SEP] seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/itf-fi-ml/home/eirikeg/.local/lib/python3.9/site-packages/seqeval/metrics/v1.py:57: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Epoch 1/5, accuracy: 0.9012, loss: 0.3017
+ * Micro Average: f1: 0.7635, precision: 0.7343, recall: 0.7952
+ * Macro Average: f1: 0.5735, precision: 0.5512, recall: 0.5981
+
+/itf-fi-ml/home/eirikeg/.local/lib/python3.9/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: [PAD] seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+Epoch 2/5, accuracy: 0.9116, loss: 0.1314
+ * Micro Average: f1: 0.7884, precision: 0.7686, recall: 0.8092
+ * Macro Average: f1: 0.4731, precision: 0.4606, recall: 0.4870
+
+Epoch 3/5, accuracy: 0.9164, loss: 0.1119
+ * Micro Average: f1: 0.8033, precision: 0.7873, recall: 0.8200
+ * Macro Average: f1: 0.6031, precision: 0.5908, recall: 0.6165
+
+Epoch 4/5, accuracy: 0.9187, loss: 0.0983
+ * Micro Average: f1: 0.8055, precision: 0.7878, recall: 0.8240
+ * Macro Average: f1: 0.8060, precision: 0.7881, recall: 0.8262
+
+Epoch 5/5, accuracy: 0.9187, loss: 0.0903
+ * Micro Average: f1: 0.8086, precision: 0.7924, recall: 0.8255
+ * Macro Average: f1: 0.8093, precision: 0.7924, recall: 0.8275
+
+Classification Report on test set:
+
+________________________________________
+ LOC:
+  * precision: 0.8231
+  * recall: 0.8727
+  * f1-score: 0.8472
+  * support: 4825.0000
+ ORG:
+  * precision: 0.7353
+  * recall: 0.7353
+  * f1-score: 0.7353
+  * support: 4666.0000
+ PER:
+  * precision: 0.8725
+  * recall: 0.9093
+  * f1-score: 0.8905
+  * support: 4630.0000
+ micro avg:
+  * precision: 0.8114
+  * recall: 0.8393
+  * f1-score: 0.8251
+  * support: 14121.0000
+ macro avg:
+  * precision: 0.8103
+  * recall: 0.8391
+  * f1-score: 0.8244
+  * support: 14121.0000
+ weighted avg:
+  * precision: 0.8103
+  * recall: 0.8393
+  * f1-score: 0.8244
+  * support: 14121.0000
+ accuracy:
+  * 0.9233
+________________________________________
+
+
+
+
+====================================================================================================
+BEST MODEL (f1: 0.8251):
+Training model: bert-base-multilingual-cased
+ * 5 epochs
+ * learning rate is 2e-05
+ * train language: en-it
+ * test language: en
+ * dropout: 0.3
+ * batch size is 16
+ * frozen weights: False
+ * activation: GELU
+ * device is on cuda
+ * warmup steps: 50
+
+Saving model to .
+Model saved!

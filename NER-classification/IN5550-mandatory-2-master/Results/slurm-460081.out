@@ -1,0 +1,152 @@
+Starting job 460081 on c1-6 at Wed Mar 13 13:06:36 CET 2024
+
+submission directory: /fp/homes01/u01/ec-eirikeg/mandatory_2
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/fp/projects01/ec30/software/easybuild/software/nlpl-nlptools/01-foss-2022b-Python-3.10.8/lib/python3.10/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: [PAD] seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/fp/projects01/ec30/software/easybuild/software/nlpl-nlptools/01-foss-2022b-Python-3.10.8/lib/python3.10/site-packages/seqeval/metrics/v1.py:57: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/fp/projects01/ec30/software/easybuild/software/nlpl-nlptools/01-foss-2022b-Python-3.10.8/lib/python3.10/site-packages/seqeval/metrics/v1.py:57: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/fp/projects01/ec30/software/easybuild/software/nlpl-nlptools/01-foss-2022b-Python-3.10.8/lib/python3.10/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: [SEP] seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/fp/projects01/ec30/software/easybuild/software/nlpl-nlptools/01-foss-2022b-Python-3.10.8/lib/python3.10/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: [CLS] seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+
+Data preprocessing...
+TESTING FOR MUTLIPLE PARAMETERS:
+
+
+
+
+====================================================================================================
+Training model: bert-base-multilingual-cased
+ * 5 epochs
+ * learning rate is 0.0002
+ * train language: en
+ * test language: en
+ * dropout: 0.3
+ * batch size is 64
+ * frozen weights: True
+ * activation: GELU
+ * device is on cpu
+ * warmup steps: 50
+____________________________________________________________________________________________________
+
+Epoch 1/5, accuracy: 0.2513, loss: 1.4059
+ * Micro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+ * Macro Average: f1: 0.0000, precision: 0.0000, recall: 0.0000
+
+Epoch 2/5, accuracy: 0.4014, loss: 0.9299
+ * Micro Average: f1: 0.0012, precision: 0.0010, recall: 0.0015
+ * Macro Average: f1: 0.0013, precision: 0.0027, recall: 0.0009
+
+Epoch 3/5, accuracy: 0.5054, loss: 0.8232
+ * Micro Average: f1: 0.0143, precision: 0.0110, recall: 0.0204
+ * Macro Average: f1: 0.0141, precision: 0.0180, recall: 0.0121
+
+Epoch 4/5, accuracy: 0.5503, loss: 0.7728
+ * Micro Average: f1: 0.0273, precision: 0.0207, recall: 0.0401
+ * Macro Average: f1: 0.0260, precision: 0.0297, recall: 0.0239
+
+Epoch 5/5, accuracy: 0.5620, loss: 0.7457
+ * Micro Average: f1: 0.0309, precision: 0.0232, recall: 0.0459
+ * Macro Average: f1: 0.0290, precision: 0.0317, recall: 0.0273
+
+Finished training in 3916.38 seconds
+
+Classification Report on test set:
+
+________________________________________
+ CLS]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ LOC:
+  * precision: 0.0371
+  * recall: 0.0203
+  * f1-score: 0.0263
+  * support: 4825.0000
+ ORG:
+  * precision: 0.0792
+  * recall: 0.0808
+  * f1-score: 0.0800
+  * support: 4666.0000
+ PAD]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ PER:
+  * precision: 0.0329
+  * recall: 0.0298
+  * f1-score: 0.0313
+  * support: 4630.0000
+ SEP]:
+  * precision: 0.0000
+  * recall: 0.0000
+  * f1-score: 0.0000
+  * support: 0.0000
+ micro avg:
+  * precision: 0.0223
+  * recall: 0.0434
+  * f1-score: 0.0295
+  * support: 14121.0000
+ macro avg:
+  * precision: 0.0249
+  * recall: 0.0218
+  * f1-score: 0.0229
+  * support: 14121.0000
+ weighted avg:
+  * precision: 0.0496
+  * recall: 0.0434
+  * f1-score: 0.0457
+  * support: 14121.0000
+ accuracy:
+  * 0.5561
+________________________________________
+
+
+Saving model to /fp/projects01/ec30/eirikeg/models
+Traceback (most recent call last):
+  File "/fp/projects01/ec30/software/easybuild/software/nlpl-pytorch/2.1.2-foss-2022b-cuda-12.0.0-Python-3.10.8/lib/python3.10/site-packages/torch/serialization.py", line 619, in save
+    _save(obj, opened_zipfile, pickle_module, pickle_protocol, _disable_byteorder_record)
+  File "/fp/projects01/ec30/software/easybuild/software/nlpl-pytorch/2.1.2-foss-2022b-cuda-12.0.0-Python-3.10.8/lib/python3.10/site-packages/torch/serialization.py", line 853, in _save
+    zip_file.write_record(name, storage.data_ptr(), num_bytes)
+RuntimeError: [enforce fail at inline_container.cc:588] . PytorchStreamWriter failed writing file data/129: file write failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/fp/homes01/u01/ec-eirikeg/mandatory_2/hyperparameter_test_eirik.py", line 248, in <module>
+    torch.save(best_model.state_dict(), f"{path}/{name}")
+  File "/fp/projects01/ec30/software/easybuild/software/nlpl-pytorch/2.1.2-foss-2022b-cuda-12.0.0-Python-3.10.8/lib/python3.10/site-packages/torch/serialization.py", line 618, in save
+    with _open_zipfile_writer(f) as opened_zipfile:
+  File "/fp/projects01/ec30/software/easybuild/software/nlpl-pytorch/2.1.2-foss-2022b-cuda-12.0.0-Python-3.10.8/lib/python3.10/site-packages/torch/serialization.py", line 466, in __exit__
+    self.file_like.write_end_of_file()
+RuntimeError: [enforce fail at inline_container.cc:424] . unexpected pos 418490624 vs 418490512
+
+Task and CPU usage stats:
+JobID           JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+460081           in5550          8                                             01:05:48      1:0 
+460081.batch      batch          8        1   06:15:05          0   06:15:05   01:05:48      1:0 
+460081.exte+     extern          8        1   00:00:00          0   00:00:00   01:05:48      0:0 
+
+Memory usage stats:
+JobID            MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+460081                                                                           
+460081.batch   5764304K          0   5764304K        1              0          1 
+460081.exte+          0          0          0        0              0          0 
+
+Disk usage stats:
+JobID         MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+460081                                                                                                
+460081.batch      757.99M               0        757.99M        0.47M                0          0.47M 
+460081.exte+        0.01M               0          0.01M        0.00M                0          0.00M 
+
+Job 460081 completed at Wed Mar 13 14:12:24 CET 2024
